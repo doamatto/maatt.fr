@@ -23,8 +23,9 @@ Phone: `+1 858-333-4262`
 No data is collected by myself (doamatto). None of the data from service providers is viewable to me either. Because of this, no data is ever used for process such as, but not limited to, non-critical purposes or behavioural or targeted marketing. No data is ever collected from any third parties to do things such as build profiles or track you.
 
 Some data may be collected by third-party service providers. I do not have control over what they do and don't collect. For this reason, please read their privacy policies:
-- Vercel (host of website) \- [Privacy policy](https://vercel.com/legal/privacy-policy)
-- Fastly (CDN for Vercel) \- [DPA](https://www.fastly.com/data-processing) and [privacy policy](https://www.fastly.com/privacy)
+- [**Netlify**](https://netlify.com)
+  - **Purpose:** Hosting
+  - **Operating country:** United States
 
 
 ### Is the data shared with anyone?
