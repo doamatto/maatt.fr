@@ -8,6 +8,9 @@ relativeURLs = true
 
 DefaultContentLanguage = "en"
 
+[markup]
+  defaultMarkdownHandler = "blackfriday"
+
 [Permalinks]
   posts = "/posts/:filename/"
 
@@ -57,6 +60,19 @@ DefaultContentLanguage = "en"
       url = "/contact"
       name = "Contact"
       weight = 3
+
+    [[languages.fr.menu.foot]]
+      url = "/mentions-legales"
+      name = "Mentions légales."
+      weight = 1
+    [[languages.fr.menu.foot]]
+      url = "/confidentialite"
+      name = "Confidentialité."
+      weight = 2
+    [[languages.fr.menu.foot]]
+      url = "/carte-du-site"
+      name = "Carte du site."
+      weight = 1
 
 [Params]
   author = "doamatto"

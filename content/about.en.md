@@ -1,52 +1,45 @@
 ---
 type: page
 title: About me
-permalink: "/about"
-description: Hello and bienvenue! My name is Matt. I'm a high school student who loves to make software to empower others to do amazing things.
-translationKey: "about"
+description: Hello and bienvenue! My name is Matt. I'm a high school student and software developer based in California who loves to tinker and learn.
+translationKey: about
+slug: about
 ---
+
+## About me
 
 **Hello and bienvenue! My name is Matt.**
 
-I'm a high school student based in California who loves to make software to empower others to do amazing things.
+I'm a high school student and software developer based in California who loves to tinker and learn. 
 
-Outside of software development, I also like doing graphic design, web development, and audio/video editing. I've been taking up an interest in homelabbing, Linux, iPods, and Formula racing.
+### Business history
 
-## Business history
+I've done some work with a few companies in the past, a full list can be [found with my CV](/cv):
+- [Glitch Entertainment](https://playglitch.xyz) (2020-Present, Web Developed and Lead Online Developer)
+- [Mello](https://github.com/mello-app) (2020-Present, Founder, Mobile Developer)
 
-I'm currently working with [Glitch Entertainment](https://playglitch.xyz) as a web developer and game developer. In the past, I've worked with the following companies:
-
-- [Glitch Entertainment](https://playglitch.xyz) (2020-Present, Web Developer and Lead Online Developer)
-- [Mello](https://github.com/mello-app) (2020-Present, Founder and Mobile/Web Developer)
-- [Pandemic Engineers](https://github.com/Pandemic-Engineers) (2020-2020)
-- [Knox Software (formerly Knox, Corp.)](https://github.com/knoxsoftware) (2018-2019, Former CEO and Lead Developer)
-
-### Notable works and contributions
-
-- The Nano Jekyll theme ([Learn more &rarr;](https://doamatto.xyz/nano))
-- The Lavender Discord bot ([Learn more &rarr;](https://github.com/knoxsoftware/lavender))
-- About 200 additions to PrivacySpy ([Learn more &rarr;](/privacyspy))
-- An ESLint plugin for gulp.js ([Learn more &rarr;](https://github.com/flaganalytics/gulp-eslint))
-- Code review for LibreLingo ([Learn more &rarr;](https://github.com/kantord/LibreLingo))
-- The Mello meditation app ([Learn more &rarr;](https://github.com/mello-app/))
+Notable works and contributions:
+- [The Nano Jekyll theme](https://github.com/doamatto/nano)
+- [The Lavender Discord bot](https://github.com/knoxsoftware/lavender)
+- About 200 additions to [PrivacySpy](https://privacyspy.org)
+- Code review for [LibreLingo](https://github.com/kantord/LibreLingo)
 
 Looking for a specific project? [Check my project list &rarr;](/projects)
 
-## Outside of "work" and work
+### Interests and hobbies
 
-In my free time, I like experimenting with hardware like Raspberry Pis and Arduinos. I have gain a large interest in Formula racing, with one of my favourite tracks being [Albert Park's circuit.](https://en.wikipedia.org/wiki/Albert_Park_Circuit)
+I am obsessed with learning and improvement. I use it as a way to keep myself constantly on my toes and learning more about things as popular as experimenting with Raspberry Pis to as niche as building custom keyboards. 
 
-I love improving, and because of that, I've taken to learning things such as [the Workman layout](https://workmanlayout.org/) and penspinning. I've also been practicing with music creation and more as a very niche, super-duper side hobby.
+Formula 1 has also grown a spot in my heart. One of my favourite tracks is [Albert's Park](https://en.wikipedia.org/wiki/Albert_Park_Circuit), but a close second would be [Nurburgring GP is solid](https://en.wikipedia.org/wiki/N%C3%BCrburgring) (the normal track is awesome too)
 
-## Miscellaneous
+Outside of all that, I enjoy graphic design, as well as A/V editing. I've also been taking an interest in homelabbing, iPods, and Linux.
 
-- [Reading list](/reading-list)
-- [Privacy checklist](/privacy-checklist)
-
+### Social media
 You can find me on these sites (anything else is most likely not me):
 
 - [Behance as @doamatto](https://be.net/doamatto)
 - [GitHub as @doamatto](https://github.com/doamatto)
-- [Instagram as @thetruedoormat](https://instagram.com/thetruedoormat) (`doamatto` is Japanese for `doormat`)
+- [Instagram as @thetruedoormat](https://instagram.com/thetruedoormat)
 - [Keybase as @doamatto](https://keybase.io/doamatto)
+- [Twitch as doamatto](https://twitch.tv/doamatto)
 - [Twitter as @doamatto](https://twitter.com/doamatto)
