@@ -1,7 +1,7 @@
 ---
 type: page
 title: Imprint
-description: Need to reach out to me? Here's some of the methods on how to do so
+description: Boring legal pages. If you need to read some legal work, though, this is the place to be.
 translationKey: imprint
 slug: imprint
 ---
