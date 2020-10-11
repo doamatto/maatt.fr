@@ -26,6 +26,7 @@ Some data may be collected by third-party service providers. I do not have contr
 - [**Netlify**](https://netlify.com)
   - **Purpose:** Hosting
   - **Operating country:** United States
+  - **Server provider:** AWS (depends on region) 
 
 
 ### Is the data shared with anyone?
