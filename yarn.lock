@@ -6104,10 +6104,10 @@ next@10.1.2:
     vm-browserify "1.1.2"
     watchpack "2.1.1"
 
-nightwind@1.1.6:
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/nightwind/-/nightwind-1.1.6.tgz#c6c25069406ef7e4369bac46d73ea9bffa9d3a1a"
-  integrity sha512-xIPMG2I7VHsO/c/yN56PnLY2NKXNGk1wCjQvbUY684SIJTeLIGH2mIz//P3Quu62PXnkfmg5wnH/eHXj/R0tYw==
+nightwind@1.1.11:
+  version "1.1.11"
+  resolved "https://registry.yarnpkg.com/nightwind/-/nightwind-1.1.11.tgz#5c12521154cc6ff0b14f48cb46c9dd8457dde74d"
+  integrity sha512-otPDpr0u8uYEVUx+oMwriDFurTU4OwxMVf4b2Z26PkalV837qpDM7ym4LnwKLM4zROiH5B5+wubK93PyxxYF7A==
   dependencies:
     tailwindcss "^2.0.0"
 
