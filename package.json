@@ -13,7 +13,7 @@
     "@tailwindcss/typography": "0.4.0",
     "comma-number": "2.0.1",
     "date-fns": "2.16.1",
-    "googleapis": "68.0.0",
+    "googleapis": "71.0.0",
     "gray-matter": "4.0.2",
     "isomorphic-unfetch": "3.1.0",
     "mdx-prism": "https://github.com/doamatto/mdx-prism#v0.3.2",
