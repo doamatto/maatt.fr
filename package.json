@@ -28,7 +28,7 @@
     "remark-autolink-headings": "6.0.1",
     "remark-html": "13.0.1",
     "remark-slug": "6.0.0",
-    "sass": "1.30.0",
+    "sass": "1.32.10",
     "swr": "0.5.5"
   },
   "devDependencies": {
