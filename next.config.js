@@ -4,6 +4,11 @@ module.exports = {
       'i.scdn.co'
     ]
   },
+  module.exports = {
+  future: {
+    webpack5: true,
+  },
+}
   webpack: (config) => {
     require('./lib/sitemap.js')
     config.node = {
