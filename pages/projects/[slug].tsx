@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import hydrate from 'next-mdx-remote/hydrate'
+import { MDXRemote } from 'next-mdx-remote'
 import { GetStaticProps, GetStaticPaths } from 'next'
 import { NextSeo } from 'next-seo'
 import React from 'react'
@@ -10,9 +10,6 @@ import { Post as SEO } from '@/layouts/seo'
 
 export default function ProjectPage ({ mdxSource, frontMatter }) {
   const title = frontMatter.title
-  const content = hydrate(mdxSource, {
-    components: MDXComponents
-  })
   
   return (
     <>
@@ -20,7 +17,9 @@ export default function ProjectPage ({ mdxSource, frontMatter }) {
       <Head>
         <title>{title} - doamatto</title>
       </Head>
-      <Page frontMatter={frontMatter}>{content}</Page>
+      <Page frontMatter={frontMatter}>
+        <MDXRemote {...mdxSource} components={MDXComponents} />
+      </Page>
     </>
   )
 }
