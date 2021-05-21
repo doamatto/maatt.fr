@@ -8,7 +8,7 @@
           "value": "*"
         }, {
           "key": "Content-Security-Policy",
-          "value": "default-src 'none'; script-src 'self' https://v2.testing.doamatto.xyz 'sha256-/v1vO6ol0ddqGAIP4Kf958OAELwvRqB7PIVLYGlIiCA='; prefetch-src 'self' https://v2.testing.doamatto.xyz https://doamatto.xyz; style-src 'self' https://v2.testing.doamatto.xyz https://cdn.doamatto.xyz; img-src data: *; media-src *; font-src https://rsms.me; form-action 'none'; upgrade-insecure-requests; block-all-mixed-content; object-src 'none'; connect-src 'self' https://v2.testing.doamatto.xyz; base-uri 'self'"
+          "value": "default-src 'none'; script-src 'self' https://testing.doamatto.xyz https://alpine.gcp.doamatto.xyz 'sha256-/v1vO6ol0ddqGAIP4Kf958OAELwvRqB7PIVLYGlIiCA='; prefetch-src 'self' https://testing.doamatto.xyz https://doamatto.xyz; style-src 'self' https://testing.doamatto.xyz https://cdn.doamatto.xyz; img-src data: *; media-src *; font-src https://rsms.me; form-action 'none'; upgrade-insecure-requests; block-all-mixed-content; object-src 'none'; connect-src 'self' https://testing.doamatto.xyz https://alpine.gcp.doamatto.xyz; base-uri 'self'"
         }, {
           "key": "Expect-CT",
           "value": "max-age=86400, enforce"
@@ -29,7 +29,7 @@
           "value": "Origin"
         }, {
           "key": "X-Content-Security-Policy",
-          "value": "default-src 'none'; script-src 'self' https://v2.testing.doamatto.xyz 'sha256-/v1vO6ol0ddqGAIP4Kf958OAELwvRqB7PIVLYGlIiCA='; prefetch-src 'self' https://v2.testing.doamatto.xyz https://doamatto.xyz; style-src 'self' https://v2.testing.doamatto.xyz https://cdn.doamatto.xyz; img-src data: *; media-src *; font-src https://rsms.me; form-action 'none'; upgrade-insecure-requests; block-all-mixed-content; object-src 'none'; connect-src 'self' https://v2.testing.doamatto.xyz; base-uri 'self'"
+          "value": "default-src 'none'; script-src 'self' https://testing.doamatto.xyz https://alpine.gcp.doamatto.xyz 'sha256-/v1vO6ol0ddqGAIP4Kf958OAELwvRqB7PIVLYGlIiCA='; prefetch-src 'self' https://testing.doamatto.xyz https://doamatto.xyz; style-src 'self' https://testing.doamatto.xyz https://cdn.doamatto.xyz; img-src data: *; media-src *; font-src https://rsms.me; form-action 'none'; upgrade-insecure-requests; block-all-mixed-content; object-src 'none'; connect-src 'self' https://testing.doamatto.xyz https://alpine.gcp.doamatto.xyz; base-uri 'self'"
         }, {
           "key": "X-Content-Type-Options",
           "value": "nosniff"
@@ -38,7 +38,7 @@
           "value": "DENY"
         }, {
           "key": "X-WebKit-CSP",
-          "value": "default-src 'none'; script-src 'self' https://v2.testing.doamatto.xyz 'sha256-/v1vO6ol0ddqGAIP4Kf958OAELwvRqB7PIVLYGlIiCA='; prefetch-src 'self' https://v2.testing.doamatto.xyz https://doamatto.xyz; style-src 'self' https://v2.testing.doamatto.xyz https://cdn.doamatto.xyz; img-src data: *; media-src *; font-src https://rsms.me; form-action 'none'; upgrade-insecure-requests; block-all-mixed-content; object-src 'none'; connect-src 'self' https://v2.testing.doamatto.xyz; base-uri 'self'"
+          "value": "default-src 'none'; script-src 'self' https://testing.doamatto.xyz https://alpine.gcp.doamatto.xyz 'sha256-/v1vO6ol0ddqGAIP4Kf958OAELwvRqB7PIVLYGlIiCA='; prefetch-src 'self' https://testing.doamatto.xyz https://doamatto.xyz; style-src 'self' https://testing.doamatto.xyz https://cdn.doamatto.xyz; img-src data: *; media-src *; font-src https://rsms.me; form-action 'none'; upgrade-insecure-requests; block-all-mixed-content; object-src 'none'; connect-src 'self' https://testing.doamatto.xyz https://alpine.gcp.doamatto.xyz; base-uri 'self'"
         }, {
           "key": "X-XSS-Protection",
           "value": "1; mode=block"
