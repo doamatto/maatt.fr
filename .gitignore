@@ -1,22 +1,9 @@
-# Binaries, Deps, and Temp Files
-node_modules/
-.next/
-out/
-build/
 .DS_Store
+node_modules
+/.svelte-kit
+/build
+/functions
+.pnpm-debug.log
 
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# I use VSCodium; no need for workspace configs to be moved here
-.vscode/
-
-# Generated files
-public/rss.xml
-public/sitemap.xml
-
-# Environment variables
-.env
-.env.local
+# Used to store the old posts, projects, and page data; going to be used to properly re-build the site
+bak/
