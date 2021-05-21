@@ -32,8 +32,5 @@ jobs:
         run: |
           yarn
       - name: Lint JS/TS
-        run: |
-          yarn global add eslint
-          export PATH="$(yarn global bin):$PATH"
-          eslint .
+        run: yarn lint
 
