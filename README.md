@@ -10,8 +10,4 @@ This utilises:
 - **GitHub Actions/SonarCloud** for code quality.
 
 ### Acknowledgments
-This codebase is licensed under the BSD 3-Clause license. Content of the website, unless mentioned otherwise, are licensed under the CC-BY-4.0 license. Kudos to [Lee Robinson](https://leerob.io) for writing up how to do API requests with SWR.
-
-I « borrowed » a few bits of Tailwind or general CSS from these people to make things:
-- [Lee Robinson](https://leerob.io) - Dashboard items
-- [Tailwind Docs](https://tailwindcss.com/docs) - Buttons and inline code blocks
+This codebase is licensed under the BSD 3-Clause license. Content of the website, unless mentioned otherwise, are licensed under the CC-BY-4.0 license.
