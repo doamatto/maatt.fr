@@ -1,24 +1,14 @@
-base_url = "https://maatt.fr"
+baseURL = "https://maatt.fr"
+disableKinds = ["taxonomy", "term"]
+enableEmoji = true
+enableGitInfo = true
+enableRobotsTXT = true
+languageCode = "en"
+removePathAccents = true
+timeZone = "UTC"
+uglyURLs = true
 
-title = "Matt Ronchetto - doamatto"
-description = "Bonjour! I'm a high school student living in San Diego, CA. I like to mess around with software development and graphic design as well."
-
-default_language = "en"
-
-compile_sass = true
-minify_html = false
-output_dir = "out"
-
-generate_feed = true
-feed_filename = "atom.xml"
-
-build_search_index = false
-
-[markdown]
-highlight_code = false
-render_emoji = true
-external_links_target_blank = true
-
-[extra]
-author = "doamatto"
-ogimage = "/android-chrome-192x192.png"
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
