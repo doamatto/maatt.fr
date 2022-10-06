@@ -1,11 +1,4 @@
 # Binaries, Deps, and Temp Files
 public/
 .DS_Store
-
-# Generated files
-static/rss.xml
-static/sitemap.xml
-
-# Local server certs
-cert.pem
-key.pem
+.hugo_build.lock
