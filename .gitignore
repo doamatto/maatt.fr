@@ -1,5 +1,5 @@
 # Binaries, Deps, and Temp Files
-out/
+public/
 .DS_Store
 
 # Generated files
