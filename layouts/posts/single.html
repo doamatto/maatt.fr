@@ -1,0 +1,14 @@
+{{ define "title" }}
+  {{ .Title }} — doamatto
+{{ end }}
+{{ define "description" }}{{ .Description }}{{ end }}
+
+{{ define "main" }}
+  <section>
+    <h1>{{ .Title }}</h1>
+    <time datetime="{{ .Date }}">{{ .Date.Format "2 January, 2006" }}</time>
+  </section>
+  <article>
+    {{ .Content }}
+  </article>
+{{ end }}
