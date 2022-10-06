@@ -1,6 +1,9 @@
 (redirs) {
 	# Old page URLs
 	redir /assets/line_invite.jpg https://line.me/R/ti/p/doamatto 301
+
+  # Legacy pages
+  redir /contact /blog/upgrading-this-website
   redir /legal/environmental /legal
 
 	# Draft page redirs
