@@ -1,4 +1,7 @@
-# Binaries, Deps, and Temp Files
+# Compiled site assets
+resources/
 public/
+
+# Temporary files
 .DS_Store
 .hugo_build.lock
