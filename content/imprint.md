@@ -1,16 +1,19 @@
 +++
 title = "Imprint"
 template = "layouts/page.html"
-updated="2022-07-25"
+updated="2022-10-01"
 +++
 
 ## Contact information
-Matthew Ronchetto d.b.a. doamatto<br/>
+doamatto EI<br/>
 78 allée Primavera<br/>
 Centre UBIDOCA, 19963<br/>
 74370 Annecy<br/>
 France<br/>
-[dpo \[at\] doamatto.xyz](mailto:dpo@doamatto.xyz) | +1 858-333-4262 ([tel](tel:+18583334262) | [sms](sms:+18583334262))
+[dpo+fr \[at\] doamatto.xyz](mailto:dpo+fr@doamatto.xyz)
+
+Matthew Ronchetto d.b.a. doamatto<br/>
+[dpo+us \[at\] doamatto.xyz](mailto:dpo+us@doamatto.xyz) | +1 858-333-4262 ([tel](tel:+18583334262) | [sms](sms:+18583334262))
 
 ## Disclaimers
 ### Liability for Links
