@@ -8,7 +8,7 @@ RUN zola build
 WORKDIR /build-farer
 RUN zola build --base-url "https://matt.fa"
 ##############################################
-FROM caddy:2.5.1-alpine
+FROM caddy:2.6.2-alpine
 
 RUN ["apk add brotli"]
 RUN mkdir /srv/public /srv/farer
