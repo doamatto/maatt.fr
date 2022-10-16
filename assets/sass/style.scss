@@ -9,8 +9,7 @@ html,
 body {
   font-family: Helvetica, sans-serif;
   font-size: 1.075rem;
-  //background: #e4deff;
-  background: #f4f1ff;
+  background: #e4deff;
   margin: 0;
   padding: 0;
   h1 {
@@ -57,10 +56,14 @@ body {
 
 // Layout elements
 header {
-  margin: 1.635rem 0;
+  margin: 1.5rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 700px) {
+    flex-direction: column;
+    margin: .5rem 0 .75rem;
+  }
   a {
     display: flex;
     align-items: center;
@@ -76,7 +79,7 @@ main,
 footer { padding: 0 1.5rem;}
 
 header nav > ul,
-footer div > ul {
+footer ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -96,6 +99,8 @@ footer {
   flex-direction: column;
   margin-top: 2rem;
   margin-bottom: 3.27rem;
+  p { margin-bottom: 0; }
+  ul > li { padding-left: 0; }
 }
 
 // Inline code and blocks
