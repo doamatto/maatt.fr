@@ -48,6 +48,17 @@
   redir /🏳%EF%B8%8F%E2%80%8D🌈 / 302
   redir /🏳️‍🌈 / 302
 
+  # 404 redirects
+  handle_errors {
+    handle @404 {
+      rewrite * /404.html
+      encode zstd gzip
+      file_server {
+        precompressed br
+      }
+    }
+  }
+
 	# Caching
 	header Cache-Control "max-age=3600"
 	header /static/* Cache-Control "max-age=31536000"
