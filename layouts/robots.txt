@@ -4,4 +4,4 @@ Disallow: /bucket/
 Disallow: /wishlist/
 Disallow: /nbt/
 
-Sitemap: {{ get_url(path="sitemap.xml") }}
+Sitemap: {{ "sitemap.xml" | absLangURL }}
