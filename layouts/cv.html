@@ -1,0 +1,69 @@
+{{ define "main" }}
+<style>
+  @media print {
+    header,
+    nav,
+    footer { display: none; }
+    * { font-family: "Times New Roman", serif; }
+  }
+  section h3 { margin: 1rem 0 .25rem; }
+  section p,
+  section ul,
+  section li { margin: .5rem 0; }
+</style>
+<section id="intro">
+  <h2>Matthew "Matt" Ronchetto</h2>
+  <p>High-school computer engineer, avid audiophile, cinematographer.</p>
+  <div>
+    <a href="https://www.maatt.fr">maatt.fr</a><br/>
+    <a href="mailto:cv@maatt.fr">cv@maatt.fr</a> | <a href="tel:+18586926532">+1 858-692-6532</a>
+  </div>
+</section>
+
+<section id="experience">
+  <h3>Experience</h3>
+  <ul>
+    <li>
+      <strong>Production Crew, Scripps Ranch HS—</strong> Aug 2021 - present<br/>
+      <ul>
+        <li>Ran AV work for assemblies and other school events with ~2000 viewers</li>
+        <li>Lead live feed for graduation with ~7000 viewers (2022)</li>
+      </ul>
+    </li>
+  </ul>
+</section>
+
+<section id="education">
+  <h3>Education</h3>
+  <ul>
+    <li>
+      <strong>University of California, San Diego—</strong> Aug 2025 - Jun 2028<br/>
+      M.S. Degree, Computer Engineering — Magna cum laude
+    </li>
+    <li>
+      <strong>San Diego Miramar College—</strong> Aug 2023 - Jun 2025<br/>
+      A.S.-T Degree, Computer Engineering
+    </li>
+  </ul>
+</section>
+
+<section id="skills">
+  <h3>Skills</h3>
+  <p>Network and system administration, Web development, Node.js, React, Next.js, JavaScript, Git, Figma (software), Golang / Go, WCAG, RGAA, Amazon Web Services, Nginx</p>
+</section>
+
+<section id="certifications">
+  <h3>Certifications</h3>
+  <p>Zertifikat Deutsch für den Beruf, CELI TRE</p>
+</section>
+
+<section id="languages">
+  <h3>Languages</h3>
+  <ul>
+    <li><strong>English–</strong> Native/bilingual tongue</li>
+    <li><strong>Français–</strong> Native/bilingual tongue</li>
+    <li><strong>German—</strong> Fluent with limited working proficiency</li>
+    <li><strong>Italian—</strong> Fluent with limited working proficiency</li>
+  </ul>
+</section>
+{{ end }}
