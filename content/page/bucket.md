@@ -1,6 +1,5 @@
 +++
 title="Bucket List"
-template="layouts/page.html"
 updated= "2022-10-01"
 +++
 

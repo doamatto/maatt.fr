@@ -1,6 +1,5 @@
 +++
 title="Wishlist"
-template="layouts/page.html"
 updated= "2022-07-31"
 +++
 
@@ -17,7 +16,6 @@ updated= "2022-07-31"
 - [Life is Strange Vol. 6 (Paperback)](https://smile.amazon.com/gp/product/1787734757) (ISBN `9781787734757`)
 - [Mechanical Bull CD](https://www.discogs.com/master/599554?format=CD)
 - [MIT Technology Review gift subscription](https://subscriptions.technologyreview.com/loading.do?omedasite=MITTR_GIFT&ver=dp) (email: `hello@doamatto.xyz`)
-- [Onewheel Pint X](https://onewheel.com/products/onewheel-pint-x)
 - [Paramore CD](https://www.discogs.com/master/550858?format=CD)
 - [Riot! CD](https://www.discogs.com/master/118807?format=CD)
 - [The Art of Sound: A Visual History for Audiophiles](https://bookshop.org/books/the-art-of-sound-a-visual-history-for-audiophiles/9780500519288) (UPC `9780500519288`)

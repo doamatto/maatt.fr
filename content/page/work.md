@@ -1,11 +1,11 @@
 +++
 title="Work"
-template="layouts/page.html"
-updated= "2022-07-31"
+date= "2022-07-31"
 +++
 
 ## Web
 - **[Always Amazon Smiling–](https://github.com/doamatto/always-amazon-smiling)** Redirects Amazon's sites to their Amazon Smile counterparts.
+- **Cable Bonanza—** ASCII diagrams of ports and sockets.
 - **[Mallow for Jekyll–](https://github.com/doamatto/mallow-theme)** Simple one-pager Jekyll theme.
 - **[Nano for Jekyll–](@/blog/my-first-jekyll-theme.md)** A Jekyll website template that just works. Net 15'600 downloads.
 
@@ -13,7 +13,6 @@ updated= "2022-07-31"
 - **[The Farer Group—](https://farer.group)** Research project into the Internet and creating a member- and resident- exclusive intranet.
 - **[Mello—](https://github.com/getmello)** Unreleased meditiation app.
 - **[Lunar Design–](https://github.com/designbylunar)** A French-American design and software development duo.
-- **Nutshell Magazine** (coming soon)— Unreleased publication.
 - **Pixel Spice–** An unreleased LED array controllable by Twitch "bits" donations.
 - **[Polytechnic Systems—](https://polytechnic.systems)** Hardware engineering company/group/thing; née Project Cronus.
 - **[PrivacySpy—](https://privacyspy.org)** Crowdsourced privacy policy ratings. Made a **lot** of additions and a [web crawler](https://github.com/doamatto/ps-crawl).

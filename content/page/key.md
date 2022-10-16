@@ -1,13 +1,10 @@
 +++
 title="Public key"
-template = "layouts/page.html"
 +++
 
+You can download my key [here](/pgp.asc). You can also use `curl -sL https://maatt.fr/pgp.asc | gpg --import`.
+
 Fingerprint: `6E0C83C8267059302C059C4BEF15E965D58EC01D`
-
-You can download my key [here](/pgp.asc).
-
-You can also use `curl -sL https://maatt.fr/pgp.asc | gpg --import`.
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----

@@ -1,7 +1,6 @@
 +++
 title= "Technology I use"
 description= "Different technologies that Matt Ronchetto uses."
-template="layouts/page.html"
 aliases= ["/use","/stack"]
 
 [extra]
@@ -22,7 +21,7 @@ updated= "2022-06-13"
 - [NetNewsWire.](https://netnewswire.com/) RSS reader.
 - [Sublime Text 4.](https://www.sublimetext.com/) One of the best code editors around.
 - [Signal.](https://signal.org/fr/) A half-decent messaging app.
-- [Tailscale.](https://tailscale.com) Connecting to internal network remotely.
+- [Tailscale.](https://tailscale.com) Connecting to internal networks remotely.
 - [TomatoBar](https://github.com/ivoronin/TomatoBar) KISS Pomodoro timer.
 
 ### iPhone
@@ -31,7 +30,7 @@ updated= "2022-06-13"
 - [Forest.](https://forestapp.cc/) Gamified timers.
 - [McDo+.](https://mcdonalds.fr/) A joke, but I love the name still.
 - [Pocket Casts.](https://pocketcasts.com) Beautiful and powerful podcast player.
-- [Prism.](https://prism-music.app/) Best music player for Plex servers. No real FOSS alternative.
+- [Prism.](https://prism-music.app/) Best music player for Plex servers. No real FOSS alternative.. yet.
 - [Signal.](https://signal.org) A half-decent messaging app.
 - [Tailscale.](https://tailscale.com) Connecting to internal network remotely.
 

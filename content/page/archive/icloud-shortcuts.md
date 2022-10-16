@@ -1,6 +1,5 @@
 +++
 title="iCloud Shortcuts"
-template="layouts/page.html"
 description=""
 +++
 

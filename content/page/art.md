@@ -1,7 +1,6 @@
 +++
 title= "Visual arts"
 description= "I spend a fair amount of my free time drawing people and scenery, as well as shooting pictures and video."
-template= "layouts/page.html"
 aliases= ["/arts", "/visual-arts", "/va"]
 updated= "2022-09-27"
 +++

@@ -1,13 +1,8 @@
 +++
 title = "Contact"
-template = "layouts/page.html"
 description = "There are a few ways you can reach out to me; be it for a gig, questions about my past works, or if you just want to chat."
 updated= "2022-08-05"
 +++
-
-There are a few ways you can reach out to me; be it for a gig, questions about my past works, or if you just want to chat.
-
-I accept and respond to communication in either English or French.
 
 - Email: [hey \[at\] maatt.fr](mailto:hey@maatt.fr) ([public key](@/key.md))
 - 微信: [@doamatto](weixin://dl/chat?doamatto)–– I ignore requests for signup verifications.

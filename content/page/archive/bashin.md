@@ -1,6 +1,5 @@
 +++
 title= "Bashing Random Tech Sh*t"
-template= "layouts/page.html"
 aliases= ["/bashin", "/bittalk"]
 +++
 
