@@ -5,7 +5,7 @@ date= "2022-04-23"
 updated= "2022-07-31"
 +++
 
-<img src="https://fm.doamatto.xyz/florence/Screenshot%202022-04-22%20at%2021.50.46.png" alt="Florence and Krish, the main characters of Florence, kissing." loading="lazy" crossorigin="anonymous" />
+![Florence and Krish, the main characters of Florence, kissing.](https://fm.doamatto.xyz/florence/Screenshot%202022-04-22%20at%2021.50.46.png)
 
 For some reason, in the most stressful part for school right now, I'm suspiciously calm. I have my SAT *very* soon, an AP portfolio due in a week or so, a college portfolio to consider doing in the first place, et al. et al. Yet somehow, my mind said the best choice is to start playing games that I already played, but this time write about it. Why? Who knows.
 
