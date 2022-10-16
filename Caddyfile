@@ -5,6 +5,17 @@
   # Legacy pages
   redir /contact /blog/upgrading-this-website
   redir /legal/environmental /legal
+  redir /privacy /legal
+  redir /imprint /legal
+
+  # Old blog redirs
+  redir /blog/forgot-my-love-for-art /oldblog/forgot-my-love-for-art
+  redir /blog/linkrot /oldblog/linkrot
+  redir /blog/lunar-2022 /oldblog/lunar-2022
+  redir /blog/my-web-design-process /oldblog/my-web-design-process
+  redir /blog/simpledash /oldblog/simpledash
+  redir /blog/srhs-graduation-22 /oldblog/srhs-graduation-22
+  redir /blog/static-spotify-widgets /oldblog/static-spotify-widgets
 
 	# Draft page redirs
 	redir /cv https://www.linkedin.com/in/matthewronchetto/ 302
