@@ -1,0 +1,13 @@
+{{ define "title" }}
+  {{ .Title }} — doamatto
+{{ end }}
+{{ define "description" }}{{ .Description }}{{ end }}
+
+{{ define "main" }}
+  <section>
+    <h1>{{ .Title }}</h1>
+  </section>
+  <section>
+    {{ .Content }}
+  </section>
+{{ end }}
