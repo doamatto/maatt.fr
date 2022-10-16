@@ -1,7 +1,6 @@
 +++
 title="About"
 description= "My name's Matt Ronchetto (I go by ドアマット or doamatto on the Internet) and I'm a community college student with plans to transfer and study computer engineering."
-updated="2022-10-01"
 +++
 
 <img src="/img/profile_wide.jpg" alt="Photo of Matt Ronchetto" loading="lazy" />
