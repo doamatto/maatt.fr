@@ -123,3 +123,31 @@ hr {
   border-top: 2px solid #8c8b8b;
   width: 50%;
 }
+#top,
+.h {
+  display: inline-block;
+  z-index: 2;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  padding: .5rem;
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+  &:focus,
+  &:active {
+    clip: auto !important;
+    -webkit-clip-path: none !important;
+    clip-path: none !important;
+    height: auto !important;
+    overflow: visible !important;
+    width: auto !important;
+    white-space: normal !important;
+  }
+}
