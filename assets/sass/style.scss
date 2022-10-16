@@ -1,0 +1,120 @@
+@import './mixins.scss';
+
+/* Start main doc */
+* {
+  line-height: 1.6;
+  @media (prefers-reduced-motion) { animation: none !important; }
+}
+html,
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.075rem;
+  //background: #e4deff;
+  background: #f4f1ff;
+  margin: 0;
+  padding: 0;
+  h1 {
+    font-size: 2rem;
+    margin: 0 0 5px 0;
+  }
+  h2 {
+    font-size: 1.5rem;
+    margin: .5rem 0;
+  }
+  ol > li,
+  ul > li {
+    margin: .3rem 0;
+    ol > li:last-child,
+    ul > li:last-child { padding-bottom: 0; }
+  }
+  a {
+    color: #004dff;
+    font-weight: bold;
+    text-underline-offset: .35rem;
+    text-decoration-thickness: .2rem;
+    opacity: 1;
+    &:hover,
+    &:focus { text-decoration: none; }
+    @include transition;
+  }
+  abbr {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+    cursor: help;
+  }
+  @media (prefers-color-scheme: dark) {
+    background: #131217;
+    color: #fff;
+    a { color: #e4deff; }
+  }
+}
+body {
+  margin: 0 auto;
+  max-width: 650px;
+}
+
+// Layout elements
+header {
+  margin: 1.635rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  a {
+    display: flex;
+    align-items: center;
+    color: inherit;
+    @media (prefers-color-scheme: dark) {
+      svg path { stroke: white; }
+    }
+  }
+}
+
+header,
+main,
+footer { padding: 0 1.5rem;}
+
+header nav > ul,
+footer div > ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 0;
+    margin: 0.2rem 0;
+    li { padding: 0 .3rem; }
+}
+
+main {
+  header > * { margin: .5rem 0; }
+  img { max-width: 100%; }
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-bottom: 3.27rem;
+}
+
+// Inline code and blocks
+pre,
+code {
+    background: #383838;
+    color: #b1a9d3;
+    border-radius: .5rem;
+    line-height: 1.6;
+}
+pre {
+    padding: .5rem;
+    overflow-x: auto;
+}
+code { padding: .2rem; }
+
+// Misc
+.anchor { padding-left: .5rem; }
+hr {
+  border-top: 2px solid #8c8b8b;
+  width: 50%;
+}
