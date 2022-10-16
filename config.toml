@@ -6,7 +6,18 @@ enableRobotsTXT = true
 languageCode = "en"
 removePathAccents = true
 timeZone = "UTC"
-uglyURLs = true
+
+[markup]
+  [marukup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true # Needed for <br/> in documents.
+
+[params]
+  mainSections = [ "blog" ]
+
+[permalinks]
+  blog = "/blog/:filename/"
+  page = "/:filename/"
 
 [sitemap]
   changefreq = "weekly"
