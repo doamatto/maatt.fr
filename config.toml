@@ -1,5 +1,7 @@
 baseURL = "https://maatt.fr"
 disableKinds = ["taxonomy", "term"]
+disableHugoGeneratorInject = true
+disableLiveReload = true
 enableEmoji = true
 enableGitInfo = true
 enableRobotsTXT = true
@@ -7,10 +9,23 @@ languageCode = "en"
 removePathAccents = true
 timeZone = "UTC"
 
+[build]
+  useResourceCacheWhen = "fallback"
+
+[frontmatter]
+  lastmod = [":git", "lastmod", ":fileModTime", "date"]
+
+[imaging]
+  [imaging.exif]
+    disableLatLong = true # Privacy reasons; may change in future
+
 [markup]
   [marukup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true # Needed for <br/> in documents.
+
+[minify]
+  disableHTML = true # Minute difference
 
 [params]
   mainSections = [ "blog" ]
@@ -18,6 +33,21 @@ timeZone = "UTC"
 [permalinks]
   blog = "/blog/:filename/"
   page = "/:filename/"
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = true
+  [privacy.vimeo]
+    enableDNT = true
+    simple = true
+  [privacy.youtube]
+    privacyEnhanced = true
 
 [sitemap]
   changefreq = "weekly"
