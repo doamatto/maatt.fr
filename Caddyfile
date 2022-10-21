@@ -83,7 +83,7 @@
 
 beta.maatt.fr {
 	import redirs_beta
-  root * /srv/apps/caddy/sites/beta.maatt.fr/out
+  root * /srv/apps/caddy/sites/beta.maatt.fr/public
 	encode zstd gzip
 	file_server {
     precompressed br
