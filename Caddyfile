@@ -1,4 +1,4 @@
-(redirs) {
+(redirs_beta) {
 	# Old page URLs
 	redir /assets/line_invite.jpg https://line.me/R/ti/p/doamatto 301
 
@@ -83,9 +83,8 @@
 #  tls acme https://acme.nic.fa/directory
 #}
 
-#matt.fa,
 beta.maatt.fr {
-	import redirs
+	import redirs_beta
   root * /srv/apps/caddy/sites/beta.maatt.fr/out
 	encode zstd gzip
 	file_server {
@@ -93,12 +92,3 @@ beta.maatt.fr {
   }
 }
 
-#www.matt.fa,
-#maatt.ch,
-#www.maatt.ch,
-#www.maatt.fr,
-#www.maatt.eu,
-#maatt.eu {
-#	import redirs
-#	redir https://maatt.fr{uri} 301
-#}
