@@ -22,6 +22,7 @@ updated= "2022-07-31"
 ### Technology
 - [Asus ProArt Display PA32UCG-K](https://shop.asus.com/us/90lm03h0-b083b0-proart-display-pa32ucg-k.html)
 - [Fujifilm X-T4 with 16-80mm](https://fujifilm-x.registria.com/products/0-74101-20231-1)
+- [Parallels Desktop for Mac](https://www.parallels.com/products/desktop/buy/)
 
 ### Uncategorised
 - [Lego Technic McLaren F1 Car](https://www.lego.com/en-us/product/mclaren-formula-1-race-car-42141)
