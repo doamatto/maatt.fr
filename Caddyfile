@@ -84,9 +84,9 @@
 #}
 
 #matt.fa,
-maatt.fr {
+beta.maatt.fr {
 	import redirs
-  root * /srv/apps/caddy/sites/maatt.fr/out
+  root * /srv/apps/caddy/sites/beta.maatt.fr/out
 	encode zstd gzip
 	file_server {
     precompressed br
@@ -94,11 +94,11 @@ maatt.fr {
 }
 
 #www.matt.fa,
-maatt.ch,
-www.maatt.ch,
-www.maatt.fr,
-www.maatt.eu,
-maatt.eu {
-	import redirs
-	redir https://maatt.fr{uri} 301
-}
+#maatt.ch,
+#www.maatt.ch,
+#www.maatt.fr,
+#www.maatt.eu,
+#maatt.eu {
+#	import redirs
+#	redir https://maatt.fr{uri} 301
+#}
