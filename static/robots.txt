@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Host: https://www.doamatto.xyz
-Sitemap: https://www.doamatto.xyz/sitemap.xml
