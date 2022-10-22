@@ -20,6 +20,7 @@ updated= "2022-07-31"
 - [The World Turned Upside Down](https://bookshop.org/books/the-world-turned-upside-down-a-history-of-the-chinese-cultural-revolution/9780374293130) (ISBN `9780374293130`)
 
 ### Technology
+- [Apple iPad Pro (12.9-inch, Space Gray, 512Gb Wi-Fi)](https://www.apple.com/shop/buy-ipad/ipad-pro/11-inch-display-512gb-space-gray-wifi)
 - [Asus ProArt Display PA32UCG-K](https://shop.asus.com/us/90lm03h0-b083b0-proart-display-pa32ucg-k.html)
 - [Fujifilm X-T4 with 16-80mm](https://fujifilm-x.registria.com/products/0-74101-20231-1)
 - [Parallels Desktop for Mac](https://www.parallels.com/products/desktop/buy/)
