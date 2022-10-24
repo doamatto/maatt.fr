@@ -17,5 +17,3 @@ I'm currently in the process of mirroring my sketchbook to upload straight here 
 
 ## Photography
 I used to store my photos with Flickr, Unsplash (until they said my pictures were "too blurry" because some had a shallow DOF), then Behance. I'm (very slowly) working on a small gallery generator, but I do want to still find some decent platform to share my works.
-
-In probably *hilarious* news, I tried signing up with my `maatt` domain and, much to my surprise, can't. Seems both with `heyy+flickr` and just `heyy` get rejected. Might be a bug, might be a feature; who knows. What a shame.

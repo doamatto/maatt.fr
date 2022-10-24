@@ -20,10 +20,6 @@ updated= "2022-07-31"
   - [Paperlike screen protector](https://paperlike.com/)
 - [Asus ProArt Display PA32UCG-K](https://shop.asus.com/us/90lm03h0-b083b0-proart-display-pa32ucg-k.html)
 - [Fujifilm X-T4 with 16-80mm](https://fujifilm-x.registria.com/products/0-74101-20231-1)
-- Money for [MATLAB](https://www.mathworks.com/products/matlab.html), 
-[Simulink](https://www.mathworks.com/products/simulink.html), and 
-[Simscape 
-Fluids](https://www.mathworks.com/products/simscape-fluids.html)
 - [Parallels Desktop for Mac](https://www.parallels.com/products/desktop/buy/) (email `hello@doamatto.xyz`)
 
 ### Uncategorised
