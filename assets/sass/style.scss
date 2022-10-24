@@ -1,15 +1,14 @@
-@import './mixins.scss';
-
 /* Start main doc */
 * {
   line-height: 1.6;
   @media (prefers-reduced-motion) { animation: none !important; }
 }
+
 html,
 body {
   font-family: Helvetica, sans-serif;
   font-size: 1.075rem;
-  background: #e4deff;
+  background: #f3f0ff;
   margin: 0;
   padding: 0;
   h1 {
@@ -23,8 +22,7 @@ body {
   ol > li,
   ul > li {
     margin: .3rem 0;
-    ol > li:last-child,
-    ul > li:last-child { padding-bottom: 0; }
+    &:last-child { padding-bottom: 0; }
   }
   a {
     color: #004dff;
@@ -34,7 +32,6 @@ body {
     opacity: 1;
     &:hover,
     &:focus { text-decoration: none; }
-    @include transition;
   }
   abbr {
     text-decoration: underline;
@@ -67,6 +64,7 @@ header {
   a {
     display: flex;
     align-items: center;
+    background: inherit;
     color: inherit;
     @media (prefers-color-scheme: dark) {
       svg path { stroke: white; }
@@ -76,7 +74,7 @@ header {
 
 header,
 main,
-footer { padding: 0 1.5rem;}
+footer { padding: 0 1.5rem; }
 
 header nav > ul,
 footer ul {
@@ -97,8 +95,7 @@ main {
 footer {
   display: flex;
   flex-direction: column;
-  margin-top: 2rem;
-  margin-bottom: 3.27rem;
+  margin: 2rem auto 3rem;
   p { margin-bottom: 0; }
   ul > li { padding-left: 0; }
 }
@@ -150,3 +147,48 @@ hr {
     white-space: normal !important;
   }
 }
+
+/* Start Hugo theming */
+{{ if or
+    (or 
+      (eq time.Now (time "2023-01-22"))
+      (eq time.Now (time "2023-02-20"))
+    )
+    (and 
+      (gt time.Now (time "2023-02-20"))
+      (lt time.Now (time "2023-01-22"))
+    )
+}}
+  html, body {
+    background: #f93822; // lunar; bright red c
+    color: #000;
+    @media (prefers-color-scheme: "dark") {
+      background: inherit;
+      color: inherit;
+      a { color: inherit; }
+    }
+  }
+  a {
+    background: #ffd900; // lunar; medium yellow c
+    color: #000; // lunar
+  }
+{{ end }}
+{{ if eq (printf "%d" time.Now.Month) "10" }}
+  @media (prefers-color-scheme: "dark") {
+    main a,
+    footer a { color: #fe5000; } // spooky; orange 021 c
+  }
+{{ end }}
+{{ if and 
+  (eq (printf "%d" time.Now.Month) "07")
+}}
+  a { color: #ed2939; }
+  @media (prefers-color-scheme: light) {
+    html, body { background: #fff; }
+    nav ul {
+      li:first-child { color: #002654; }
+      li:last-child { color: #ed2939; } 
+    }
+  }
+{{ end }}
+/* End Hugo theming */

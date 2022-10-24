@@ -1,6 +1,21 @@
 {{ define "main" }}
 <section id="intro">
-  <h1>Salut, je m'appelle Matt.</h1>
+  {{ if or
+      (or 
+        (eq time.Now (time "2023-01-22"))
+        (eq time.Now (time "2023-02-20"))
+      )
+      (and 
+        (gt time.Now (time "2023-02-20"))
+        (lt time.Now (time "2023-01-22"))
+      )
+  }}
+    <h1><a href="https://en.wikipedia.org/wiki/Lunar_New_Year">春節。</a>我叫 Matthew。</h1>
+  {{ else }}
+    <h1>Salut, je m'appelle Matt.</h1>
+  {{ end }}
+  {{ time.Now.Month }}
+  {{ eq (printf "%d" time.Now.Month) "10" }}
   <p>
     I'm a software engineer living in San Diego. I'm currently studying in community college to transfer and complete a M.S. in Computer Engineering.
   </p>
