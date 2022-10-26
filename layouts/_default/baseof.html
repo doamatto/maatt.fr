@@ -17,6 +17,11 @@
     {{ if .Date }}
       <meta property="article:published_time" content="{{ .Date }}">
     {{ end }}
+    {{ if eq (printf "%d" time.Now.Month) "10" }}
+    <meta name="theme-color" content="#fe5000" />
+    {{ else }}
+    <meta name="theme-color" content="#909EFF" />
+    {{ end }}
     <!--<meta http-equiv="last-modified" content="{{ .Lastmod.Format "2006-01-02" }}">-->
   </head>
   <body>
