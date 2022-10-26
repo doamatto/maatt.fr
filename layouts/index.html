@@ -11,11 +11,22 @@
       )
   }}
     <h1><a href="https://en.wikipedia.org/wiki/Lunar_New_Year">春節。</a>我叫 Matthew。</h1>
+  {{ else if eq (printf "%d" time.Now.Month) "12" }}
+    <h1>&#xFE0E; Salut, je m'appelle Matt. &#xFE0E;</h1>
+  {{ else if eq (printf "%d" time.Now.Month) "10" }}
+    <h1>🎃 Salut, je m'appelle Matt. 🎃</h1>
+  {{ else if eq (printf "%d" time.Now.Month) "07" }}
+    <h1>🇫🇷 Salut, je m'appelle Matt. 🇺🇸</h1>
+  {{ else if eq (printf "%d" time.Now.Month) "06" }}
+    <h1>🏳️‍🌈 Salut, je m'appelle Matt. 🏳️‍🌈</h1>
   {{ else }}
     <h1>Salut, je m'appelle Matt.</h1>
   {{ end }}
-  <p>
+  <!--<p>
     I'm a software engineer living in San Diego. I'm currently studying in community college to transfer and complete a M.S. in Computer Engineering.
+  </p>-->
+  <p>
+    I'm a high school student living in San Diego. I like to mess around with software development and graphic design.
   </p>
 </section>
 
