@@ -1,13 +1,13 @@
 # Personal Site [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=doamatto_personal-site&metric=alert_status)](https://sonarcloud.io/dashboard?id=doamatto_personal-site)
 
 This utilises:
-- **Zola** for page compilation,
+- **Hugo** for page compilation,
 - **1984** for hosting; and:
 - **SonarCloud** for code quality.
 
 ## Building
-1. Install [Zola](https://www.getzola.org/documentation/getting-started/installation/)
-2. Build the site (`zola build`)
+1. Install [Hugo](https://gohugo.io)
+2. Build the site (`hugo -v`)
 
 If changing code, it's ideal to use an [editor config plugin.](https://editorconfig.org/#download) 
 

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /bucket/
+Disallow: /wishlist/
+Disallow: /nbt/
+
+Sitemap: {{ "sitemap.xml" | absLangURL }}

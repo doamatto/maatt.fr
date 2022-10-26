@@ -1,0 +1,16 @@
+{{ define "title" }}
+  {{ .Title }} — doamatto
+{{ end }}
+{{ define "description" }}{{ .Description }}{{ end }}
+
+{{ define "main" }}
+  <h1>Writing</h1>
+  {{ range .Pages.ByDate.Reverse }}
+    <article>
+      <p>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <time datetime="{{ .Date }}">{{ .Date.Format "2 January, 2006" }}</time>
+      </p>
+    </article>
+  {{ end }}
+{{ end }}

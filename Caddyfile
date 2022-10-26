@@ -1,10 +1,21 @@
 (redirs) {
 	# Old page URLs
 	redir /assets/line_invite.jpg https://line.me/R/ti/p/doamatto 301
-  redir /legal/environmental /legal
 
-	# Draft page redirs
-	redir /cv https://www.linkedin.com/in/matthewronchetto/ 302
+  # Legacy pages
+  #redir /contact /blog/upgrading-this-website
+  redir /legal/environmental /legal
+  redir /privacy /legal
+  redir /imprint /legal
+
+  # Old blog redirs
+  redir /blog/forgot-my-love-for-art /oldblog/forgot-my-love-for-art
+  redir /blog/linkrot /oldblog/linkrot
+  redir /blog/lunar-2022 /oldblog/lunar-2022
+  redir /blog/my-web-design-process /oldblog/my-web-design-process
+  redir /blog/simpledash /oldblog/simpledash
+  redir /blog/srhs-graduation-22 /oldblog/srhs-graduation-22
+  redir /blog/static-spotify-widgets /oldblog/static-spotify-widgets
 
   # Project redirects; remove 31 dec, 2022
   redir /projects/gitcord /blog/making-gitcord 301
@@ -26,13 +37,14 @@
 	redir /projects/yamh https://github.com/doamatto/yamh 301
 	redir /icloud-shortcuts https://github.com/doamatto/icloud-shortcuts 301
 
-	# Rainbows; flip comments for "season"
-	#redir /🏳️‍🌈 /rainbows 301
-	#redir /%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88 /rainbows 301
-	#redir /🏳%EF%B8%8F%E2%80%8D🌈 /rainbows 301
-  redir /%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88 / 302
-  redir /🏳%EF%B8%8F%E2%80%8D🌈 / 302
-  redir /🏳️‍🌈 / 302
+  # 404 redirects
+  handle_errors {
+    rewrite * /404.html
+    encode zstd gzip
+    file_server {
+      precompressed br
+    }
+  }
 
 	# Caching
 	header Cache-Control "max-age=3600"
@@ -55,25 +67,28 @@
 # Set internal Farer ACME server
 #matt.fa,
 #www.matt.fa {
+#  encode zstd gzip
+#  root * /srv/apps/caddy/sites/matt.fa/public
 #  tls acme https://acme.nic.fa/directory
 #}
+#www.matt.fa {
+#  tls acme https://acme.nic.fa/directory
+#  redir https://matt.fa{uri} 
+#}
 
-#matt.fa,
 maatt.fr {
 	import redirs
-  root * /srv/apps/caddy/sites/maatt.fr/out
+  root * /srv/apps/caddy/sites/maatt.fr/public
 	encode zstd gzip
 	file_server {
     precompressed br
   }
 }
 
-#www.matt.fa,
-maatt.ch,
-www.maatt.ch,
 www.maatt.fr,
-www.maatt.eu,
-maatt.eu {
-	import redirs
-	redir https://maatt.fr{uri} 301
+maatt.eu,
+www.maatt.eu {
+  encode zstd gzip
+  redir https://maatt.fr{uri}
 }
+

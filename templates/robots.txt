@@ -1,7 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /bucket/
-Disallow: /wishlist/
-Disallow: /nbt/
-
-Sitemap: {{ get_url(path="sitemap.xml") }}

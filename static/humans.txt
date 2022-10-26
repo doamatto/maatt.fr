@@ -1,13 +1,13 @@
 /* TEAM */
 Your title: Matt Ronchetto (doamatto)
-Site: https://maatt.fr | web@doamatto.xyz
+Site: https://maatt.fr | heyy@maatt.fr
 Location: San Diego, CA United States
 
 /* THANKS */
-Daniel Calderon for helping with design advice on the Site - https://daniel.cafe
+Daniel Calderon for helping with past designs on the Site - https://daniel.cafe
 Charlie Bolejack for helping with past designs of the Site - https://epic4809.github.io
-Rishi Veerepalli for helping a lot with the flow of the About page and improving it for its 2022-23 iteration
+Rishi Veerepalli for helping with a past version of the About page
 
 /* SITE */
 Standards: HTML5, CSS3
-Software: Zola
+Software: Hugo
