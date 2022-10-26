@@ -1,4 +1,4 @@
-baseURL = "https://beta.maatt.fr"
+baseURL = "https://maatt.fr"
 disableKinds = ["taxonomy", "term"]
 disableHugoGeneratorInject = true
 disableLiveReload = true
