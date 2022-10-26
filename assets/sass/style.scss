@@ -178,10 +178,7 @@ hr {
     main a,
     footer a { color: #fe5000; } // spooky; orange 021 c
   }
-{{ end }}
-{{ if and 
-  (eq (printf "%d" time.Now.Month) "07")
-}}
+{{ else if eq (printf "%d" time.Now.Month) "07" }}
   a { color: #ed2939; }
   @media (prefers-color-scheme: light) {
     html, body { background: #fff; }
