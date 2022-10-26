@@ -70,7 +70,7 @@ updated= "2022-10-01"
 - United Kingdom
 
 ### Things to Do
-- [Complete my ideas list](@/ideas.md)
+- [Complete my ideas list](/ideas.md)
   - ~~Complete Daniel's ideas list~~
 - Create a music release
 - Publish a short film

@@ -4,7 +4,7 @@ description = "There are a few ways you can reach out to me; be it for a gig, qu
 updated= "2022-08-05"
 +++
 
-- Email: [hey \[at\] maatt.fr](mailto:hey@maatt.fr) ([public key](@/key.md))
+- Email: [hey \[at\] maatt.fr](mailto:hey@maatt.fr) ([public key](/key.md))
 - 微信: [@doamatto](weixin://dl/chat?doamatto)–– I ignore requests for signup verifications.
 
 Some other places around the internet that I'm at are:
