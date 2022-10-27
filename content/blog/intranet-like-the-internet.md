@@ -2,7 +2,7 @@
 title = "Creating an Intranet like the Internet"
 date = "2022-06-01T04:32:00Z"
 description = "Some people self-host music. I'm trying to self-host my own Internet."
-updated= "2022-07-31"
+updated= "2022-10-26"
 +++
 
 Apologies in advance; it's been a while since I last wrote and, arguably more importantly, have stayed on the quiet side of GitHub. I have *some* things planned for this month, but only time will tell if I will get anything out during the month (it's a hectic one).
@@ -23,7 +23,7 @@ The list is long and our time is short; you get the idea. The core principle is 
   - ✅ Provide a secure way to communicate with those on the Intranet, as well as communicate with servers
   - ✅ Be inaccessible to the public to the point where writting about it in the first place is mostly futile
 
-Over the past couple of months, I've been working exhaustively with friends (namely [Daniel](https://daniel.cafe)) to slowly get what we dub [The Farer Group](https://farer.group) up and running. If you're someone who likes [reading privacy policies,](/privacy/) you would have seen mentions to projects such as `Haven Municipal`, `The Farer Group`; these are all the brainchild umbrella names given to this project to ultimately create a mini Internet in an Intranet.
+Over the past couple of months, I've been working exhaustively with friends (namely [Daniel](https://daniel.cafe)) to slowly get what we dub [The Farer Group](https://farer.group) up and running. If you're someone who likes [reading privacy policies,](/legal/) you would have seen mentions to projects such as `Haven Municipal`, `The Farer Group`; these are all the brainchild umbrella names given to this project to ultimately create a mini Internet in an Intranet.
 
 Since Farer is still being constructed every day, all of this is <abbr title="Open to change at any time">tentative</abbr>, but I'd argue that adds to the fun just a titbit. At some point, I'll write a follow-up on the progress we keep making on Farer. Until then, this is a *long* post; so hydrate now.
 

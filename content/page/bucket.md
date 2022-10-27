@@ -3,7 +3,7 @@ title="Bucket List"
 updated= "2022-10-01"
 +++
 
-**[pour sudoers](https://github.com/doamatto/maatt.fr/edit/main/content/bucket.md)**
+**[pour sudoers](https://github.com/doamatto/maatt.fr/edit/main/content/page/bucket.md)**
 
 ### People to Meet (in person)
 - William "Bill" Nye (engineer, comedian)
