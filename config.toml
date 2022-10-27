@@ -9,6 +9,9 @@ languageCode = "en"
 removePathAccents = true
 timeZone = "UTC"
 
+[author]
+  name = "Matthew Ronchetto"
+
 [build]
   useResourceCacheWhen = "fallback"
 
@@ -26,6 +29,13 @@ timeZone = "UTC"
 
 [minify]
   disableHTML = true # Minute difference
+
+[outputs]
+home= ["HTML","RSS"]
+[outputFormats]
+  [outputFormats.RSS]
+  mediatype= "application/rss"
+  baseName= "atom"
 
 [params]
   mainSections = [ "blog" ]

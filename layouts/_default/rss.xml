@@ -1,0 +1,18 @@
+<feed xml:lang="en">
+  <title>Matthew Ronchetto</title>
+  <subtitle>I'm a high school student living in San Diego. I like to mess around with software development and graphic design.</subtitle>
+  <link href="https://maatt.fr/atom.xml" rel="self" type="application/atom+xml"/>
+  <id>https://maatt.fr/atom.xml</id>
+  <link href="https://maatt.fr"/>
+  <generator uri="https://gohugo.io">Hugo</generator>
+  <updated></updated>
+  {{ range first 30 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+    <entry xml:lang="en">
+      <title>{{ .Title }}</title>
+      <link href="{{ .Permalink }}" type="text/html"/>
+      <id>{{ .Permalink }}</id>
+      <published>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</published>
+      <description>{{ .Content | html }}</description>
+    </entry>
+    {{ end }}
+</feed>
