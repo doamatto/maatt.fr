@@ -7,7 +7,7 @@ date= "2022-07-31"
 - **[Always Amazon Smiling–](https://github.com/doamatto/always-amazon-smiling)** Redirects Amazon's sites to their Amazon Smile counterparts.
 - **Cable Bonanza—** ASCII diagrams of ports and sockets.
 - **[Mallow for Jekyll–](https://github.com/doamatto/mallow-theme)** Simple one-pager Jekyll theme.
-- **[Nano for Jekyll–](/blog/my-first-jekyll-theme.md)** A Jekyll website template that just works. Net 15'600 downloads.
+- **[Nano for Jekyll–](/blog/my-first-jekyll-theme)** A Jekyll website template that just works. Net 15'600 downloads.
 
 ## Projects
 - **[The Farer Group—](https://farer.group)** Research project into the Internet and creating a member- and resident- exclusive intranet.

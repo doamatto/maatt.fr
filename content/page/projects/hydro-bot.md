@@ -6,7 +6,7 @@ date = "2021-04-08"
 +++
 
 ## ⚠️ Heads up!
-This page is for a project that doesn't exist anymore or never existed in the first place. The best term for something like this is **vaporware.** In my eyes, however, it's better to keep these pages than to remove them, [creating linkrot.](/blog/linkrot.md)
+This page is for a project that doesn't exist anymore or never existed in the first place. The best term for something like this is **vaporware.** In my eyes, however, it's better to keep these pages than to remove them, [creating linkrot.](/oldblog/linkrot)
 
 ---
 
