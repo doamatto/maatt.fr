@@ -4,9 +4,12 @@
 
   # Legacy pages
   #redir /contact /blog/upgrading-this-website
-  redir /legal/environmental /legal
-  redir /privacy /legal
-  redir /imprint /legal
+  redir /legal/environmental /legal/
+  redir /legal/environmental/ /legal/
+  redir /privacy /legal/
+  redir /privacy/ /legal/
+  redir /imprint /legal/
+  redir /imprint/ /legal/
 
   # Old blog redirs
   redir /blog/forgot-my-love-for-art /oldblog/forgot-my-love-for-art
