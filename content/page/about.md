@@ -7,7 +7,7 @@ title="About"
 My name is Matthew Ronchetto and **I'm a high school student with plans to study computer engineering.** Outside of school, **I run [The Farer Group](https://farer.group) with [Daniel](https://daniel.cafe)** and **develop and design open-source software, with an emphasis on ethical development and accessibility.**<br/>
 [See what I've been working on &rarr;](/work/)
 
-**I hold have leadership positions in a handful of clubs and programs** like Inkjar, Production Crew, and Astronomy Club. **I plan to attend a school either at [UC San Diego](https://ece.ucsd.edu) or abroad at [Université Grenoble Alpes](https://www.univ-grenoble-alpes.fr) or in the [ETH Domain.](https://ethz.ch/en/the-eth-zurich/organisation/eth-domain.html)**
+**I hold have leadership positions in a handful of clubs and programs** like Inkjar, Production Crew, and [Astronomy Club.](https://srhsastro.maatt.fr) **I plan to attend a school either at [UC San Diego](https://ece.ucsd.edu) or abroad at [Université Grenoble Alpes](https://www.univ-grenoble-alpes.fr) or in the [ETH Domain.](https://ethz.ch/en/the-eth-zurich/organisation/eth-domain.html)**
 
 <!--**I'm a community college student with plans to transfer and study computer engineering.** Outside of school, **I run [The Farer Group](https://farer.group)** with [Daniel](https://daniel.cafe) and **develop open-source software, with an emphasis on accessibility and ethics.**<br/>
 [See what I've been working on &rarr;](/work/)
