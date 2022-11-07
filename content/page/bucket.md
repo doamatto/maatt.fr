@@ -28,7 +28,7 @@ updated= "2022-10-01"
   - Felix Miller
   - Martin Stiksel
   - Michael Breidenbruecker
-  - Thomas Willomitzer 
+  - Thomas Willomitzer
 - Lauren Lopez (actress)
 - Leanora "Nora" Tindall (Fastly employee)
   - Had a fun vide chat talking about [Farer](https://farer.group) and some general things in SoCal
@@ -50,6 +50,7 @@ updated= "2022-10-01"
 - 习近平 (Chinese president 2013-20XX)
 
 ### Places to Visit
+- Austria
 - Belgium
 - Canada (..again)
 - China
@@ -60,6 +61,7 @@ updated= "2022-10-01"
 - Iceland
 - Italy (..again)
 - Japan
+- Luxembourg
 - Monaco
 - Netherlands
 - Philippines
