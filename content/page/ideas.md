@@ -5,8 +5,6 @@ updated= "2022-07-31"
 +++
 
 ## Software
-- ~~Steal Daniel's idea about making an ideas page at daniel.cafe/ideas about logging ideas over time~~
-  - And I quote, "goawn".
 - Music search by location– favours Bandcamp, then Spotify/Qobuz
 - Sim racing/trucking telemetry
 - An OSM app that doesn't suck
