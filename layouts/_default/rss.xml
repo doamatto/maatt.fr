@@ -6,13 +6,13 @@
   <link href="https://maatt.fr"/>
   <generator uri="https://gohugo.io">Hugo</generator>
   <updated></updated>
-  {{ range first 30 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+  {{ range first 10 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
     <entry xml:lang="en">
       <title>{{ .Title }}</title>
       <link href="{{ .Permalink }}" type="text/html"/>
       <id>{{ .Permalink }}</id>
       <published>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</published>
-      <description>{{ .Content | html }}</description>
+      <content type="html">{{ .Content | html }}</content>
     </entry>
     {{ end }}
 </feed>

@@ -31,11 +31,15 @@ timeZone = "UTC"
   disableHTML = true # Minute difference
 
 [outputs]
-home= ["HTML","RSS"]
+home= ["HTML","RSS","jsonfeed"]
 [outputFormats]
   [outputFormats.RSS]
-  mediatype= "application/rss"
-  baseName= "atom"
+    mediatype= "application/rss"
+    baseName= "atom"
+  [outputFormats.jsonfeed]
+    mediaType= "application/json"
+    baseName= "index"
+    isPlainText= true
 
 [params]
   mainSections = [ "blog" ]
