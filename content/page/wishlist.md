@@ -17,7 +17,7 @@ updated= "2022-07-31"
 - [The Art of Sound: A Visual History for Audiophiles](https://bookshop.org/books/the-art-of-sound-a-visual-history-for-audiophiles/9780500519288) (UPC `9780500519288`)
 
 ### Technology
-- [Apple iPad Pro (12.9-inch, Space Gray, 512Gb Wi-Fi)](https://www.apple.com/shop/buy-ipad/ipad-pro/11-inch-display-512gb-space-gray-wifi)
+- [Apple iPad Pro (12.9-inch, Space Gray, 512Gb Wi-Fi)](https://www.apple.com/shop/buy-ipad/ipad-pro/12.9-inch-display-512gb-space-gray-wifi)
   - [Apple Pencil](https://www.apple.com/shop/product/MU8F2AM/A)
   - [Paperlike screen protector](https://paperlike.com/)
 <!-- Might swap for a different Fuji or add a sep. lens - [Fujifilm X-T4 with 16-80mm](https://fujifilm-x.registria.com/products/0-74101-20231-1)-->
