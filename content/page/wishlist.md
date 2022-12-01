@@ -1,6 +1,6 @@
 +++
-title="Gift list"
-updated= "2022-11-19"
+title="Wishlist"
+updated= "2022-11-30"
 +++
 
 ### CDs
@@ -34,11 +34,12 @@ updated= "2022-11-19"
 - [The Art of Sound: A Visual History for Audiophiles](https://bookshop.org/books/the-art-of-sound-a-visual-history-for-audiophiles/9780500519288) (ISBN `9780500519288`) <!---->
 
 ### Technology
-- [Apple iPad Pro (12.9-inch, Space Gray, 256Gb Wi-Fi)](https://www.apple.com/shop/buy-ipad/ipad-pro/12.9-inch-display-256gb-space-gray-wifi)
+- [Apple iPad Pro (12.9-inch, Space Gray, 512Gb Wi-Fi)](https://www.apple.com/shop/buy-ipad/ipad-pro/12.9-inch-display-512gb-space-gray-wifi)
   - [Apple Pencil](https://www.apple.com/shop/product/MU8F2AM/A)
   - [Logitech Combo Case](https://www.logitech.com/en-us/products/ipad-keyboards/combo-touch-ipad.920-010097.html)
   - [Paperlike screen protector](https://paperlike.com/)
 <!--- [Fujifilm X-T4 with 16-80mm](https://fujifilm-x.registria.com/products/0-74101-20231-1)<!---->
+- [Sony WH-1000XM4 headphones (black)](https://electronics.sony.com/audio/headphones/headband/p/wh1000xm4-b)
 - [Synology DS1821+](https://bhpho.to/3tL3yus)
 
 ### Uncategorised
