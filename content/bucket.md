@@ -6,6 +6,7 @@ updated= "2022-10-01"
 **[pour sudoers](https://github.com/doamatto/maatt.fr/edit/main/content/page/bucket.md)**
 
 ### People to Meet (in person)
+- Barak Obama (US President 2009-2017)
 - William "Bill" Nye (engineer, comedian)
 - Cabel ([Panic](https://panic.com))
 - Charles Leclerc (Scuderia Ferrari driver)
@@ -16,7 +17,7 @@ updated= "2022-10-01"
 - Drew DeVault (developer of SourceHut)
 - Emmanuel Macron (French president in 2017-20XX)
 - Evan Wallace (ex-Figma)
-- 宮崎 駿 (株式会社スタジオジブリ co-founder)
+- Hayao Miyazaki (Studio Ghibli co-founder)
 - Igor Barakaiev (PrivacySpy developer)
 - Jack Merrill (developer at Merch)
   - We've done the occasional digital project: see [Farer](https://farer.group) or [Lunar](https://github.com/designbylunar)
@@ -24,18 +25,14 @@ updated= "2022-10-01"
 - James Newton-King (developer of Newtonsoft.Json)
 - Jane Manchun Wong (forbes 30 under 30)
 - Lando Norris (McLaren driver)
-- Last.fm and Audioscrobbler founders
-  - Felix Miller
-  - Martin Stiksel
-  - Michael Breidenbruecker
-  - Thomas Willomitzer
 - Lauren Lopez (actress)
 - Leanora "Nora" Tindall (Fastly employee)
-  - Had a fun vide chat talking about [Farer](https://farer.group) and some general things in SoCal
+  - Had a fun vide chat talking about [Farer](https://farer.group) and SoCal in general
 - Lee Robinson (Vercel employee)
-- Maia (mxmtoon)
+- Maia (mxmtoon; musician)
+- Marie Ringheim (musician)
 - Marques Brownlee (journalist)
-- Mattia Binotto (Scuderia Ferrari team principal)
+- Mattia Binotto (ex-Scuderia Ferrari team principal)
 - Miles McCain (PrivacySpy developer)
   - [Did an inteview with about AI in my sophomore year.](https://edu.doamatto.xyz/interview-with-miles)
 - Mirac (desginer/artist)
@@ -44,54 +41,57 @@ updated= "2022-10-01"
 - Romain Grosjean (IndyCar driver, ex-F1)
 - Ryan Seaman (ex-Falling in Reverse, iDKHOW)
 - Sam Yang (artist)
+- spill tab (musician)
 - Steve Eynon (Fantom Factory "Boss Man")
   - Had a Zoom call to discuss the Fantom language; would be cool to touch base again
 - Ursula von der Leyen (EU Commission president 2019-20XX)
-- 习近平 (Chinese president 2013-20XX)
+- Xi Jinping (Chinese president 2013-20XX)
 
 ### Places to Visit
-- Austria
-- Belgium
-- Canada (..again)
-- China
-  - Beijing
-  - Great Wall
-  - Hong Kong SAR
-- France (..again)
-- Iceland
-- Italy (..again)
-- Japan
-- Luxembourg
-- Monaco
-- Netherlands
-- Philippines
-- ROC / Taiwan
-- South Korea
-- Sweden
-- Switzerland (..again)
-- United Kingdom
+- Europe
+  - Austria
+  - Belgium
+  - France
+  - Germany
+  - Iceland
+  - Italy
+  - Luxembourg
+  - Monaco
+  - Netherlands
+  - Sweden
+  - Switzerland
+  - United Kingdom
+- Americas
+  - Canada
+- Asia
+  - China, People's Republic of
+    - Hong Kong SAR
+    - Republic of China / Taiwan
+  - Japan
+  - Philippines
+  - South Korea
+- Antartica
 
 ### Things to Do
 - [Complete my ideas list](/ideas)
-  - ~~Complete Daniel's ideas list~~
-- Create a music release
 - Publish a short film
 - Start my own mini town
 - Release hardware en masse
 - Learn new languages
   - Chinese
-  - Filipino (Tagalog, as it's known in the states)
-    - Have to take a language to graduate with Honors so this should be easy.
+  - German
   - Swedish
 - Become self-employed
   - Or retired. Basically the same thing. /s
 - Learn to skateboard
+- Learn to snowboard
+- Learn to skate
 - Attend the Olympics as a guest
 - Contribute to the research of a major topic
 - Attend a decent university
 - Attend a F1 race
   - And enter the paddock
 - Get a train and a license
-  - Cross from Ireland to Japan
+  - Go from N. Ireland to Japan (somehow)
 - Drive an F1 car
 - Not grow up

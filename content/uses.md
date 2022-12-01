@@ -2,14 +2,12 @@
 title= "Technology I use"
 description= "Different technologies that Matt Ronchetto uses."
 aliases= ["/use","/stack"]
-
-[extra]
 updated= "2022-06-13"
 +++
 
 ## Hardware
 - **Mac Mini M1 16GB.** Power-efficient, and gets the job done.
-- **iPhone 12 Pro Max.** I've almost run out of space for music.
+- **iPhone 13 Pro Max.** I have no longer almost run out of space for music.
 - **AKG K712 Pro.** Hands-down best set of headphones I've used.
 - **Razer Blade Stealth.** Glorified web browsing computer.
 

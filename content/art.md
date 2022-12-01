@@ -7,9 +7,6 @@ updated= "2022-09-27"
 
 I spend a fair amount of my free time enjoying "the finer things" like drawing people and scenery, as well as taking pictures and video.
 
-## Cinematography
-In 2022, I decided to start back up with creating cinematography. Once every 2 weeks-ish, I bring a video that I worked on to YouTube under the `doamatto` brand. As of writing, the first video hasn't even started scripting.
-
 ## Digital and traditional art
 I keep my portfolio with [DeviantArt](https://www.deviantart.com/doa-matt-o) under the close-enough-psuedonym of `doa-matt-o`. It contains some works that I make from time-to-time, as well as a good chunk of my sketchbook.
 
