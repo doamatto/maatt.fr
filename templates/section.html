@@ -1,0 +1,10 @@
+{% extends "base/base.html" %}
+
+{% block title %}{{section.title}} — doamatto{% endblock title %}
+{% block description %}{{section.description}}{% endblock description %}
+
+{% block content %}
+  <article>
+    {{ section.content | safe }}
+  </article>
+{% endblock content %}

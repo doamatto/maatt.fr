@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="alternate" type="application/atom+xml" href="/atom.xml">
+    <link rel="alternate" type="application/json" href="/feed.json" />
+    <link href="/style.css" rel="stylesheet">
+    <link rel="icon" href="data:,">
+    <title>{%block title%}Matt Ronchetto — doamatto{%endblock%}</title>
+    
+    {# halloween<meta name="theme-color" content="#fe5000" />#}
+    <meta name="theme-color" content="#909EFF" />
+    <meta name="description" content="{%block description%}{% endblock %}" />
+    <meta name="author" content="Matt Ronchetto">
+    {% if page.date %}
+      <meta property="article:published_time" content="{{ page.date }}">
+    {% elif section.date %}
+      <meta property="article:published_time" content="{{ section.date }}">
+    {% endif %}
+    {% if page.updated %}
+    <meta http-equiv="last-modified" content="{{ page.updated}}">
+    {% endif %}
+    <link rel="author" href="humans.txt">
+    <link rel="pgpkey authn" href="/pgp.asc">
+  </head>
+  <body>
+    <a href="#content" id="top">Skip to content</a>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="/" class="home" title="Link to homepage">
+              <svg viewBox="0 0 50 100" width="50" height="75" fill="none"><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" d="M28.3699 32.3817C26.5695 29.2061 23.2688 29.2061 21.4685 32.3817L0.0139835 72.0777C-0.15635 75.2065 1.21417 77 4.96502 77H44.8733C49.2242 77 50.1784 74.9165 49.9744 72.0777L28.3699 32.3817ZM24.9192 35.5574L4.96502 72.0777H44.8733L24.9192 35.5574Z" fill="black"></path></svg>
+            </a>
+          </li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/work/">Works</a></li>
+        </ul>
+      </nav>
+      <div>
+        {% if page.title %}
+        <h1>{{page.title}}</h1>
+        {% elif section.title %}
+        <h1>{{section.title}}</h1>
+        {% else %}
+        <h1>Salut, je suis Matt.</h1>
+        {% endif %}
+        {% if page.date %}
+          <p><time datetime="{{ page.date }}">{{ page.date | date(format="%A, %-d %B %Y") }}</time>.<br/>
+            {% if page.updated %}
+            <i>Updated: <time datetime="{{ page.updated }}">{{ page.updated | date(format="%A, %-d %B %Y") }}</time>.</i>
+            {% endif %}
+          </p>
+        {% endif %}
+      </div>
+    </header>
+    <main id="content">{% block content %}{% endblock content %}</main>
+    <a href="#top" class="h">Skip to top</a>
+    <footer>
+      <hr/>
+      <p>&copy; 2017-2023 Matthew Ronchetto. <a href="https://creativecommons.org/licenses/by/4.0/deed.fr">CC-BY,</a> unless mentioned otherwise.</p>
+      <ul>
+        <li><a href="/atom.xml">RSS/Atom.</a></li>
+        <li><a href="/feed.json">JSONFeed.</a></li>
+      </ul>
+      <ul>
+        <li><a href="/legal/">Legal.</a></li>
+        <li><a href="/colophon/">Colophon.</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+{% extends "base/base.html" %}
+
+{% block title %}{{section.title}} — doamatto{% endblock title %}
+{% block description %}{{section.description}}{% endblock description %}
+
+{% block content %}
+  {% if section.content %}
+  <section>
+    {{ section.content | safe }}
+  </section>
+  {% endif %}
+  <section>
+    {% set pages = section.pages %}
+    {% for page in pages | sort(attribute="date") | reverse %}
+    <div class="item">
+      <div>
+        <a href="{{page.permalink}}">{{ page.title }}</a>
+      </div>
+      <time datetime="{{page.date}}" class="d">{{page.date | date(format="%Y-%m-%d")}}</time>
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+{% endblock content %}
