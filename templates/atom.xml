@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Matt Ronchetto — doamatto</title>
+      <link>{{ config.base_url | escape_xml | safe }}</link>
+      <description>I'm a high school student living in San Diego. I like to mess around with software development and graphic design.</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="{{ feed_url | safe }}" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>{{ last_updated | date(format="%Y-%M-%dT%H:%M:%SZ") }}</lastBuildDate>
+      {% set blog = get_section(path="blog/_index.md") %}
+      {% set posts = blog.pages %}
+      {%- for post in posts | sort(attribute="date") | reverse %}
+      <item>
+          <title>{{ post.title }}</title>
+          <pubDate>{{ post.date | date(format="%Y-%M-%dT%H:%M:%SZ") }}</pubDate>
+          <link>{{ post.permalink | escape_xml | safe }}</link>
+          <guid>{{ post.permalink | escape_xml | safe }}</guid>
+          <description>{% if post.summary %}{{ post.summary }}{% else %}{{ post.content }}{% endif %}</description>
+      </item>
+      {%- endfor %}
+    </channel>
+</rss>

@@ -1,6 +1,7 @@
 base_url= "https://maatt.fr"
 default_language= "en"
 compile_sass= true
+generate_feed= true
 ignored_content= ["**/.DS_Store"]
 
 [markdown]
