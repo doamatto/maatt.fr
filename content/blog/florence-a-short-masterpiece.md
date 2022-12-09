@@ -1,5 +1,5 @@
 +++
-title= "Florence: the Short Masterpiece that Goes Past a Love Story"
+title= "Florence: A short love story masterpiece"
 description= "A short, breathtaking story, complemented amazingly with gorgeous music compositions."
 date= "2022-04-23"
 updated= "2022-07-31"
