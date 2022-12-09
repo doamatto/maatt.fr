@@ -1,69 +1,14 @@
-baseURL = "https://maatt.fr"
-disableKinds = ["taxonomy", "term"]
-disableHugoGeneratorInject = true
-disableLiveReload = true
-enableEmoji = true
-#enableGitInfo = true # need to fix on server
-enableRobotsTXT = true
-languageCode = "en"
-removePathAccents = true
-timeZone = "UTC"
+base_url= "https://maatt.fr"
+default_language= "en"
+compile_sass= true
+ignored_content= ["**/.DS_Store"]
 
-[author]
-  name = "Matthew Ronchetto"
+[markdown]
+render_emoji= true
+external_links_target_blank= false
+external_links_no_follow= true
+external_links_no_referrer= true
 
-[build]
-  useResourceCacheWhen = "fallback"
-
-[frontmatter]
-  lastmod = [":git", "lastmod", ":fileModTime", "date"]
-
-[imaging]
-  [imaging.exif]
-    disableLatLong = true # Privacy reasons; may change in future
-
-[markup]
-  [marukup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true # Needed for <br/> in documents.
-
-[minify]
-  disableHTML = true # Minute difference
-
-[outputs]
-home= ["HTML","RSS","jsonfeed"]
-[outputFormats]
-  [outputFormats.RSS]
-    mediatype= "application/rss"
-    baseName= "atom"
-  [outputFormats.jsonfeed]
-    mediaType= "application/json"
-    baseName= "index"
-    isPlainText= true
-
-[params]
-  mainSections = [ "blog" ]
-
-[permalinks]
-  blog = "/blog/:filename/"
-  page = "/:filename/"
-
-[privacy]
-  [privacy.disqus]
-    disable = true
-  [privacy.googleAnalytics]
-    disable = true
-  [privacy.instagram]
-    disable = true
-  [privacy.twitter]
-    disable = true
-  [privacy.vimeo]
-    enableDNT = true
-    simple = true
-  [privacy.youtube]
-    privacyEnhanced = true
-
-[sitemap]
-  changefreq = "weekly"
-  filename = "sitemap.xml"
-  priority = 0.5
+[link_checker]
+internal_level= "warn"
+external_level= "warn"
