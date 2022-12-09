@@ -1,0 +1,8 @@
+- Add JSONFeed
+- Add Atom/RSS feed
+- Design and implement 404 page
+- Design and implement homepage
+- Reconsider navigation
+  - Pseudo sidebar isn't bad, it's just not good
+  - Flat bar (think Mac menu bar) might be interesting
+- Find out what's left (because I have not documented that)
