@@ -1,0 +1,200 @@
+@import "_colors.scss";
+
+html,
+body {
+  * {
+    line-height: 1.6;
+    @media (prefers-reduced-motion) { animation: none !important; }
+  }
+  font-size: 1.075rem;
+  font-family: "Inter", "Helvetica", sans-serif;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  background: $bg-l;
+  color: $text-l;
+  h1 {
+    font-size: 1.8rem;
+    margin: 0;
+  }
+  h2 { font-size: 1.3rem; }
+  a {
+    font-weight: 600;
+    text-underline-offset: .35rem;
+    text-decoration-thickness: .2rem;
+    color: #000;
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      //background: rgba(0,0,0,.07);
+      background: $bg;
+      color: $text;
+      padding: 4px;
+      margin-left: -4px;
+      margin-right: -4px;
+      border-radius: 4px;
+    }
+    // @include lunar; // LNY
+  }
+  hr {
+    border-top: 2px solid #8c8b8b;
+    width: 50%;
+  }
+  ol > li,
+  ul > li {
+    margin: .3rem 0;
+    &:last-child { padding-bottom: 0; }
+  }
+  // @include fetenational; // FETENATIONAL
+  @media (prefers-color-scheme: "dark") {
+    background: $bg;
+    color: $text;
+    a { color: $accent; }
+    // @include lunar-dark; // LNY
+  }
+}
+
+// General layout
+main, footer { max-width: 80%; }
+header, main, footer {
+  margin: 0 auto;
+  @media(min-width:800px) {
+    max-width: 600px;
+  }
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+  div { text-align: center; }
+  nav {
+    .home {
+      &:hover,
+      &:focus {
+        background: none;
+        margin: initial;
+        padding: initial;
+        border-radius: initial;
+        svg path { fill: $accent-l; }
+      }
+      @media (prefers-color-scheme: "dark") {
+        svg path { fill: #fff; }
+        &:hover, &:focus { svg path { fill: $accent; } }
+      }
+    }
+    ul {
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      li { padding: 0 .5rem; }
+    }
+  }
+  @media(min-width: 800px) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    div { text-align: right; }
+    nav ul {
+      flex-direction: column;
+      text-align: left;
+      align-items: initial;
+      justify-content: initial;
+      li { padding: initial; }
+    }
+  }
+}
+
+main {
+  img { max-width: 100%; }
+  .footnote-definition {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    p {
+      margin: 0;
+      margin-left: 1rem; 
+    }
+  }
+  article > p { hyphens: auto; }
+}
+.item {
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  @media(min-width: 800px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    div { white-space: nowrap; }
+  }
+}
+.gal-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 20px;
+  a { 
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    &:hover,
+    &:focus {
+      background: none;
+      color: none;
+      padding: 5px;
+      margin: 0;
+      border-radius: 0px;
+    }
+  }
+}
+
+footer {
+  margin: 3rem auto;
+  p { margin: 0; }
+  hr { width: 100%; }
+  ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    li { padding: 0 .5rem; }
+  }
+}
+
+// a11y
+#top,
+.h {
+  display: inline-block;
+  z-index: 2;
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+  padding: .5rem;
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+  &:focus,
+  &:active {
+    clip: auto !important;
+    -webkit-clip-path: none !important;
+    clip-path: none !important;
+    height: auto !important;
+    overflow: visible !important;
+    width: auto !important;
+    white-space: normal !important;
+  }
+}

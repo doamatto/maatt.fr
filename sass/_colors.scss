@@ -1,0 +1,29 @@
+$bg: #131415;
+$bg-l: #fff;
+//$bg-l: #f93822; // lunary; bright red c
+
+$text: #fff;
+$text-l: #000;
+
+$accent: #e4deff;
+//$accent: #ed2939; // fetenational
+//$accent: #fe5000; // halloween; orange 021 c
+$accent-l: #004dff;
+
+// Seasonal Mix-ins
+@mixin lunar { background: #fd0; }
+@mixin lunar-dark {
+	background: inherit;
+	color: inherit;
+	a { color: inherit; }
+}
+
+@mixin fetenational {
+	@media (prefers-color-scheme: "light") {
+		background: #fff;
+		nav ul {
+	      li:first-child { color: #002654; }
+	      li:last-child { color: #ed2939; }
+		}
+	}
+}
