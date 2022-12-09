@@ -2,7 +2,7 @@
 title = "Creating an Intranet like the Internet"
 date = "2022-06-01T04:32:00Z"
 description = "Some people self-host music. I'm trying to self-host my own Internet."
-updated= "2022-10-26"
+updated= "2022-12-09"
 +++
 
 Apologies in advance; it's been a while since I last wrote and, arguably more importantly, have stayed on the quiet side of GitHub. I have *some* things planned for this month, but only time will tell if I will get anything out during the month (it's a hectic one).
