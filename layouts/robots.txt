@@ -1,9 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /bucket/
-Disallow: /wishlist/
-Disallow: /nbt/
-Disallow: /betelgeuse/
-Disallow: /sundiego/
-
-Sitemap: {{ "sitemap.xml" | absLangURL }}
