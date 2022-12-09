@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /betelgeuse/
+Disallow: /bucket/
+Disallow: /nbt/
+Disallow: /sundiego/
+Disallow: /wishlist/
+
+Sitemap: {{ get_url(path="sitemap.xml") }}
