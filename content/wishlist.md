@@ -45,7 +45,8 @@ updated= "2022-11-30"
 ### Uncategorised
 <!--- [Apple credits](https://www.apple.com/fr/shop/buy-giftcard/giftcard)
 - [Backblaze credits](https://secure.backblaze.com/gift.htm)
-- [CERN "Hydrogen" bottle](https://visit.cern/content/hydrogen) <!---->
+- [CERN "Hydrogen" bottle](https://visit.cern/content/hydrogen) 
+- [Husky dog blade covers](https://smile.amazon.com/dp/B07JGDW3LP) <!---->
 - [Lego Technic McLaren F1 Car](https://www.lego.com/en-us/product/mclaren-formula-1-race-car-42141)
 <!--- [PB 8321 B2](https://www.pbswisstools.com/en/tools/quality-hand-tools/torque-tools/product/pb-8321set-b2) <!---->
 - [Wiha digital callipers](https://www.wiha.com/int/en/tools/measurement-tools/wiha-fibre-glass-reinforced-measuring-callipers/1120/callipers-digimax-digital?c=28)
