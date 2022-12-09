@@ -69,6 +69,16 @@ header {
   margin-bottom: 1.5rem;
   align-items: center;
   div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    p {
+      margin: 0;
+      margin-right: 8px;
+    }
+  }
+  section {
     text-align: center;
     align-self: center;
   }
@@ -101,9 +111,7 @@ header {
       li { padding: 0 .5rem; }
     }
   }
-  @media (min-width: 800px) {
-    align-items: flex-start;
-  }
+  @media (min-width: 800px) { align-items: flex-start; }
 }
 
 main {
