@@ -1,0 +1,15 @@
+[
+	{
+		"name": "The Farer Group",
+		"desc": "Research project into the Internet and creating a member-exclusive intranet.",
+		"url": "https://farer.group"
+	}, {
+		"name": "Polytechnic Systems",
+		"desc": "Hardware engineering company/group/thing; née Project Cronus.",
+		"url": "https://polytechnic.systems/"
+	}, {
+		"name": "Lambda Systems",
+		"desc": "Research project for hardware and software enginerring.",
+		"url": "https://github.com/lambda-sys"
+	}
+]
