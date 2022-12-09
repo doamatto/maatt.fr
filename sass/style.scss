@@ -19,21 +19,8 @@ body {
   }
   h2 { font-size: 1.3rem; }
   a {
-    font-weight: 600;
-    text-underline-offset: .35rem;
-    text-decoration-thickness: .2rem;
     color: #000;
-    &:hover,
-    &:focus {
-      text-decoration: none;
-      //background: rgba(0,0,0,.07);
-      background: $bg;
-      color: $text;
-      padding: 4px;
-      margin-left: -4px;
-      margin-right: -4px;
-      border-radius: 4px;
-    }
+    &:hover, &:focus { text-decoration: none; }
     // @include lunar; // LNY
   }
   hr {
@@ -55,21 +42,40 @@ body {
 }
 
 // General layout
-main, footer { max-width: 80%; }
-header, main, footer {
+main, footer {
   margin: 0 auto;
+  max-width: 80%;
   @media(min-width:800px) {
     max-width: 600px;
+  }
+}
+header, footer {
+  a:hover,
+  a:focus {
+    text-decoration: none;
+    background: $bg;
+    color: $text;
+    padding: 4px;
+    margin-left: -4px;
+    margin-right: -4px;
+    border-radius: 4px;
   }
 }
 
 header {
   display: flex;
+  max-width: 100%;
   flex-direction: column;
   margin-bottom: 1.5rem;
-  div { text-align: center; }
+  align-items: center;
+  div {
+    text-align: center;
+    align-self: center;
+  }
   nav {
     .home {
+      display: flex;
+      max-height: 100%;
       &:hover,
       &:focus {
         background: none;
@@ -95,18 +101,8 @@ header {
       li { padding: 0 .5rem; }
     }
   }
-  @media(min-width: 800px) {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    div { text-align: right; }
-    nav ul {
-      flex-direction: column;
-      text-align: left;
-      align-items: initial;
-      justify-content: initial;
-      li { padding: initial; }
-    }
+  @media (min-width: 800px) {
+    align-items: flex-start;
   }
 }
 
@@ -139,8 +135,17 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   padding: 20px;
-  a { 
+  @supports (grid-template-rows: masonry) {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-rows: masonry;
+    masonry-auto-flow: next;
+    align-tracks: start;
+    justify-tracks: start;
+    gap: 5px;
+  }
+  a {
     padding: 5px;
+    @supports (grid-template-rows: masonry) { padding: 0; }
     display: flex;
     align-items: center;
     justify-content: center;
@@ -149,7 +154,7 @@ main {
     &:focus {
       background: none;
       color: none;
-      padding: 5px;
+      padding: 0;
       margin: 0;
       border-radius: 0px;
     }
