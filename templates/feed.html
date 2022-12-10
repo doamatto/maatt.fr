@@ -1,7 +1,9 @@
 {% extends "base.html" %}
 
-{% block title %}{{section.title}} — doamatto{% endblock title %}
-{% block description %}{{section.description}}{% endblock description %}
+{% block head %}
+  {% set title = section.title %}
+  {% set description = section.description %}
+{% endblock head %}
 
 {% block content %}
   {% if section.content %}
@@ -13,10 +15,8 @@
     {% set pages = section.pages %}
     {% for page in pages | sort(attribute="date") | reverse %}
     <div class="item">
-      <div>
-        <a href="{{page.permalink}}">{{ page.title }}</a>
-      </div>
-      <time datetime="{{page.date}}" class="d">{{page.date | date(format="%Y-%m-%d")}}</time>
+      <a href="{{page.permalink}}">{{ page.title }}</a>
+      <time datetime="{{page.date}}">{{page.date | date(format="%Y-%m-%d")}}</time>
       </div>
     </div>
     {% endfor %}
