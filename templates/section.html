@@ -1,7 +1,9 @@
 {% extends "base.html" %}
 
-{% block title %}{{section.title}} — doamatto{% endblock title %}
-{% block description %}{{section.description}}{% endblock description %}
+{% block head %}
+  {% set title = section.title %}
+  {% set description = section.description %}
+{% endblock head %}
 
 {% block content %}
   <article>
