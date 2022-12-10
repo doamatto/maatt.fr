@@ -2,17 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="alternate" type="application/atom+xml" href="/atom.xml">
-    <link rel="alternate" type="application/json" href="/feed.json" />
     <link href="/style.css" rel="stylesheet">
     <link rel="icon" href="data:,">
-    <title>{%block title%}Matt Ronchetto — doamatto{%endblock%}</title>
-    
-    {# halloween<meta name="theme-color" content="#fe5000" />#}
-    <meta name="theme-color" content="#909EFF" />
-    <meta name="description" content="{%block description%}{% endblock %}" />
-    <meta name="author" content="Matt Ronchetto">
+    {% block head %}
+      {% set title = page.title %}
+      {% set description = page.description %}
+    {% endblock head %}
+    <title>{{ title ~ " — doamatto" }}</title>
+    <meta name="description" content="{{description}}" />
     {% if page.date %}
       <meta property="article:published_time" content="{{ page.date }}">
     {% elif section.date %}
@@ -21,7 +20,12 @@
     {% if page.updated %}
     <meta http-equiv="last-modified" content="{{ page.updated}}">
     {% endif %}
-    <link rel="author" href="humans.txt">
+    {# #}
+    {# #}
+    {# #}
+    {# halloween<meta name="theme-color" content="#fe5000" />#}
+    <meta name="theme-color" content="#909EFF" />
+    <meta name="author" content="Matt Ronchetto">
     <link rel="pgpkey authn" href="/pgp.asc">
   </head>
   <body>
@@ -43,13 +47,7 @@
         <p>Not final release. v4.</p>
       </div>
       <section>
-        {% if page.title %}
-        <h1>{{page.title}}</h1>
-        {% elif section.title %}
-        <h1>{{section.title}}</h1>
-        {% else %}
-        <h1>Salut, je suis Matt.</h1>
-        {% endif %}
+        <h1>{{title}}</h1>
         {% if page.date %}
           <p><time datetime="{{ page.date }}">{{ page.date | date(format="%A, %-d %B %Y") }}</time>.<br/>
             {% if page.updated %}
@@ -60,14 +58,10 @@
       </section>
     </header>
     <main id="content">{% block content %}{% endblock content %}</main>
-    <a href="#top" class="h">Skip to top</a>
     <footer>
       <hr/>
       <p>&copy; 2017-2023 Matthew Ronchetto. <a href="https://creativecommons.org/licenses/by/4.0/deed.fr">CC-BY,</a> unless mentioned otherwise.</p>
-      <ul>
-        <li><a href="/atom.xml">RSS/Atom.</a></li>
-        <li><a href="/colophon/">Colophon.</a></li>
-      </ul>
+      <p><a href="/atom.xml">RSS/Atom.</a> <a href="/colophon/">Colophon.</a></p>
     </footer>
   </body>
 </html>
