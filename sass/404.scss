@@ -1,0 +1,59 @@
+@import "_colors.scss";
+
+html,
+body {
+	background: $bg;
+	color: $text;
+	font-family: "Helvetica", sans-serif;
+	font-size: 1.075rem;
+	line-height: 1.6;
+	max-height: 100%;
+	a {
+		color: #fff;
+		&:hover, &:focus {
+		    text-decoration: none;
+		    background: $bg;
+		    color: $text;
+		    padding: 4px;
+		    margin-left: -4px;
+		    margin-right: -4px;
+		    border-radius: 4px;
+		}
+	}
+}
+body {
+	margin: 0 auto;
+	max-width: 80%;
+}
+
+h1 {
+	font-size: 40vw;
+	max-height: 100%;
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	position: absolute;
+	top: 10;
+	left: 0;
+	text-align: center;
+	pointer-events: none;
+	user-select: none;
+	color: $accent;
+	z-index: 2;
+	mix-blend-mode: multiply;
+}
+h2 { font-size: 1.5rem; }
+main {
+	display: flex;
+	flex-direction: column;
+	max-height: 100%;
+	@media(min-width: 800px) {	
+		flex-direction: row;
+		align-items: center;
+		height: 100vh;
+		section {
+			grid-column-end: span 2;
+		}
+	}
+}
+

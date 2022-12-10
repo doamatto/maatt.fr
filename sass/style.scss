@@ -1,16 +1,12 @@
 @import "_colors.scss";
 
+* { line-height: 1.6; }
 html,
 body {
-  * {
-    line-height: 1.6;
-    @media (prefers-reduced-motion) { animation: none !important; }
-  }
   font-size: 1.075rem;
-  font-family: "Inter", "Helvetica", sans-serif;
+  font-family: "Helvetica", sans-serif;
   margin: 0;
   padding: 0;
-  max-width: 100%;
   background: $bg-l;
   color: $text-l;
   h1 {
@@ -28,10 +24,7 @@ body {
     width: 50%;
   }
   ol > li,
-  ul > li {
-    margin: .3rem 0;
-    &:last-child { padding-bottom: 0; }
-  }
+  ul > li { &:last-child { padding-bottom: 0; } }
   // @include fetenational; // FETENATIONAL
   @media (prefers-color-scheme: "dark") {
     background: $bg;
@@ -45,19 +38,24 @@ body {
 main, footer {
   margin: 0 auto;
   max-width: 80%;
-  @media(min-width:800px) {
-    max-width: 600px;
-  }
+  @media(min-width:800px) { max-width: 600px; }
 }
 header, footer {
+  ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    li { padding: 0 .5rem; }
+  }
   a:hover,
   a:focus {
     text-decoration: none;
     background: $bg;
     color: $text;
     padding: 4px;
-    margin-left: -4px;
-    margin-right: -4px;
+    margin: 0 -4px;
     border-radius: 4px;
   }
 }
@@ -66,106 +64,58 @@ header {
   display: flex;
   max-width: 100%;
   flex-direction: column;
-  margin-bottom: 1.5rem;
+  margin: 0 0 1.5rem 0;
   align-items: center;
   div {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    p {
-      margin: 0;
-      margin-right: 8px;
-    }
+    p { margin: 0 0 0 8px; }
   }
   section {
-    text-align: center;
     align-self: center;
+    text-align: center;
   }
-  nav {
-    .home {
-      display: flex;
-      max-height: 100%;
-      &:hover,
-      &:focus {
-        background: none;
-        margin: initial;
-        padding: initial;
-        border-radius: initial;
-        svg path { fill: $accent-l; }
-      }
-      @media (prefers-color-scheme: "dark") {
-        svg path { fill: #fff; }
-        &:hover, &:focus { svg path { fill: $accent; } }
-      }
-    }
-    ul {
-      display: flex;
-      flex-direction: row;
-      list-style: none;
-      padding-left: 0;
+}
+nav {
+  .home {
+    display: flex;
+    &:hover,
+    &:focus {
+      background: none;
       margin: 0;
-      align-items: center;
-      text-align: center;
-      justify-content: center;
-      li { padding: 0 .5rem; }
+      padding: 0;
+      svg path { fill: $accent-l; }
+    }
+    @media (prefers-color-scheme: "dark") {
+      svg path { fill: #fff; }
+      &:hover, &:focus { svg path { fill: $accent; } }
     }
   }
-  @media (min-width: 800px) { align-items: flex-start; }
 }
 
 main {
   img { max-width: 100%; }
   .footnote-definition {
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
-    p {
-      margin: 0;
-      margin-left: 1rem; 
-    }
+    p { margin: 0 0 0 1rem; }
   }
-  article > p { hyphens: auto; }
 }
 .item {
-  white-space: normal;
-  overflow: hidden;
-  text-overflow: ellipsis;
   @media(min-width: 800px) {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    div { white-space: nowrap; }
   }
 }
 .gal-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  padding: 20px;
-  @supports (grid-template-rows: masonry) {
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-template-rows: masonry;
-    masonry-auto-flow: next;
-    align-tracks: start;
-    justify-tracks: start;
-    gap: 5px;
-  }
   a {
     padding: 5px;
-    @supports (grid-template-rows: masonry) { padding: 0; }
     display: flex;
     align-items: center;
     justify-content: center;
-    line-height: 0;
-    &:hover,
-    &:focus {
-      background: none;
-      color: none;
-      padding: 0;
-      margin: 0;
-      border-radius: 0px;
-    }
   }
 }
 
@@ -174,40 +124,19 @@ footer {
   p { margin: 0; }
   hr { width: 100%; }
   ul {
-    list-style: none;
-    display: flex;
-    padding: 0;
-    margin: 0;
-    li { padding: 0 .5rem; }
+    justify-content: flex-start;
+    li { padding-left: 0; }
   }
 }
 
 // a11y
 #top,
 .h {
-  display: inline-block;
-  z-index: 2;
-  background-color: #fff;
+  background: #fff;
   color: #000;
   font-weight: bold;
   padding: .5rem;
-  border: 0 !important;
-  clip: rect(1px, 1px, 1px, 1px) !important;
-  -webkit-clip-path: inset(50%) !important;
-  clip-path: inset(50%) !important;
-  height: 1px !important;
-  overflow: hidden !important;
-  position: absolute !important;
-  width: 1px !important;
-  white-space: nowrap !important;
-  &:focus,
-  &:active {
-    clip: auto !important;
-    -webkit-clip-path: none !important;
-    clip-path: none !important;
-    height: auto !important;
-    overflow: visible !important;
-    width: auto !important;
-    white-space: normal !important;
-  }
+  position: absolute;
+  transform: translateY(-100%);
+  &:focus { transform: translateY(0%); }
 }
