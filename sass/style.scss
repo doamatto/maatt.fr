@@ -9,28 +9,41 @@ body {
   padding: 0;
   background: $bg-l;
   color: $text-l;
-  h1 {
-    font-size: 1.8rem;
-    margin: 0;
-  }
-  h2 { font-size: 1.3rem; }
-  a {
-    color: #000;
-    &:hover, &:focus { text-decoration: none; }
-    // @include lunar; // LNY
-  }
-  hr {
-    border-top: 2px solid #8c8b8b;
-    width: 50%;
-  }
-  ol > li,
-  ul > li { &:last-child { padding-bottom: 0; } }
   // @include fetenational; // FETENATIONAL
   @media (prefers-color-scheme: "dark") {
     background: $bg;
     color: $text;
     a { color: $accent; }
     // @include lunar-dark; // LNY
+  }
+}
+
+// Headers and text
+a {
+  color: #000;
+  &:hover { text-decoration: none; }
+  // @include lunar; // LNY
+}
+h1 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+h2 { font-size: 1.3rem; }
+header {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 1.5rem 0;
+  align-items: center;
+  div {
+    width: 100%;
+    //display: flex;
+    //align-items: center;
+    //justify-content: space-between;
+    //p { margin: 0 0 0 8px; }
+  }
+  section {
+    align-self: center;
+    text-align: center;
   }
 }
 
@@ -47,10 +60,9 @@ header, footer {
     padding: 0;
     margin: 0;
     align-items: center;
-    li { padding: 0 .5rem; }
   }
-  a:hover,
-  a:focus {
+  li { padding: 0 .5rem; }
+  a:hover {
     text-decoration: none;
     background: $bg;
     color: $text;
@@ -59,47 +71,37 @@ header, footer {
     border-radius: 4px;
   }
 }
-
-header {
+hr {
+  border-top: 2px solid #8c8b8b;
+  width: 50%;
+}
+main > img { max-width: 100%; }
+.footnote-definition {
   display: flex;
-  max-width: 100%;
-  flex-direction: column;
-  margin: 0 0 1.5rem 0;
-  align-items: center;
-  div {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    p { margin: 0 0 0 8px; }
-  }
-  section {
-    align-self: center;
-    text-align: center;
-  }
+  p { margin: 0 0 0 1rem; }
 }
-nav {
-  .home {
-    display: flex;
-    &:hover,
-    &:focus {
-      background: none;
-      margin: 0;
-      padding: 0;
-      svg path { fill: $accent-l; }
-    }
-    @media (prefers-color-scheme: "dark") {
-      svg path { fill: #fff; }
-      &:hover, &:focus { svg path { fill: $accent; } }
-    }
+footer {
+  margin: 3rem auto;
+  p { margin: 0; }
+  hr { width: 100%; }
+  ul {
+    justify-content: flex-start;
   }
+  li { padding-left: 0; }
 }
 
-main {
-  img { max-width: 100%; }
-  .footnote-definition {
-    display: flex;
-    p { margin: 0 0 0 1rem; }
+// Misc
+.home {
+  display: flex;
+  &:hover {
+    background: none;
+    margin: 0;
+    padding: 0;
+    svg path { fill: $accent-l; }
+  }
+  @media (prefers-color-scheme: "dark") {
+    svg path { fill: #fff; }
+    &:hover { svg path { fill: $accent; } }
   }
 }
 .item {
@@ -108,30 +110,19 @@ main {
     justify-content: space-between;
   }
 }
+ol > li,
+ul > li { &:last-child { padding-bottom: 0; } }
 .gal-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   a {
-    padding: 5px;
     display: flex;
-    align-items: center;
     justify-content: center;
   }
 }
 
-footer {
-  margin: 3rem auto;
-  p { margin: 0; }
-  hr { width: 100%; }
-  ul {
-    justify-content: flex-start;
-    li { padding-left: 0; }
-  }
-}
-
 // a11y
-#top,
-.h {
+#top {
   background: #fff;
   color: #000;
   font-weight: bold;
