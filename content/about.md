@@ -5,17 +5,21 @@ updated= "2022-11-30"
 
 <!-- Don't have a picture.. yet. <img src="/img/profile_wide.jpg" alt="Photo of Matt Ronchetto" loading="lazy" />-->
 
-My name is Matthew Ronchetto and **I'm a high school student with plans to study computer engineering.** Outside of school, **I run [The Farer Group](https://farer.group) with [Daniel](https://daniel.cafe)** and **develop and design open-source software, with an emphasis on ethical development and accessibility.**<br/>
-[See what I've been working on &rarr;](/work/)
+Hi, I'm Matt: community college student, open-source developer, artist, among other things.
 
-**I hold have leadership positions in a handful of clubs and programs** like Inkjar, Production Crew, and [Astronomy Club.](https://srhsastro.maatt.fr) **I plan to attend a school either at [UC San Diego](https://ece.ucsd.edu) or abroad at [Université Grenoble Alpes](https://www.univ-grenoble-alpes.fr) or in the [ETH Domain.](https://ethz.ch/en/the-eth-zurich/organisation/eth-domain.html)**
+I'm an incoming freshman at \[insert university here\] (fingers crossed that this will say [UC San Diego](https://ucsd.edu)). I run [The Farer Group](https://farer.group) and develop open-source software with an emphasis on accessibility.
 
-<!--**I'm a community college student with plans to transfer and study computer engineering.** Outside of school, **I run [The Farer Group](https://farer.group)** with [Daniel](https://daniel.cafe) and **develop open-source software, with an emphasis on accessibility and ethics.**<br/>
-[See what I've been working on &rarr;](/work/)
+When I'm not programming or studying, I'm [doodling](/sketchbook) or [taking pictures](/photobook), watching Formula One, or [writing my latest shitpost.](/blog)
 
-I currently study at [San Diego Miramar](https://sdmiramar.edu) College, working on my associate for transfer. **I plan to transfer to [UC San Diego](https://ece.ucsd.edu) or a university in the [ETH Domain](https://ethz.ch/en/the-eth-zurich/organisation/eth-domain.html) and graduate with a M.S. in Computer Engineering with a minor in Signal & Image Processing.** I'm a part of [the Phi Theta Kappa chapter](https://sites.google.com/view/miramarptk) and [Club Spectrum club](https://sites.google.com/view/club-spectrum/) at San Diego Miramar.<br/>
-[See my CV &rarr;](/cv/)-->
+---
 
-I've messed around with software and programming <abbr title="about 8 years">since 2015</abbr> or so; starting off with Python and Ruby on Rails. Since, I've focused my work into Golang and Node. I plan to dig deeper into Rust and Objective-C in the future. Anything I develop that's public is likely on [GitHub.](https://github.com/doamatto)
+## TL;DR about Me
+I'm from San Diego, USA and have spent birth to present down here. Unlike the locals, I'm fine with the heat. Since I was a youngin, I've seen technology evolve: from dial-up Internet to the "fast Internet" I have now, from my Moto flipphone to smartphones; it's given me the privilege to be able to say "Back in my day" and it still be honest.
 
-Outside of programming, I enjoy watching Formula One races and playing story-rich games with phenomenal soundtracks; some of my favourites being the Portal series, Necrobarista, Coffee Talk, and VA-11 HALL-A. I spend my free time listening to music of just about every genre and [drawing people and scenery.](/art/)<br/>
+I started programming in 2015-ish and have had a blast. I knew pretty early on that this was an avenue that I wanted to go down in the future. I've applied to UC San Diego as my first pick for computer engineering, with the fallback being the SDCCD to transfer to UC San Diego or to EPFL to obtain a masters.
+
+## Programming
+I've messed around with programming for the past 8 years or so. Python and Ruby were languages that I picked up pretty quickly and fueled my passion to dig deeper. I've since narrowed focus into Golang and Node.js, with hopes to learn Rust and Objective-C in the future. Anything I develop that's public is likely on [GitHub](https://github.com/doamatto) or [Farer's Git server.](https://git.farer.group)
+
+## Photography and art
+I've always enjoyed doodling, but in 2021 I decided to take a deep dive into refining the craft and having fun with it more often. I usually use Staedtler set or my rOtring mechanical pencil for sketches, and LOVE using POSCA and Sakura pens. Photography has taken a backseat approach comparitively. Anything I draw that's public is on [DeviantArt](https://deviantart.com/doa-matt-o) or [my sketchbook](/sketchbook), with my photos being in [my photobook.](/photobook)
