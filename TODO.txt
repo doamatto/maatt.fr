@@ -1,7 +1,5 @@
-- Add JSONFeed
-- Add Atom/RSS feed
-- Design and implement 404 page
-- Design and implement homepage
+- Explore homepage
+  - Seems almost identical to before. Not a bad thing, but I want to find a better way.
 - Explore navigation
   - Psuedo-sidebar was ok; unfavourable
   - I dig the menubar-esque nav that is current as of this commit.
