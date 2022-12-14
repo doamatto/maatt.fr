@@ -33,17 +33,18 @@
 	header /static/* Cache-Control "max-age=31536000"
 
 	# General headers
-	header Permissions-Policy "interest-cohort=(), browsing-topics=(), join-ad-interest-group=(), run-ad-auction=()"
+	header Permissions-Policy "interest-cohort=(),browsing-topics=(),join-ad-interest-group=(),run-ad-auction=()"
 	header X-Content-Type-Options "nosniff"
 	header X-Frame-Options "DENY"
 	header Referrer-Policy "no-referrer"
 	header Strict-Transport-Security "max-age=31536000;includeSubDomains;preload"
-	header Vary "Origin"
-	header Expect-CT "max-age=86400, enforce"
-  header Server "maatt DOT fr"
-  header Cross-Origin-Opener-Policy "same-origin; report-to='mailto:security@doamatto.xyz'"
-  header Cross-Origin-Embedder-Policy "require-corp; report-to='mailto:security@doamatto.xyz'"
-	header Content-Security-Policy "default-src 'none'; style-src 'self'; img-src 'self' https://fm.doamatto.xyz; font-src 'none'; form-action 'none'; upgrade-insecure-requests; block-all-mixed-content; object-src 'none'; connect-src 'none'; base-uri 'self'; frame-ancestors 'none'"
+	header Vary "Origin,Accept-Encoding"
+  header Cross-Origin-Opener-Policy "same-origin"
+  header Cross-Origin-Embedder-Policy "require-corp"
+	header Content-Security-Policy "default-src 'none'; style-src 'self'; img-src 'self' https://fm.doamatto.xyz; form-action 'none';  base-uri 'self'; frame-ancestors 'none'; upgrade-insecure-requests; block-all-mixed-content;"
+
+  header -server
+  header -last-modified
 }
 
 # Set internal Farer ACME server
