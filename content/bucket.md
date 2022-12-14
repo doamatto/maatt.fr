@@ -1,9 +1,9 @@
 +++
 title="Bucket List"
-updated= "2022-10-01"
+updated= "2022-12-13"
 +++
 
-**[pour sudoers](https://github.com/doamatto/maatt.fr/edit/main/content/page/bucket.md)**
+**[pour sudoers](https://github.com/doamatto/maatt.fr/edit/main/content/bucket.md)**
 
 ### People to Meet (in person)
 - Barak Obama (US President 2009-2017)
@@ -15,6 +15,7 @@ updated= "2022-10-01"
 - Dan Povenmire (Dr Doofenshmirtz and artist/animator)
 - Dana Terrace (artist/animator)
 - Drew DeVault (developer of SourceHut)
+- DT (tinyumbrellas)
 - Emmanuel Macron (French president in 2017-20XX)
 - Evan Wallace (ex-Figma)
 - Hayao Miyazaki (Studio Ghibli co-founder)
@@ -36,6 +37,7 @@ updated= "2022-10-01"
 - Miles McCain (PrivacySpy developer)
   - [Did an inteview with about AI in my sophomore year.](https://edu.doamatto.xyz/interview-with-miles)
 - Mirac (desginer/artist)
+- Noodle
 - Pierre Gasly (AlphaTauri driver)
 - Rasmus Andersson (ex-Spotify)
 - Romain Grosjean (IndyCar driver, ex-F1)
@@ -63,11 +65,13 @@ updated= "2022-10-01"
   - United Kingdom
 - Americas
   - Canada
-- Asia
+- Asia / Oceania
+  - Australia
   - China, People's Republic of
     - Hong Kong SAR
     - Republic of China / Taiwan
   - Japan
+  - New Zealand
   - Philippines
   - South Korea
 - Antartica
@@ -79,7 +83,6 @@ updated= "2022-10-01"
 - Release hardware en masse
 - Learn new languages
   - Chinese
-  - German
   - Swedish
 - Become self-employed
   - Or retired. Basically the same thing. /s

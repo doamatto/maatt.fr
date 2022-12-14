@@ -38,7 +38,6 @@ updated= "2022-11-30"
   - [Apple Pencil](https://www.apple.com/shop/product/MU8F2AM/A)
   - [Logitech Combo Case](https://www.logitech.com/en-us/products/ipad-keyboards/combo-touch-ipad.920-010097.html)
   - [Paperlike screen protector](https://paperlike.com/)
-<!--- [Fujifilm X-T4 with 16-80mm](https://fujifilm-x.registria.com/products/0-74101-20231-1)<!---->
 - [Sony WH-1000XM4 headphones (black)](https://electronics.sony.com/audio/headphones/headband/p/wh1000xm4-b)
 - [Synology DS1821+](https://bhpho.to/3tL3yus)
 
@@ -46,8 +45,7 @@ updated= "2022-11-30"
 <!--- [Apple credits](https://www.apple.com/fr/shop/buy-giftcard/giftcard)
 - [Backblaze credits](https://secure.backblaze.com/gift.htm)
 - [CERN "Hydrogen" bottle](https://visit.cern/content/hydrogen) 
-- [Husky dog blade covers](https://smile.amazon.com/dp/B07JGDW3LP) <!---->
-- [Lego Technic McLaren F1 Car](https://www.lego.com/en-us/product/mclaren-formula-1-race-car-42141)
+- [Husky dog blade covers](https://smile.amazon.com/dp/B07JGDW3LP)
 <!--- [PB 8321 B2](https://www.pbswisstools.com/en/tools/quality-hand-tools/torque-tools/product/pb-8321set-b2) <!---->
 - [Wiha digital callipers](https://www.wiha.com/int/en/tools/measurement-tools/wiha-fibre-glass-reinforced-measuring-callipers/1120/callipers-digimax-digital?c=28)
 <!--- [Wiha multimeter](https://www.wiha.com/int/en/tools/electro/measuring-equipment/1801/digital-multimeter-up-to-1-000-v-ac-cat-iv?c=28)
