@@ -8,7 +8,7 @@
 {% block content %}
   {{section.content | safe}}
 
-  <div class="gal-grid">
+  <div class="grid">
     {% for pic in section.assets -%}
     <a href="{{ get_url(path=pic) }}" target="_blank">
       <picture>
