@@ -54,6 +54,8 @@
             <i>Updated: <time datetime="{{ page.updated }}">{{ page.updated | date(format="%A, %-d %B %Y") }}</time>.</i>
             {% endif %}
           </p>
+        {% elif page.updated %}
+          <p><i>Updated: <time datetime="{{ page.updated }}">{{ page.updated | date(format="%A, %-d %B %Y") }}</time>.</i></p>
         {% endif %}
       </section>
     </header>
