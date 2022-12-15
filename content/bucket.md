@@ -43,6 +43,7 @@ updated= "2022-12-13"
 - Romain Grosjean (IndyCar driver, ex-F1)
 - Ryan Seaman (ex-Falling in Reverse, iDKHOW)
 - Sam Yang (artist)
+- Seán McLoughlin
 - spill tab (musician)
 - Steve Eynon (Fantom Factory "Boss Man")
   - Had a Zoom call to discuss the Fantom language; would be cool to touch base again

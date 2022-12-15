@@ -36,8 +36,6 @@ updated= "2022-11-30"
 ### Technology
 - [Apple iPad Pro (12.9-inch, Space Gray, 512Gb Wi-Fi)](https://www.apple.com/shop/buy-ipad/ipad-pro/12.9-inch-display-512gb-space-gray-wifi)
   - [Apple Pencil](https://www.apple.com/shop/product/MU8F2AM/A)
-  - [Logitech Combo Case](https://www.logitech.com/en-us/products/ipad-keyboards/combo-touch-ipad.920-010097.html)
-  - [Paperlike screen protector](https://paperlike.com/)
 - [Sony WH-1000XM4 headphones (black)](https://electronics.sony.com/audio/headphones/headband/p/wh1000xm4-b)
 - [Synology DS1821+](https://bhpho.to/3tL3yus)
 
