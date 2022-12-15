@@ -1,7 +1,7 @@
 +++
 title = "Contact"
 description = "There are a few ways you can reach out to me; be it for a gig, questions about my past works, or if you just want to chat."
-updated= "2022-11-30"
+updated= "2022-12-13"
 +++
 
 You can reach out to me for whatever; be it for a gig, questions about a past work, or just to chat. I can hold conversation in French or English, but will try to find translation for other languages.
