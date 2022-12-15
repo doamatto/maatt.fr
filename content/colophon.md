@@ -1,5 +1,6 @@
 +++
 title= "Colophon"
+updated= "2022-12-13"
 +++
 
 This site is hosted on a server in Iceland from [1984 Hosting](https://1984.is) using Caddy. It's built using [Zola](https://www.getzola.org). I use [Sublime Text](https://sublimetext.com) when working on it and Hemingway Writer for writing.
