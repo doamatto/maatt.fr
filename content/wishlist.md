@@ -9,6 +9,7 @@ updated= "2022-11-30"
 
 <!--### Clothes
 - [Darn Tough Quarter Light socks](https://darntough.com/collections/mens-1-4-socks/products/mens-light-hiker-quarter-lightweight-hiking-sock-last-chance) ([military discount](https://darntough.com/pages/exclusive-discounts))
+- [Microsoft Windows Ugly Sweater](https://gear.xbox.com/products/clippy-holiday-sweater)
 - [Patagonia beanie (Black)](https://www.patagonia.com/product/everyday-beanie/194187036997.html)
 - [Patagonia Torrentshell (Black, Medium)](https://www.patagonia.com/product/mens-torrentshell-3l-rain-jacket/192964428010.html)
 
@@ -25,13 +26,15 @@ updated= "2022-11-30"
 - [Soehnle scale](https://www.leifheit.com/en-en/soehnle/analogue-personal-scales/17064/analogue-personal-scale-tempo-white/61098)
 - [StreetCarvings San Diego](https://streetcarvings.com/products/san-diego-carving-map-coming-soon)
 - [Vollrath cooking tongs](https://www.webstaurantstore.com/vollrath-4781622-jacobs-pride-16-hi-temp-stainless-steel-scalloped-tong-with-nylon-end-and-coated-handle/9224781622.html)
+- [United States Map](https://thegeographypin.com/products/united-states-of-america-map-print)
 
 ### Literature
 - [A Mountaineer's Life](https://www.patagonia.com/a-mountaineers-life-by-allen-steck-hardcover-book/BK790.html)
 - [Herman Miller: A Way of Living](https://bookshop.org/books/herman-miller-a-way-of-living/9780714875217) (ISBN `9780714875217`)
 - [Life is Strange Vol. 6 (Paperback)](https://smile.amazon.com/gp/product/1787734757) (ISBN `9781787734757`)
 - [Parks](https://standardsmanual.com/products/parks) (ISBN `9780578469829`)
-- [The Art of Sound: A Visual History for Audiophiles](https://bookshop.org/books/the-art-of-sound-a-visual-history-for-audiophiles/9780500519288) (ISBN `9780500519288`) <!---->
+- [The Art of Sound: A Visual History for Audiophiles](https://bookshop.org/books/the-art-of-sound-a-visual-history-for-audiophiles/9780500519288) (ISBN `9780500519288`)
+- [The iOS App Icon Book](https://flarup.shop/products/the-ios-app-icon-book) ([alternative link](https://www.kickstarter.com/projects/flarup/the-ios-app-icon-book)) <!---->
 
 ### Technology
 - [Apple iPad Pro (12.9-inch, Space Gray, 512Gb Wi-Fi)](https://www.apple.com/shop/buy-ipad/ipad-pro/12.9-inch-display-512gb-space-gray-wifi)
@@ -39,9 +42,20 @@ updated= "2022-11-30"
 - [Sony WH-1000XM4 headphones (black)](https://electronics.sony.com/audio/headphones/headband/p/wh1000xm4-b)
 - [Synology DS1821+](https://bhpho.to/3tL3yus)
 
+### Candy
+- Dove— dark chocolate
+- Ferrero Rocher
+- Kinder Bueno
+- Loacker— chocolate flavoured
+- See's— scotchmallows
+- Swedish Fish
+
 ### Uncategorised
 <!--- [Apple credits](https://www.apple.com/fr/shop/buy-giftcard/giftcard)
 - [Backblaze credits](https://secure.backblaze.com/gift.htm)
+- [Lego BMW M 1000 RR](https://www.lego.com/en-us/product/bmw-m-1000-rr-42130)
+- [Lego Lamborghini Sián](https://www.lego.com/en-gb/product/lamborghini-sian-fkp-37-42115)
+- [Lego McLaren F1 car](https://www.lego.com/en-us/product/mclaren-formula-1-race-car-42141)
 - [CERN "Hydrogen" bottle](https://visit.cern/content/hydrogen) 
 - [Husky dog blade covers](https://smile.amazon.com/dp/B07JGDW3LP)
 <!--- [PB 8321 B2](https://www.pbswisstools.com/en/tools/quality-hand-tools/torque-tools/product/pb-8321set-b2) <!---->
