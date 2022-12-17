@@ -1,10 +1,10 @@
 +++
 title = "Contact"
 description = "There are a few ways you can reach out to me; be it for a gig, questions about my past works, or if you just want to chat."
-updated= "2022-12-13"
+updated= "2022-12-17"
 +++
 
-You can reach out to me for whatever; be it for a gig, questions about a past work, or just to chat. I can hold conversation in French or English, but will try to find translation for other languages.
+You can reach out to me for whatever; be it for a gig, questions about past work, or just to chat. I can hold a conversation in French or English but will try to translate for other languages.
 
 You can email me at [hey \[at\] maatt.fr](mailto:hey@maatt.fr) ([public key](/key/)).
 
