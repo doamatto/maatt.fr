@@ -58,7 +58,6 @@ updated= "2022-11-30"
 - [Lego McLaren F1 car](https://www.lego.com/en-us/product/mclaren-formula-1-race-car-42141)
 - [CERN "Hydrogen" bottle](https://visit.cern/content/hydrogen) 
 - [Husky dog blade covers](https://smile.amazon.com/dp/B07JGDW3LP)
-<!--- [PB 8321 B2](https://www.pbswisstools.com/en/tools/quality-hand-tools/torque-tools/product/pb-8321set-b2) <!---->
+- [PB 8321 B2](https://www.pbswisstools.com/en/tools/quality-hand-tools/torque-tools/product/pb-8321set-b2) <!---->
 - [Wiha digital callipers](https://www.wiha.com/int/en/tools/measurement-tools/wiha-fibre-glass-reinforced-measuring-callipers/1120/callipers-digimax-digital?c=28)
-<!--- [Wiha multimeter](https://www.wiha.com/int/en/tools/electro/measuring-equipment/1801/digital-multimeter-up-to-1-000-v-ac-cat-iv?c=28)
-- [Wiha spanner set](https://www.wihatools.com/products/digital-caliper-digimax) <!---->
+- [Wiha multimeter](https://www.wiha.com/int/en/tools/electro/measuring-equipment/1801/digital-multimeter-up-to-1-000-v-ac-cat-iv?c=28)
