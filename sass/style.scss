@@ -48,7 +48,7 @@ header {
 }
 
 // General layout
-main, footer {
+header section, main, footer {
   margin: 0 auto;
   max-width: 80%;
 }
@@ -128,5 +128,5 @@ footer {
     display: flex;
     justify-content: space-between;
   }
-  main, footer { max-width: 600px; }
+  header section, main, footer { max-width: 600px; }
 }
