@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "ISO/IEC 15445:2000//DTD HTML//EN">
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -12,7 +12,7 @@
     {% endblock head %}
     <title>{{ title ~ " — doamatto" }}</title>
     {% if description != "" %}
-    <meta name="description" content="{{description}}" />
+    <meta name="description" content="{{description}}">
     {% endif %}
     {% if page.date %}
       <meta property="article:published_time" content="{{ page.date }}">
@@ -20,10 +20,10 @@
       <meta property="article:published_time" content="{{ section.date }}">
     {% endif %}
     {% if page.updated %}
-    <meta http-equiv="last-modified" content="{{ page.updated}}">
+    <meta http-equiv="last-modified" content="{{ page.updated }}">
     {% endif %}
-    {# halloween<meta name="theme-color" content="#fe5000" />#}
-    <meta name="theme-color" content="#909EFF" />
+    {# halloween<meta name="theme-color" content="#fe5000">#}
+    <meta name="theme-color" content="#909EFF">
     <meta name="author" content="Matt Ronchetto">
     <link rel="pgpkey authn" href="/pgp.asc">
   </head>
@@ -48,19 +48,23 @@
       <section>
         <h1>{{title}}</h1>
         {% if page.date %}
-          <p><time datetime="{{ page.date }}">{{ page.date | date(format="%A, %-d %B %Y") }}</time>.<br/>
+          {% set date = page.date | date(format="%+") %}
+          <p>
+            <time datetime="{{ date }}">{{ page.date | date(format="%A, %-d %B %Y") }}</time>.<br/>
             {% if page.updated %}
-            <i>Updated: <time datetime="{{ page.updated }}">{{ page.updated | date(format="%A, %-d %B %Y") }}</time>.</i>
+              {% set updated = page.updated | date(format="%+") %}
+              <i>Updated: <time datetime="{{ updated }}">{{ page.updated | date(format="%A, %-d %B %Y") }}</time>.</i>
             {% endif %}
           </p>
         {% elif page.updated %}
-          <p><i>Updated: <time datetime="{{ page.updated }}">{{ page.updated | date(format="%A, %-d %B %Y") }}</time>.</i></p>
+          {% set updated = page.updated | date(format="%+") %}
+          <p><i>Updated: <time datetime="{{ updated }}">{{ page.updated | date(format="%A, %-d %B %Y") }}</time>.</i></p>
         {% endif %}
       </section>
     </header>
     <main id="content">{% block content %}{% endblock content %}</main>
     <footer>
-      <hr/>
+      <hr>
       <p>&copy; 2017-2023 Matthew Ronchetto. <a href="https://creativecommons.org/licenses/by/4.0/deed.fr">CC-BY,</a> unless mentioned otherwise.</p>
       <p><a href="/atom.xml">RSS/Atom.</a> <a href="/colophon/">Colophon.</a> <a href="/contact">Contact.</a></p>
     </footer>
