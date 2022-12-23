@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-      <title>Matt Ronchetto — doamatto</title>
-      {% if section %}
-        {% set url = section.permalink | escape_xml | safe %}
-      {% else %}
-        {% set url = config.base_url | escape_xml | safe %}
-      {% endif %}
-      <link>{{ url }}</link>
-      <description>I'm a high school student living in San Diego. I like to mess around with software development and graphic design.</description>
-      <generator>Zola</generator>
-      <language>en</language>
-      <atom:link href="{{ feed_url | safe }}" rel="self" type="application/rss+xml"/>
-      <lastBuildDate>{{ last_updated | date(format="%Y-%M-%dT%H:%M:%SZ") }}</lastBuildDate>
-      {% if feed_url is containing("z") %}
-        {% set blog = get_section(path="z/_index.md") %}
-      {% else %}
-        {% set blog = get_section(path="blog/_index.md") %}
-      {% endif %}
-      {% set posts = blog.pages %}
-      {%- for post in posts | sort(attribute="date") | reverse %}
-      <item>
-          <title>{{ post.title }}</title>
-          <pubDate>{{ post.date | date(format="%Y-%M-%dT%H:%M:%SZ") }}</pubDate>
-          <link>{{ post.permalink | escape_xml | safe }}</link>
-          <guid>{{ post.permalink | escape_xml | safe }}</guid>
-          <description>{% if post.summary %}{{ post.summary }}{% else %}{{ post.content }}{% endif %}</description>
-      </item>
-      {%- endfor %}
-    </channel>
-</rss>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Matt Ronchetto — doamatto</title>
+    <subtitle>I'm a high school student living in San Diego. I like to mess around with software development and graphic design.</subtitle>
+    <link href="{{ feed_url | safe }}" rel="self" type="application/rss+xml"/>
+    <id>https://maatt.fr/atom.xml</id>
+    <generator>Zola</generator>
+    <updated>{{ last_updated | date(format="%+") }}</updated>
+    {% if section %}
+      {% set url = section.permalink | escape_xml | safe %}
+    {% else %}
+      {% set url = config.base_url | escape_xml | safe %}
+    {% endif %}
+    <link href="{{url}}"/>
+    {% if feed_url is containing("z") %}
+      {% set blog = get_section(path="z/_index.md") %}
+    {% else %}
+      {% set blog = get_section(path="blog/_index.md") %}
+    {% endif %}
+    {% set posts = blog.pages %}
+    {%- for post in posts | sort(attribute="date") | reverse %}
+    <entry xml:lang="en">
+        <title>{{ post.title }}</title>
+        <author><name>Matthew Ronchetto</name></author>
+        <link href="{{ post.permalink | escape_xml | safe }}"/>
+        <id>{{post.permalink | escape_xml | safe }}</id>
+        <published>{{ post.date | date(format="%+") }}</published>
+        <updated>{% if post.updated %}{{ post.updated | date(format="%+")}}{% else %}{{ post.date | date(format="%+") }}{% endif %}</updated>
+        <content type="html">{% if post.summary %}{{ post.summary }}{% else %}{{ post.content }}{% endif %}</content>
+    </entry>
+    {%- endfor %}
+</feed>
