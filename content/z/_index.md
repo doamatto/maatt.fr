@@ -15,6 +15,6 @@ Think of these like similar blogs:
   - [Kottke.org](https://kottke.org/)
   - [Swiss Miss](https://www.swiss-miss.com/)
 
-This section has an [Atom feed](/z/atom.xml)
+This section has an [Atom feed.](/z/atom.xml)
 
 ---
