@@ -1,5 +1,6 @@
 +++
 title= "Broadcom bought VMware; EU investigation underway"
+description= "Broadcom is acquiring VMware, prompting investigation by the EU with fears of less comeptition with server hardware."
 date= 2022-12-22T02:18:00Z
 +++
 

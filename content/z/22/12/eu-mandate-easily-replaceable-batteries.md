@@ -1,5 +1,6 @@
 +++
 title= "EU to mandate 'easily' replaceable batteries"
+description= "The Parliament has released a statement on hopes to implement policies regulating portable batteries to be made easily removeable and replaceable by consumers."
 date= 2022-12-22T05:38:00Z
 +++
 

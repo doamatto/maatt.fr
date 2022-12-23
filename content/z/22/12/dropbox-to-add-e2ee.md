@@ -1,5 +1,6 @@
 +++
 title= "Dropbox acquires Boxcryptor, plans to add end-to-end encryption"
+description= "Dropbox has acquired Boxcrypto with plans to add native support to Dropbox. The servers are not expected to merge and Boxcryptor has closed signups and license purchases."
 date= 2022-12-01T03:48:00Z
 +++
 

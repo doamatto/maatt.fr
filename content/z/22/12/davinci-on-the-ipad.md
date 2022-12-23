@@ -4,6 +4,7 @@ date= 2022-12-22T00:44:00Z
 +++
 
 App Store: [DaVinci Resolve for iPad](https://apps.apple.com/us/app/davinci-resolve-for-ipad/id1581363826) (free, with 94,99 $US in-app purchase)
+
 URL: [https://twitter.com/i/status/1605732815458664449](https://twitter.com/i/status/1605732815458664449)
 
 ---

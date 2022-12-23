@@ -1,5 +1,6 @@
 +++
 title= "Japan to restart nuclear energy plans"
+description= "After Fukushima, Japan had planned to phase out nuclear. AP reported today that they will develop new reacotrs and maximise the length of their oldest reactors."
 date= 2022-12-22T05:23:00Z
 +++
 

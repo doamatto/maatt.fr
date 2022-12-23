@@ -1,5 +1,6 @@
 +++
 title= "Microsoft and OpenAI are getting sued for copyright law violations"
+description= "Microsoft (by extension GitHub) and OpenAI are getting sued for violating copyright law because they keep using open-source code and violating the code's licenses."
 date= 2022-12-11T04:51:00Z
 +++
 
