@@ -11,7 +11,9 @@
       {% set description = page.description %}
     {% endblock head %}
     <title>{{ title ~ " — doamatto" }}</title>
+    {% if description != "" %}
     <meta name="description" content="{{description}}" />
+    {% endif %}
     {% if page.date %}
       <meta property="article:published_time" content="{{ page.date }}">
     {% elif section.date %}
@@ -20,9 +22,6 @@
     {% if page.updated %}
     <meta http-equiv="last-modified" content="{{ page.updated}}">
     {% endif %}
-    {# #}
-    {# #}
-    {# #}
     {# halloween<meta name="theme-color" content="#fe5000" />#}
     <meta name="theme-color" content="#909EFF" />
     <meta name="author" content="Matt Ronchetto">
