@@ -66,19 +66,17 @@
 #  redir https://matt.fa{uri} 
 #}
 
-maatt.fr {
+beta.maatt.fr {
 	import redirs
-  root * /srv/apps/caddy/sites/maatt.fr/public
+  root * /srv/apps/caddy/sites/beta.maatt.fr/public
 	encode zstd gzip
 	file_server {
     precompressed br
   }
 }
 
-www.maatt.fr,
-maatt.eu,
-www.maatt.eu {
+beta.maatt.eu {
   encode zstd gzip
-  redir https://maatt.fr{uri}
+  redir https://beta.maatt.fr{uri}
 }
 
