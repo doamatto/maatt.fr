@@ -1,5 +1,5 @@
 +++
-title= "Broadcom has bought VMware; EU Commission investigation underway"
+title= "Broadcom bought VMware; EU investigation underway"
 date= 2022-12-22T02:18:00Z
 +++
 

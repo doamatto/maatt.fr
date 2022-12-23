@@ -1,5 +1,5 @@
 +++
-title= "LastPass was breached a week ago; turns out that breach inclued backups of user vaults"
+title= "LastPass was breached: included backups of user vaults"
 date= 2022-12-22T05:44:00Z
 +++
 

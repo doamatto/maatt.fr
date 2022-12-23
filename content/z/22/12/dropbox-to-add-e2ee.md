@@ -1,5 +1,5 @@
 +++
-title= "Dropbox acquires Boxcryptor, plans to add end-to-end encryption to Dropbox"
+title= "Dropbox acquires Boxcryptor, plans to add end-to-end encryption"
 date= 2022-12-01T03:48:00Z
 +++
 

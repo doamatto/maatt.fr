@@ -1,5 +1,5 @@
 +++
-title= "GitHub, Microsoft, and OpenAI are getting sued for violating copyright law"
+title= "Microsoft and OpenAI are getting sued for copyright law violations"
 date= 2022-12-11T04:51:00Z
 +++
 

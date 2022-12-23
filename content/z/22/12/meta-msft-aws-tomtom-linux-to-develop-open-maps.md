@@ -1,5 +1,5 @@
 +++
-title= "Meta, Microsoft, Amazon, TomTom, and Linux Foundation to develop open map products"
+title= "Linux Foundation forms with Meta, Microsoft, Amazon, and TomTom the Overture Maps Foundation"
 date= 2022-12-19T02:26:00Z
 +++
 
