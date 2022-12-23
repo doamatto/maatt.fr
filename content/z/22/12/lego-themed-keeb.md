@@ -7,4 +7,4 @@ Store URL: [https://kbdcraft.store/products/adam](https://kbdcraft.store/product
 
 ---
 
-Something about a DIY keyboard that is made from out of Lego is so charming to me. At 94€ for a full kit, it is far too tempting for me to consider clicking "Add to cart." If only it came in black or had its pieces downloadable so I could make htem black myself.
+Something about a DIY keyboard that is made out of Lego is so charming to me. At 94€ for a full kit, it is far too tempting for me to consider clicking "Add to cart." If only it came in black or had its pieces downloadable so I could make them black myself.

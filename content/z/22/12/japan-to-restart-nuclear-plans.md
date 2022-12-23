@@ -7,7 +7,7 @@ Article: [Associated Press via NPR](https://www.npr.org/2022/12/22/1144990722/ja
 
 ---
 
-After the Fukushima disaster ([wikipedia](https://en.wikipedia.org/wiki/Fukushima_nuclear_disaster), for reference), Japan had plans to phase out the remaining nuclear power in Japan. AP reported today that the Japan will now not only develop new reactors, but will maximise current reactors and continue operating their oldest beyond a 60-year limit. Takeo Kikkawa says that "extending reactors' lifespans is an undesirable move."
+After the Fukushima disaster ([wikipedia](https://en.wikipedia.org/wiki/Fukushima_nuclear_disaster), for reference), Japan had plans to phase out the remaining nuclear power in Japan. AP reported today that Japan will now not only develop new reactors but will maximise current reactors and continue operating their oldest beyond a 60-year limit. Takeo Kikkawa says that "extending reactors' lifespans is an undesirable move."
 
 Most people are well aware of how France [uses almost entirely nuclear power](https://www.rte-france.com/en/eco2mix/power-generation-energy-source#) (followed by wind and natural gas). And, although I'm not keen on having to take iodine pills if one of these facilities were to go kaput and I happened to be in the vague area of it, it's been a stable source since the 1990s.
 

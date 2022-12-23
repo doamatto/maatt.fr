@@ -7,7 +7,7 @@ URL: [https://twitter.com/i/status/1600173319780814848](https://twitter.com/i/st
 
 ---
 
-It's cool to see support for the FOSS password manager being added to DDG's browser. 1Password support may or may not be in the browser (I don't have the beta and I haven't seen anything on the front-page of a search to see it there; I'll stick with Firefox for the unforseeable future), but it would likely be one of the last things I would need to consider DDG's browser.
+It's cool to see support for the FOSS password manager being added to DDG's browser. 1Password support may or may not be in the browser (I don't have the beta and I haven't seen anything on the front page of a search to see it there; I'll stick with Firefox for the unforeseeable future), but it would likely be one of the last things I would need to consider DDG's browser.
 
 That and uBlock.
 

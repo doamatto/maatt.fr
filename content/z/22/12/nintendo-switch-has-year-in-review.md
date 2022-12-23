@@ -15,7 +15,7 @@ Nintendo will now let you be disappointed in the amount you use your Switch with
 
 I don't use my Switch *too* often, so I had some basic results:
   - Most played: Mario Kart 8, Descenders, Life is Strange True Colors
-  - Played for past 3 years: Super Mario Odyssey
+  - Played for the past 3 years: Super Mario Odyssey
   - Started playing this year: Mario Kart 8, Descenders, Life is Strange True Colors
 
 I dig it.
