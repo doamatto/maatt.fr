@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% set section = get_section(path=path) %}
+
 {% block head %}
   {% set title = section.title %}
   {% set description = section.description %}
