@@ -12,9 +12,13 @@
 
 <section>
   <h2>Past posts</h2>
+  <!--<p>This is a cominbation of <a href="/blog">my blog</a> and my <a href="/z">titbit posts.</a> They use seperate RSS feeds.</p>-->
   {% set blogdata = get_section(path="blog/_index.md") %}
+  {#{% set zdata = get_section(path="z/_index.md") %}
+  {% set posts = blogdata.pages | concat(with=zdata.pages) %}#}
+  {% set posts = blogdata.pages %}
   <ul>
-    {% for post in blogdata.pages | sort(attribute="date") | reverse | slice(end=5) %}
+    {% for post in posts | sort(attribute="date") | reverse | slice(end=5) %}
     <li>
       <a href="{{post.permalink}}">{{post.title}}</a>
     </li>
