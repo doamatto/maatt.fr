@@ -19,6 +19,7 @@ updated= "2023-01-01"
 
 <!--### Flat
 - [Dyson v8](https://www.dyson.com/vacuum-cleaners/cordless/v8/absolute/silver-nickel)
+- [Fiskars scissors](https://www.fiskars.com/en-us/crafting-and-sewing/products/scissors-and-shears/seamstress-scissors-8-01-005437)
 - [Frog mug](https://smile.amazon.com/dp/B08QGYRH4V)
 - [IKEA glass container (14oz)](https://www.ikea.com/us/en/p/ikea-365-food-container-with-lid-round-glass-plastic-s09269094)
 - [IKEA glass container (34oz)](https://www.ikea.com/us/en/p/ikea-365-food-container-with-lid-rectangular-glass-plastic-s89269071)
@@ -50,10 +51,13 @@ updated= "2023-01-01"
 - [Apple iPad Pro (12,9-inch, Space Gray, 512Gb Wi-Fi)](https://www.apple.com/shop/buy-ipad/ipad-pro/12.9-inch-display-512gb-space-gray-wifi)
   - [Apple Pencil](https://www.apple.com/shop/product/MU8F2AM/A)
 - [Logitech MX Master 3S (graphite)](https://www.logitech.com/products/mice/mx-master-3s.910-006556.html) 
-- [Satechi USB-C charger](https://satechi.net/products/165w-usb-c-4-port-pd-gan-charger?variant=39787940937816)
+- [Satechi USB-C charger](https://satechi.net/products/165w-usb-c-4-port-pd-gan-charger?variant=39787940937816) ([alternative link](https://smile.amazon.com/gp/product/B09PMDZWZ6))
 - [Sony WH-1000XM4 headphones (black)](https://electronics.sony.com/audio/headphones/headband/p/wh1000xm4-b)
 - [Synology DS1821+](https://bhpho.to/3tL3yus)
+- [Ubiquiti Switch 24 PoE](https://store.ui.com/collections/unifi-network-switching/products/usw-enterprise-24-poe)
+  - [Ubiquiti Cloud Key Gen2](https://store.ui.com/collections/unifi-network-unifi-os-consoles/products/unifi-cloudkey-plus)
 - USB-C to 3,5mm adapter
+- [USB-C to USB-C cable (2x 2-packs)](https://smile.amazon.com/gp/product/B09LCJPZ1P)
 - [Yubikey 5C NFC](https://www.yubico.com/product/yubikey-5c-nfc/)
 <!--- [Apple MacBook Pro (14-inch, M1 Max 10/24/16, 64Gb RAM, 1Tb SSD)](https://www.apple.com/shop/buy-mac/macbook-pro/14-inch-space-gray-8-core-cpu-14-core-gpu-512gb)
 - [Elgato HD60 X](https://www.elgato.com/game-capture-hd60-x)
