@@ -22,6 +22,7 @@ updated= "2023-01-01"
 ### Flat & tools
 - [Fiskars scissors](https://www.fiskars.com/en-us/crafting-and-sewing/products/scissors-and-shears/seamstress-scissors-8-01-005437)
 - [Manduka mat (Black, 215cm)](https://www.manduka.com/products/manduka-pro-yoga-mat?variant=31221554151482)
+- [Opinel N°08 Outdoor Bleu](https://www.opinel.com/tradition/voile/n8-outdoor-bleu)
 - [StreetCarvings San Diego](https://streetcarvings.com/products/san-diego-carving-map-coming-soon)
 - [PB 8321 B2](https://www.pbswisstools.com/en/tools/quality-hand-tools/torque-tools/product/pb-8321set-b2)
 - [Wiha digital callipers](https://www.wiha.com/int/en/tools/measurement-tools/wiha-fibre-glass-reinforced-measuring-callipers/1120/callipers-digimax-digital?c=28)
