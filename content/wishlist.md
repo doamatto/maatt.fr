@@ -9,14 +9,14 @@ updated= "2023-01-01"
 
 ### Clothes
 - [Darn Tough Quarter Light socks (Large)](https://darntough.com/collections/mens-1-4-socks/products/mens-light-hiker-quarter-lightweight-hiking-sock-last-chance) ([military discount](https://darntough.com/pages/exclusive-discounts))
-- [Ector sneakers (Size 44)](https://www.ector-sneakers.com/chaussure/sneaker-ector-3w-tricolore/?attribute_pa_coloris=tri-bleu-blanc-rouge&attribute_pa_pointure=44)
 - [Microsoft Windows Ugly Sweater](https://gear.xbox.com/products/clippy-holiday-sweater)
 - [Monterey Bay Sea Otter bracelet](https://shop.montereybayaquarium.org/collections/bracelets/products/4ocean-sea-otter-bracelet)
 - [Montlimart belt (85cm)](https://www.montlimart.com/ceintures-chaussettes/693-ceinture-kilometre-noir.html)
 - [Patagonia beanie (Black)](https://www.patagonia.com/product/everyday-beanie/194187036997.html)
 - [Patagonia Torrentshell (Black, Medium)](https://www.patagonia.com/product/mens-torrentshell-3l-rain-jacket/85241.html)
 <!--
-- [Miret sneakers (Blackberry, EU 35)](https://www.miret.co/products/blackberry-wool-sneakers)
+- [Ector sneakers (Size 44)](https://www.ector-sneakers.com/chaussure/sneaker-ector-3w-tricolore/?attribute_pa_coloris=tri-bleu-blanc-rouge&attribute_pa_pointure=44)
+- [Fjallraven Värmland base layer (XXL / 136cm)](https://www.fjallraven.com/eu/en-gb/men/trousers/base-layer-bottoms/varmland-woolterry-long-johns-m?_t_q=&_t_hit.id=Luminos_Storefront_Web_Features_Catalog_Product_Domain_CommonProduct/CatalogContent_d3d680a6-47b9-4662-92e6-c7fa80939f1c_en-GB&_t_hit.pos=2&_t_tags=andquerymatch%2clanguage%3aen%2csiteid%3a162d49d9-f0ac-4d2d-a110-e8143f6ca828&v=F90842%3a%3a7323450476175)
 <!---->
 
 ### Flat & tools
@@ -30,21 +30,15 @@ updated= "2023-01-01"
 <!--
 - [Dyson v8](https://www.dyson.com/vacuum-cleaners/cordless/v8/absolute/silver-nickel)
 - [Frog mug](https://smile.amazon.com/dp/B08QGYRH4V)
-- [IKEA glass container (14oz)](https://www.ikea.com/us/en/p/ikea-365-food-container-with-lid-round-glass-plastic-s09269094)
-- [IKEA glass container (34oz)](https://www.ikea.com/us/en/p/ikea-365-food-container-with-lid-rectangular-glass-plastic-s89269071)
-- [Lee Valley measuring spoons](https://www.leevalley.com/en-us/shop/kitchen/measurement/measuring-spoons/45139-spice-jar-measuring-spoons)
-- [Lee Valley spatula](https://www.leevalley.com/en-us/shop/kitchen/cooking-utensils/spatulas/62804-stainless-steel-spatula)
 - [Monoprice height-adjustable desk frame](https://www.monoprice.com/product?p_id=36078)
 - [Opinel chef's knife](https://www.opinel.com/couteaux-de-cuisine/collection-parallele-manche-bois/n118-chef-multi-usages-parallele)
 - [Opinel filet knife](https://www.opinel.com/couteaux-cuisine/collection-parallele-manche-bois/n121-effile-parallele)
 - [Opinel bread knife](https://www.opinel.com/couteaux-cuisine/collection-parallele-manche-bois/n116-couteau-pain-parallele)
-- [Ove Glove](https://smile.amazon.com/dp/B0797DTFLM)
-- [OXO wooden spoon](https://www.oxo.com/categories/cooking-and-baking/utensils/spoons-spatulas-turners/wooden-large-spoon.html)
+- [Pelican case (1615TRVL)](https://www.pelican.com/us/en/product/cases/travel-case/air/1615trvl)
 - [Pyrex cups](https://www.pyrex.fr/collections/verres-mesureurs/products/set-de-3-brocs-mesureur-en-verre-pyrex%C2%AE)
 - [Soehnle 915x (9150.03.040)](https://www.soehnle-professional.com/en/productgroup/details/589/)
 - [Soehnle scale](https://www.leifheit.com/en-en/soehnle/analogue-personal-scales/17064/analogue-personal-scale-tempo-white/61098)
 - [Silpat sheet](https://fr.silpat.com/products/la-toile-originale)
-- [Vollrath cooking tongs](https://www.webstaurantstore.com/vollrath-4781622-jacobs-pride-16-hi-temp-stainless-steel-scalloped-tong-with-nylon-end-and-coated-handle/9224781622.html)
 <!---->
 
 ### Literature
@@ -62,8 +56,6 @@ updated= "2023-01-01"
 - [Satechi USB-C charger](https://satechi.net/products/165w-usb-c-4-port-pd-gan-charger?variant=39787940937816) ([alternative link](https://smile.amazon.com/gp/product/B09PMDZWZ6))
 - [Sony WH-1000XM4 headphones (black)](https://electronics.sony.com/audio/headphones/headband/p/wh1000xm4-b)
 - [Synology DS1821+](https://bhpho.to/3tL3yus)
-- [Ubiquiti Switch 24 PoE](https://store.ui.com/collections/unifi-network-switching/products/usw-enterprise-24-poe)
-  - [Ubiquiti Cloud Key Gen2](https://store.ui.com/collections/unifi-network-unifi-os-consoles/products/unifi-cloudkey-plus)
 - USB-C to 3,5mm adapter
 - [USB-C to USB-C cable (2x 2-packs)](https://smile.amazon.com/gp/product/B09LCJPZ1P)
 - [Yubikey 5C NFC](https://www.yubico.com/product/yubikey-5c-nfc/)
@@ -85,9 +77,8 @@ updated= "2023-01-01"
 - [Apple credits](https://www.apple.com/fr/shop/buy-giftcard/giftcard)
 - [Backblaze credits](https://secure.backblaze.com/gift.htm)
 - [Lego McLaren F1 car](https://www.lego.com/en-us/product/mclaren-formula-1-race-car-42141)
-- [Sigg water bottle](https://sigg.com/en/water-bottle-traveller-alu/)
+- [Sigg water bottle (1L, silver)](https://sigg.com/en/water-bottle-traveller-alu/)
 <!--
-- [CERN "Hydrogen" bottle](https://visit.cern/content/hydrogen) 
 - [Lego BMW M 1000 RR](https://www.lego.com/en-us/product/bmw-m-1000-rr-42130)
 - [Lego Lamborghini Sián](https://www.lego.com/en-gb/product/lamborghini-sian-fkp-37-42115)
 - [Husky dog blade covers](https://smile.amazon.com/dp/B07JGDW3LP)
