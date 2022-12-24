@@ -9,19 +9,19 @@ updated= "2023-01-01"
 
 ### Clothes
 - [Darn Tough Quarter Light socks (Large)](https://darntough.com/collections/mens-1-4-socks/products/mens-light-hiker-quarter-lightweight-hiking-sock-last-chance) ([military discount](https://darntough.com/pages/exclusive-discounts))
-- [Ector sneakers (Size 44)](https://www.ector-sneakers.com/chaussure/sneaker-ector-3w-tricolore/?attribute_pa_coloris=tri-bleu-blanc-rouge&attribute_pa_pointure=41)
+- [Ector sneakers (Size 44)](https://www.ector-sneakers.com/chaussure/sneaker-ector-3w-tricolore/?attribute_pa_coloris=tri-bleu-blanc-rouge&attribute_pa_pointure=44)
 - [Microsoft Windows Ugly Sweater](https://gear.xbox.com/products/clippy-holiday-sweater)
 - [Monterey Bay Sea Otter bracelet](https://shop.montereybayaquarium.org/collections/bracelets/products/4ocean-sea-otter-bracelet)
 - [Montlimart belt (85cm)](https://www.montlimart.com/ceintures-chaussettes/693-ceinture-kilometre-noir.html)
 - [Patagonia beanie (Black)](https://www.patagonia.com/product/everyday-beanie/194187036997.html)
-- [Patagonia Torrentshell (Black, Medium)](https://www.patagonia.com/product/mens-torrentshell-3l-rain-jacket/192964428010.html)
+- [Patagonia Torrentshell (Black, Medium)](https://www.patagonia.com/product/mens-torrentshell-3l-rain-jacket/85241.html)
 <!--
 - [Miret sneakers (Blackberry, EU 35)](https://www.miret.co/products/blackberry-wool-sneakers)
 <!---->
 
 ### Flat & tools
 - [Fiskars scissors](https://www.fiskars.com/en-us/crafting-and-sewing/products/scissors-and-shears/seamstress-scissors-8-01-005437)
-- [Manduka PRO Mat (Black, 215cm)](https://www.manduka.com/products/manduka-pro-yoga-mat?variant=31221554151482)
+- [Manduka mat (Black, 215cm)](https://www.manduka.com/products/manduka-pro-yoga-mat?variant=31221554151482)
 - [StreetCarvings San Diego](https://streetcarvings.com/products/san-diego-carving-map-coming-soon)
 - [PB 8321 B2](https://www.pbswisstools.com/en/tools/quality-hand-tools/torque-tools/product/pb-8321set-b2)
 - [Wiha digital callipers](https://www.wiha.com/int/en/tools/measurement-tools/wiha-fibre-glass-reinforced-measuring-callipers/1120/callipers-digimax-digital?c=28)
@@ -49,8 +49,8 @@ updated= "2023-01-01"
 ### Literature
 - [The Art of Sound: A Visual History for Audiophiles](https://bookshop.org/books/the-art-of-sound-a-visual-history-for-audiophiles/9780500519288) (ISBN `9780500519288`)
 - [Herman Miller: A Way of Living](https://bookshop.org/books/herman-miller-a-way-of-living/9780714875217) (ISBN `9780714875217`)
-- [Life is Strange Vol. 6 (Paperback)](https://smile.amazon.com/gp/product/1787734757) (ISBN `9781787734757`)
 - [The iOS App Icon Book](https://flarup.shop/products/the-ios-app-icon-book) ([alternative link](https://www.kickstarter.com/projects/flarup/the-ios-app-icon-book))
+- [Life is Strange Vol. 6 (Paperback)](https://smile.amazon.com/gp/product/1787734757) (ISBN `9781787734757`)
 
 ### Technology
 - [Apple AirTag (4-pack)](https://www.apple.com/shop/buy-airtag/airtag)
@@ -83,12 +83,12 @@ updated= "2023-01-01"
 ### Uncategorised
 - [Apple credits](https://www.apple.com/fr/shop/buy-giftcard/giftcard)
 - [Backblaze credits](https://secure.backblaze.com/gift.htm)
+- [Lego McLaren F1 car](https://www.lego.com/en-us/product/mclaren-formula-1-race-car-42141)
 - [Sigg water bottle](https://sigg.com/en/water-bottle-traveller-alu/)
 <!--
 - [CERN "Hydrogen" bottle](https://visit.cern/content/hydrogen) 
 - [Lego BMW M 1000 RR](https://www.lego.com/en-us/product/bmw-m-1000-rr-42130)
 - [Lego Lamborghini Sián](https://www.lego.com/en-gb/product/lamborghini-sian-fkp-37-42115)
-- [Lego McLaren F1 car](https://www.lego.com/en-us/product/mclaren-formula-1-race-car-42141)
 - [Husky dog blade covers](https://smile.amazon.com/dp/B07JGDW3LP)
 - [Secrid Slimwallet](https://secrid.com/en-us/slimwallet-original-black/)
 <!---->
