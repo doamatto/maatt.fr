@@ -50,6 +50,7 @@ updated= "2023-01-01"
 - [Apple AirTag (4-pack)](https://www.apple.com/shop/buy-airtag/airtag)
 - [Apple iPad Pro (12,9-inch, Space Gray, 512Gb Wi-Fi)](https://www.apple.com/shop/buy-ipad/ipad-pro/12.9-inch-display-512gb-space-gray-wifi)
   - [Apple Pencil](https://www.apple.com/shop/product/MU8F2AM/A)
+- [Asus ProArt PA32UCG-K](https://shop.asus.com/us/90lm03h0-b083b0-proart-display-pa32ucg-k.html)
 - [Logitech MX Master 3S (graphite)](https://www.logitech.com/products/mice/mx-master-3s.910-006556.html) 
 - [Satechi USB-C charger](https://satechi.net/products/165w-usb-c-4-port-pd-gan-charger?variant=39787940937816) ([alternative link](https://smile.amazon.com/gp/product/B09PMDZWZ6))
 - [Sony WH-1000XM4 headphones (black)](https://electronics.sony.com/audio/headphones/headband/p/wh1000xm4-b)
@@ -86,4 +87,5 @@ updated= "2023-01-01"
 - [Lego Lamborghini Sián](https://www.lego.com/en-gb/product/lamborghini-sian-fkp-37-42115)
 - [Lego McLaren F1 car](https://www.lego.com/en-us/product/mclaren-formula-1-race-car-42141)
 - [Husky dog blade covers](https://smile.amazon.com/dp/B07JGDW3LP)
-- [Secrid Slimwallet](https://secrid.com/en-us/slimwallet-original-black/) <!---->
+- [Secrid Slimwallet](https://secrid.com/en-us/slimwallet-original-black/)
+- [Sigg water bottle](https://sigg.com/en/water-bottle-traveller-alu/) <!---->
