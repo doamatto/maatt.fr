@@ -81,7 +81,7 @@ footer {
 }
 
 // Misc
-.home {
+#home {
   display: flex;
   &:hover {
     background: none;
@@ -120,7 +120,7 @@ footer {
     color: $accent;
     //@include lunar-dark; // LNY
   }
-  .home {
+  #home {
     svg path { fill: #fff; }
     &:hover { svg path { fill: $accent; } }
   }
