@@ -51,7 +51,7 @@
         {% if page.date %}
           {% set date = page.date | date(format="%+") %}
           <p>
-            <time datetime="{{ date }}">{{ page.date | date(format="%A, %-d %B %Y") }}</time>.<br/>
+            <time datetime="{{ date }}">{{ page.date | date(format="%A, %-d %B %Y") }}</time>.<br>
             {% if page.updated %}
               {% set updated = page.updated | date(format="%+") %}
               <i>Updated: <time datetime="{{ updated }}">{{ page.updated | date(format="%A, %-d %B %Y") }}</time>.</i>
