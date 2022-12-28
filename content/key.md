@@ -2,7 +2,7 @@
 title="Public key"
 +++
 
-You can download my key [here](/pgp.asc). You can also use `curl -sL https://maatt.fr/pgp.asc | gpg --import`.
+You can [download my PGP key here](/pgp.asc). You can also use `curl -sL https://maatt.fr/pgp.asc | gpg --import`.
 
 Fingerprint: `6E0C83C8267059302C059C4BEF15E965D58EC01D`
 
