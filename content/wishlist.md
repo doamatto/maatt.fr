@@ -1,86 +1,114 @@
 +++
 title="Wishlist"
-updated= "2023-01-01"
+draft=true
 +++
 
 ### CDs
-- [Dream Your Life Away CD](https://www.discogs.com/release/7992930) (UPC `075678666957`)
-- [Mechanical Bull CD](https://www.discogs.com/master/599554?format=CD)
+- [Dawn FM CD](https://discogs.com/master/2452996?format=CD)
+- [Mechanical Bull CD](https://discogs.com/master/599554?format=CD)
+- [VA-11 HALL-A Soundtrack CD](https://fangamer.com/collections/va-11-hall-a/products/va-11-hall-a-complete-sound-collection)
 
 ### Clothes
-- [Darn Tough Quarter Light socks (Large)](https://darntough.com/collections/mens-1-4-socks/products/mens-light-hiker-quarter-lightweight-hiking-sock-last-chance) ([military discount](https://darntough.com/pages/exclusive-discounts))
+- [Ector sneakers (Size 44)](https://ector-sneakers.com/chaussure/sneaker-ector-3w-tricolore/?attribute_pa_coloris=tri-bleu-blanc-rouge&attribute_pa_pointure=44) (in French)
 - [Microsoft Windows Ugly Sweater](https://gear.xbox.com/products/clippy-holiday-sweater)
-- [Monterey Bay Sea Otter bracelet](https://shop.montereybayaquarium.org/collections/bracelets/products/4ocean-sea-otter-bracelet)
-- [Montlimart belt (85cm)](https://www.montlimart.com/ceintures-chaussettes/693-ceinture-kilometre-noir.html)
-- [Patagonia beanie (Black)](https://www.patagonia.com/product/everyday-beanie/194187036997.html)
-- [Patagonia Torrentshell (Black, Medium)](https://www.patagonia.com/product/mens-torrentshell-3l-rain-jacket/85241.html)
-<!--
-- [Ector sneakers (Size 44)](https://www.ector-sneakers.com/chaussure/sneaker-ector-3w-tricolore/?attribute_pa_coloris=tri-bleu-blanc-rouge&attribute_pa_pointure=44)
-- [Fjallraven Värmland base layer (XXL / 136cm)](https://www.fjallraven.com/eu/en-gb/men/trousers/base-layer-bottoms/varmland-woolterry-long-johns-m?_t_q=&_t_hit.id=Luminos_Storefront_Web_Features_Catalog_Product_Domain_CommonProduct/CatalogContent_d3d680a6-47b9-4662-92e6-c7fa80939f1c_en-GB&_t_hit.pos=2&_t_tags=andquerymatch%2clanguage%3aen%2csiteid%3a162d49d9-f0ac-4d2d-a110-e8143f6ca828&v=F90842%3a%3a7323450476175)
-<!---->
+- [Montlimart belt (85cm)](https://montlimart.com/ceintures-chaussettes/693-ceinture-kilometre-noir.html#/132-taille-85) (in French)
+- [Patagonia beanie (Black)](https://patagonia.com/product/194187036997.html)
+- [Patagonia Torrentshell (Black, Medium)](https://patagonia.com/product/85241.html)
 
-### Flat & tools
-- [Fiskars scissors](https://www.fiskars.com/en-us/crafting-and-sewing/products/scissors-and-shears/seamstress-scissors-8-01-005437)
-- [Manduka mat (Black, 215cm)](https://www.manduka.com/products/manduka-pro-yoga-mat?variant=31221554151482)
-- [Opinel N°08 Outdoor Bleu](https://www.opinel.com/tradition/voile/n8-outdoor-bleu)
-- [StreetCarvings San Diego](https://streetcarvings.com/products/san-diego-carving-map-coming-soon)
-- [PB 8321 B2](https://www.pbswisstools.com/en/tools/quality-hand-tools/torque-tools/product/pb-8321set-b2)
-- [Wiha digital callipers](https://www.wiha.com/int/en/tools/measurement-tools/wiha-fibre-glass-reinforced-measuring-callipers/1120/callipers-digimax-digital?c=28)
-- [Wiha multimeter](https://www.wiha.com/int/en/tools/electro/measuring-equipment/1801/digital-multimeter-up-to-1-000-v-ac-cat-iv?c=28)
-<!--
-- [Dyson v8](https://www.dyson.com/vacuum-cleaners/cordless/v8/absolute/silver-nickel)
+### Desk
+- [Asus ProArt PA32UCG-K](https://shop.asus.com/us/90lm03h0-b083b0-proart-display-pa32ucg-k.html)
+- [Logitech MX Master 3S (graphite)](https://logitech.com/products/mice/mx-master-3s.910-006556.html)
+- [Opal C1 webcam](https://opalcamera.com/)
+- [Schoeps Setreo CMC 6 with MK 4](https://schoeps.de/en/products/stereo/sets/stereo-set-cmc-6.html)
+  - Need to find mixer/make flowchart with headphone amp/DAC
+- [System76 Thelio Major (Walnut, AMD Ryzen 9 7950X, 64GB RAM, 1TB PCIe, RTX 4080)](https://system76.com/desktops/thelio)
+- [Wacom Cintiq Pro 24](https://wacom.com/products/pen-displays/wacom-cintiq-pro-24)
+  - [Wacom Flex Arm](https://estore.wacom.com/catalog/product/view/id/2677/s/wacom-flex-arm-for-cintiq-pro-24-32-ack62803k/)
+- [Pair of Yamaha HS7](https://bhphotovideo.com/c/product/964751-REG)
+  - [2x isolation pads](https://bhphotovideo.com/c/product/888709-REG)
+
+### Entertainment
+- [Apple TV 4K (Wi-Fi + Ethernet)](https://apple.com/shop/buy-tv/apple-tv-4k)
+- [Logitech G29 (PS5/PS4/PC)](https://logitechg.com/products/driving/driving-force-racing-wheel.html)
+  - [Shifter](https://logitechg.com/products/driving/driving-force-shifter.941-000119.html)
+- [Playdate console](https://play.date/)
+  - [Cover](https://play.date/cover/)
+- [Sonos One SL](https://sonos.com/shop/one-sl)
+
+### Flat
+- [100 Acre Wood rug](https://smile.amazon.com/dp/B09CMJCT8L)
+- [Chichi plush in a cage](https://ghibli-museum-shop.jp/i/K-6383)
 - [Frog mug](https://smile.amazon.com/dp/B08QGYRH4V)
-- [Monoprice height-adjustable desk frame](https://www.monoprice.com/product?p_id=36078)
-- [Opinel chef's knife](https://www.opinel.com/couteaux-de-cuisine/collection-parallele-manche-bois/n118-chef-multi-usages-parallele)
-- [Opinel filet knife](https://www.opinel.com/couteaux-cuisine/collection-parallele-manche-bois/n121-effile-parallele)
-- [Opinel bread knife](https://www.opinel.com/couteaux-cuisine/collection-parallele-manche-bois/n116-couteau-pain-parallele)
-- [Pelican case (1615TRVL)](https://www.pelican.com/us/en/product/cases/travel-case/air/1615trvl)
-- [Pyrex cups](https://www.pyrex.fr/collections/verres-mesureurs/products/set-de-3-brocs-mesureur-en-verre-pyrex%C2%AE)
-- [Soehnle 915x (9150.03.040)](https://www.soehnle-professional.com/en/productgroup/details/589/)
-- [Soehnle scale](https://www.leifheit.com/en-en/soehnle/analogue-personal-scales/17064/analogue-personal-scale-tempo-white/61098)
+- [Monoprice height-adjustable desk frame](https://monoprice.com/product?p_id=36078)
+- [Opinel bread knife](https://opinel.com/couteaux-cuisine/collection-parallele-manche-bois/n116-couteau-pain-parallele) (in French)
+- [Opinel chef's knife](https://opinel.com/couteaux-de-cuisine/collection-parallele-manche-bois/n118-chef-multi-usages-parallele) (in French)
+- [Opinel filet knife](https://opinel.com/couteaux-cuisine/collection-parallele-manche-bois/n121-effile-parallele) (in French)
+- [Shibuya print](https://etsy.com/listing/714719202)
+- [StreetCarvings San Diego](https://streetcarvings.com/products/san-diego-carving-map-coming-soon)
+- [Yellow Leaf hammock](https://yellowleafhammocks.com/products/double-hammock-nautical-seersucker-vineyard-haven)
+
+### Tools
+- [Dyson v8 Absolute](https://www.dyson.com/vacuum-cleaners/cordless/v8/absolute)
+- [Fiskars scissors](https://fiskars.com/en-us/crafting-and-sewing/products/scissors-and-shears/seamstress-scissors-8-01-005437)
+- [Manduka mat (Black, 215cm)](https://manduka.com/products/manduka-pro-yoga-mat?variant=31221554151482)
+- [Mitutoyo calipers (ref. 500-177-30)](https://mitutoyo.com/products/small-tool-instruments-and-data-management/calipers/digimatic-calipers/absolute-digimatic-caliper/)
+- [Numworks calculator](https://numworks.com/buy/)
+- [Pelican case (1615TRVL)](https://pelican.com/us/en/product/cases/travel-case/air/1615trvl)
+- [Pyrex cups](https://pyrex.fr/collections/verres-mesureurs/products/set-de-3-brocs-mesureur-en-verre-pyrex%C2%AE) (in French)
+- [Scotch H180 dispenser](https://3m.com/3M/en_US/p/d/b40069541/)
 - [Silpat sheet](https://fr.silpat.com/products/la-toile-originale)
-<!---->
+- [Soehnle 915x (9150.03.040)](https://soehnle-professional.com/en/productgroup/details/589/)
+- [Soehnle scale](https://leifheit.com/en-en/soehnle/analogue-personal-scales/17064/analogue-personal-scale-tempo-white/61098)
 
 ### Literature
-- [The Art of Sound: A Visual History for Audiophiles](https://bookshop.org/books/the-art-of-sound-a-visual-history-for-audiophiles/9780500519288) (ISBN `9780500519288`)
-- [Herman Miller: A Way of Living](https://bookshop.org/books/herman-miller-a-way-of-living/9780714875217) (ISBN `9780714875217`)
-- [The iOS App Icon Book](https://flarup.shop/products/the-ios-app-icon-book) ([alternative link](https://www.kickstarter.com/projects/flarup/the-ios-app-icon-book))
-- [Life is Strange Vol. 6 (Paperback)](https://smile.amazon.com/gp/product/1787734757) (ISBN `9781787734757`)
+- [The Art of Sound: A Visual History for Audiophiles](https://bookshop.org/book/9780500519288) (`9780500519288`)
+- [The Book of Goose](https://bookshop.org/book/9781250872418) (`9781250872418`)
+- [Herman Miller: A Way of Living](https://bookshop.org/book/9780714875217) (`9780714875217`)
+- [The iOS App Icon Book](https://flarup.shop/products/the-ios-app-icon-book) ([alternative link](https://kickstarter.com/projects/flarup/the-ios-app-icon-book))
+- [Life is Strange Vol. 6 (Paperback)](https://bookshop.org/book/9781787734753) (`9781787734757`)
+- [Strangers to Ourselves](https://bookshop.org/book/9781250872913) (`9781250872913`)
+- [The Ideal City](https://bookshop.org/book/9783899558623) (`9783899558623`)
+- [This Book is a Planetarium](https://bookshop.org/book/9781452136219) (`9781452136219`)
+- [The Trainspotter's Notebook](https://bookshop.org/book/9780857504722) (`9780857504722`)
 
 ### Technology
-- [Apple AirTag (4-pack)](https://www.apple.com/shop/buy-airtag/airtag)
-- [Apple iPad Pro (12,9-inch, Space Gray, 512Gb Wi-Fi)](https://www.apple.com/shop/buy-ipad/ipad-pro/12.9-inch-display-512gb-space-gray-wifi)
-  - [Apple Pencil](https://www.apple.com/shop/product/MU8F2AM/A)
-- [Asus ProArt PA32UCG-K](https://shop.asus.com/us/90lm03h0-b083b0-proart-display-pa32ucg-k.html)
-- [Logitech MX Master 3S (graphite)](https://www.logitech.com/products/mice/mx-master-3s.910-006556.html) 
+- [Apple AirTag (4-pack)](https://apple.com/shop/buy-airtag/airtag)
+- [Apple Watch Ultra (Green alpine loop, Medium 145-190mm)](https://apple.com/shop/buy-watch/apple-watch-ultra/49mm-cellular-titanium-green-alpine-loop-large)
+- [Raspberry Pi PoE HAT](https://raspberrypi.com/products/poe-hat/)
 - [Satechi USB-C charger](https://satechi.net/products/165w-usb-c-4-port-pd-gan-charger?variant=39787940937816) ([alternative link](https://smile.amazon.com/gp/product/B09PMDZWZ6))
+- [Sony a7s III](https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7sm3-b)
 - [Sony WH-1000XM4 headphones (black)](https://electronics.sony.com/audio/headphones/headband/p/wh1000xm4-b)
-- [Synology DS1821+](https://bhpho.to/3tL3yus)
 - USB-C to 3,5mm adapter
-- [USB-C to USB-C cable (2x 2-packs)](https://smile.amazon.com/gp/product/B09LCJPZ1P)
-- [Yubikey 5C NFC](https://www.yubico.com/product/yubikey-5c-nfc/)
-<!--
-- [Wacom Cintiq Pro 24](https://www.wacom.com/products/pen-displays/wacom-cintiq-pro-24)
-  - [Wacom Flex Arm](https://estore.wacom.com/catalog/product/view/id/2677/s/wacom-flex-arm-for-cintiq-pro-24-32-ack62803k/)
-<!---->
+- [USB-C to USB-C cable (2-pack)](https://smile.amazon.com/gp/product/B09LCJPZ1P)
+- [Yubikey 5C NFC](https://yubico.com/product/yubikey-5c-nfc/)
+
+### Servers
+- Raspberry Pi 4 (2, 4, or 8 GB SKU)
+- [Synology RS1221RP+](https://bhphotovideo.com/c/product/1617675-REG)
+  - 4x 2To desktop (3,5-inch) hard drives
+- [System76 Meerkat (Tall, i7-1165G7 CPU, 32GB RAM, 1TB PCIe)](https://system76.com/desktops/meerkat)
+- [Ubiquiti Dream Machine SE](https://store.ui.com/collections/products/products/dream-machine-se)
+  - [Ubiquiti U6 Lite](https://eu.store.ui.com/collections/unifi-network-wireless/products/unifi-ap-6-lite)
+  - [Ubiqiuti Mini Rack](https://eu.store.ui.com/collections/unifi-accessories/products/toolless-mini-rack)
 
 ### Candy
 - Dove— dark chocolate
 - Ferrero Rocher
-- Kinder Bueno
-- Loacker— chocolate flavoured Quadratini
-- Toblerone
-- See's— scotchmallows
+- Kinder Bueno— original
+- Loacker— Quadratini, chocolate flavoured
 - Swedish Fish
 
-### Uncategorised
-- [Apple credits](https://www.apple.com/fr/shop/buy-giftcard/giftcard)
+### Store credit
+- [Apple credits](https://apple.com/fr/shop/buy-giftcard/giftcard) (in French)
 - [Backblaze credits](https://secure.backblaze.com/gift.htm)
-- [Lego McLaren F1 car](https://www.lego.com/en-us/product/mclaren-formula-1-race-car-42141)
-- [Sigg water bottle (1L, silver)](https://sigg.com/en/water-bottle-traveller-alu/)
-<!--
-- [Lego BMW M 1000 RR](https://www.lego.com/en-us/product/bmw-m-1000-rr-42130)
-- [Lego Lamborghini Sián](https://www.lego.com/en-gb/product/lamborghini-sian-fkp-37-42115)
+- [Darn Tough Vermont credits](https://darntough.com/collections/gift-cards)
+- [Headspace credits](https://headspace.com/buy/gift)
+- [Qobuz credits (streaming)](https://qobuz.com/fr-fr/offer-qobuz) (in French)
+- [Uber credits](https://uber.com/fr/en/gift-cards/) (in French)
+
+### Uncategorised
+- [FLIGHT 001 travel adapters](https://smile.amazon.com/dp/B01N9YZN84)
 - [Husky dog blade covers](https://smile.amazon.com/dp/B07JGDW3LP)
-- [Secrid Slimwallet](https://secrid.com/en-us/slimwallet-original-black/)
-<!---->
+- [Secrid Slimwallet](https://secrid.com/slimwallet-original-black/)
+- [Sigg water bottle (1L, silver)](https://sigg.com/en/water-bottle-traveller-alu/)
+- [Staedtler Hexagone](https://item.rakuten.co.jp/hanko-otobe/hexagonal-925-77l/) (in Japanese)
