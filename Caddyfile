@@ -1,4 +1,47 @@
+# (redirs) {
+#   # Old page URLs
+#   redir /assets/line_invite.jpg https://line.me/R/ti/p/doamatto 301
 
+#   # Legacy pages
+#   redir /legal/environmental /legal/
+#   redir /legal/environmental/ /legal/
+#   redir /privacy /legal/
+#   redir /privacy/ /legal/
+#   redir /imprint /legal/
+#   redir /imprint/ /legal/
+
+#   # Old blog redirs
+#   redir /blog/forgot-my-love-for-art /oldblog/forgot-my-love-for-art
+#   redir /blog/linkrot /oldblog/linkrot
+#   redir /blog/lunar-2022 /oldblog/lunar-2022
+#   redir /blog/my-web-design-process /oldblog/my-web-design-process
+#   redir /blog/simpledash /oldblog/simpledash
+#   redir /blog/srhs-graduation-22 /oldblog/srhs-graduation-22
+#   redir /blog/static-spotify-widgets /oldblog/static-spotify-widgets
+
+#   # 404 redirects
+#   handle_errors {
+#     rewrite * /404.html
+#     encode zstd gzip
+#     file_server {
+#       precompressed br
+#     }
+#   }
+
+#   # Caching
+#   header Cache-Control "max-age=3600"
+#   header /static/* Cache-Control "max-age=31536000"
+
+#   # General headers
+#   header Permissions-Policy "interest-cohort=(), browsing-topics=(), join-ad-interest-group=(), run-ad-auction=()"
+#   header X-Content-Type-Options "nosniff"
+#   header X-Frame-Options "DENY"
+#   header Referrer-Policy "no-referrer"
+#   header Strict-Transport-Security "max-age=31536000;includeSubDomains;preload"
+#   header Vary "Origin, Accept-Encoding"
+#   header Server "maatt DOT fr"
+#   header Content-Security-Policy "default-src 'none'; style-src 'self'; img-src 'self' data:; https://fm.doamatto.xyz; form-action 'none'; base-uri 'self'; frame-ancestors 'none'; upgrade-insecure-requests; block-all-mixed-content"
+# }
 
 # Set internal Farer ACME server
 #matt.fa,
