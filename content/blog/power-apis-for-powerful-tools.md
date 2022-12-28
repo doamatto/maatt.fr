@@ -12,4 +12,6 @@ The answer to all of this is, in fact, not API wrappers. This is instead a band-
 
 This week, I've launched ~~two~~ one Go API wrappers: [`go-calipower`](https://github.com/doamatto/go-calipower) ~~and [`go-sdgeoutages`](https://github.com/doamatto/go-sdgeoutages)~~. CaliPower grabs data from the same source as the official Flex Alerts website, [the California ISO](https://caiso.com). There are no lamest terms for CAISO, as I haven't even dug into the surface of what they do in California. To the best and most logical assumption, however, they likely have a little something to do with power and a little something with making sure CalFire doesn't have to get involved.
 
+> **Edit:** A lot of proofreading and improvements to clarity.
+>
 > **Edit:** `go-sdgeoutages` was cancelled and was *eventually* planned to merge with `go-calipower`. Since it's the winter season, I don't have as much of a need to work on this, but once the warmer weather swings around (by SoCal standards), I'll add it to the wrapper.

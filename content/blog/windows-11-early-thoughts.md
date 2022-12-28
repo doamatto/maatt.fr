@@ -48,7 +48,7 @@ This need for a TPM has sparked scalpers interest causing some modules to go fro
 ## Conclusion
 Overall, I've never been a huge fan of Windows. It's slow, got lots of extra crap installed, and has had an inconsistent design for years. Windows 11 is more consistent, performant, and secure, and for most will be great. However, for people like me, who need every bit of performance for things like compilations, renders, and baking lights (oh god), Windows 10 might be where you want to stay until a LTSC update.
 
-**Edit:** A lot of proofreading and improvements to clarity.
+> **Edit:** A lot of proofreading and improvements to clarity.
 
 [^1]: This ended up being the case. You can find it by right-clicking the taskbar, selecting Taskbar Settings, opening the dropdown for Taskbar behaviours, and choosing Left.
 [^2]: It dawned on me in these revisions that the iPad Pro has a similar thing. Daniel nags me to keep everything open and not close it from multitasking, so I see a lot of "presets" of my slide-over and side-by-side apps in the multitasking.
