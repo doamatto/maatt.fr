@@ -31,12 +31,9 @@ draft=true
 - [Apple TV 4K (Wi-Fi + Ethernet)](https://apple.com/shop/buy-tv/apple-tv-4k)
 - [Logitech G29 (PS5/PS4/PC)](https://logitechg.com/products/driving/driving-force-racing-wheel.html)
   - [Shifter](https://logitechg.com/products/driving/driving-force-shifter.941-000119.html)
-- [Playdate console](https://play.date/)
-  - [Cover](https://play.date/cover/)
 - [Sonos One SL](https://sonos.com/shop/one-sl)
 
 ### Flat
-- [100 Acre Wood rug](https://smile.amazon.com/dp/B09CMJCT8L)
 - [Chichi plush in a cage](https://ghibli-museum-shop.jp/i/K-6383)
 - [Frog mug](https://smile.amazon.com/dp/B08QGYRH4V)
 - [Monoprice height-adjustable desk frame](https://monoprice.com/product?p_id=36078)
@@ -48,14 +45,12 @@ draft=true
 - [Yellow Leaf hammock](https://yellowleafhammocks.com/products/double-hammock-nautical-seersucker-vineyard-haven)
 
 ### Tools
-- [Dyson v8 Absolute](https://www.dyson.com/vacuum-cleaners/cordless/v8/absolute)
 - [Fiskars scissors](https://fiskars.com/en-us/crafting-and-sewing/products/scissors-and-shears/seamstress-scissors-8-01-005437)
 - [Manduka mat (Black, 215cm)](https://manduka.com/products/manduka-pro-yoga-mat?variant=31221554151482)
 - [Mitutoyo calipers (ref. 500-177-30)](https://mitutoyo.com/products/small-tool-instruments-and-data-management/calipers/digimatic-calipers/absolute-digimatic-caliper/)
 - [Numworks calculator](https://numworks.com/buy/)
 - [Pelican case (1615TRVL)](https://pelican.com/us/en/product/cases/travel-case/air/1615trvl)
 - [Pyrex cups](https://pyrex.fr/collections/verres-mesureurs/products/set-de-3-brocs-mesureur-en-verre-pyrex%C2%AE) (in French)
-- [Scotch H180 dispenser](https://3m.com/3M/en_US/p/d/b40069541/)
 - [Silpat sheet](https://fr.silpat.com/products/la-toile-originale)
 - [Soehnle 915x (9150.03.040)](https://soehnle-professional.com/en/productgroup/details/589/)
 - [Soehnle scale](https://leifheit.com/en-en/soehnle/analogue-personal-scales/17064/analogue-personal-scale-tempo-white/61098)
@@ -85,11 +80,10 @@ draft=true
 ### Servers
 - Raspberry Pi 4 (2, 4, or 8 GB SKU)
 - [Synology RS1221RP+](https://bhphotovideo.com/c/product/1617675-REG)
-  - 4x 2To desktop (3,5-inch) hard drives
+  - 4x 8To desktop (3,5-inch) hard drives
 - [System76 Meerkat (Tall, i7-1165G7 CPU, 32GB RAM, 1TB PCIe)](https://system76.com/desktops/meerkat)
 - [Ubiquiti Dream Machine SE](https://store.ui.com/collections/products/products/dream-machine-se)
   - [Ubiquiti U6 Lite](https://eu.store.ui.com/collections/unifi-network-wireless/products/unifi-ap-6-lite)
-  - [Ubiqiuti Mini Rack](https://eu.store.ui.com/collections/unifi-accessories/products/toolless-mini-rack)
 
 ### Candy
 - Dove— dark chocolate
