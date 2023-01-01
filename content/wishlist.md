@@ -22,7 +22,7 @@ draft=true
 - [Schoeps Setreo CMC 6 with MK 4](https://schoeps.de/en/products/stereo/sets/stereo-set-cmc-6.html)
   - Need to find mixer/make flowchart with headphone amp/DAC
 - [System76 Thelio Major (Walnut, AMD Ryzen 9 7950X, 64GB RAM, 1TB PCIe, RTX 4080)](https://system76.com/desktops/thelio)
-- [Wacom Cintiq Pro 24](https://wacom.com/products/pen-displays/wacom-cintiq-pro-24)
+- [Wacom Cintiq Pro 27](https://wacom.com/en-us/products/wacom-cintiq-pro-27)
   - [Wacom Flex Arm](https://estore.wacom.com/catalog/product/view/id/2677/s/wacom-flex-arm-for-cintiq-pro-24-32-ack62803k/)
 - [Pair of Yamaha HS7](https://bhphotovideo.com/c/product/964751-REG)
   - [2x isolation pads](https://bhphotovideo.com/c/product/888709-REG)
