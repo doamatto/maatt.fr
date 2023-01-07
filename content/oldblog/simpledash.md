@@ -25,7 +25,7 @@ The skeuomorphic design allows people to easily see what's what, while the minim
 
 This journey and steady development to bring a neat dash to a game wasn't my only plan originally though. I had also wanted to bring these cars to other games I enjoyed like Grand Theft Auto V (seemed like a fun thing for FiveM servers and similar environments). But, it quickly spawned another interseting idea: why not just make it for actual cars?
 
-If it wasn't obvious before, this would be incredibly hard to do because no car manufactuer is just going to give you the knowledge to how everything interfaces with the car's dashboard. It made me recall back to when [Daniel](https://daniel.cafe) (a mate from school) had a similar idea with his Electrik dashboard concept.
+If it wasn't obvious before, this would be incredibly hard to do because no car manufactuer is just going to give you the knowledge to how everything interfaces with the car's dashboard. It made me recall back to when [Daniel](https://cyckl.net) (a mate from school) had a similar idea with his Electrik dashboard concept.
 
 ![Electrik dashboard cluster](/assets/posts/simpledash/electrik.svg)
 

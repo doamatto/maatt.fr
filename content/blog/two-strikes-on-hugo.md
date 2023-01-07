@@ -16,7 +16,7 @@ Fast-forward to 5 October 2022 and I'm ready to make another incremental change 
   - was something I could compile with general ease (Golang is just `go build` usually).
 
 ## The plus side: I got it to work (eventually)
-It was NOT easy. RSS was a huge pain in the butt because to change the file name of `index.rss` to `feed.xml`, like it was before my move to Zola, you have to recreate the RSS template. JSON Feeds, an addition [Daniel](https://daniel.cafe) nagged me a bit about, was an even larger pain in the butt. So much so, that it doesn't even work the way I want: it should be `feed.json`, not `index.json`. I gave up on it. It's good enough.
+It was NOT easy. RSS was a huge pain in the butt because to change the file name of `index.rss` to `feed.xml`, like it was before my move to Zola, you have to recreate the RSS template. JSON Feeds, an addition [Daniel](https://cyckl.net) nagged me a bit about, was an even larger pain in the butt. So much so, that it doesn't even work the way I want: it should be `feed.json`, not `index.json`. I gave up on it. It's good enough.
 
 That is it. That is the only plus side I had with this. It may have fixed my one woe with Zola, but it introduced way too many more. For brevity, I won't list all, except the ones you should be aware of if you want to use Hugo.
 

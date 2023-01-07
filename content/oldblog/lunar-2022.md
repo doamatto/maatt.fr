@@ -13,7 +13,7 @@ Using a Pantone red and yellow, I changed links from being purple and white/blac
 ## No more projects feed.
 I'm not bringing this site to a dedicated blog; not now, and likely not anytime soon. However, I did bring it to a more "front-and-centre" position on the site. Now, projects are replaced with the [*Work*](/work/) page, with redirects (hopefully) pointing there. Any of the past project pages will still exist to prevent linkrot, but I don't plan to add new pages to the `/projects` directory. 
 
-The new Work page is a simple Markdown list inspired by the similar timeline on [Daniel's](https://daniel.cafe) website and it ultimately made me want to make a better CV than just my Linkedin.
+The new Work page is a simple Markdown list inspired by the similar timeline on [Daniel's](https://cyckl.net) website and it ultimately made me want to make a better CV than just my Linkedin.
 
 ## A dedicated HTML-based CV
 My [CV](/cv/) now exists. I actually didn't use one when applying for my first job since.. well.. I had no experience at all. But, since I now have accomplishments to brag about and what not, it seemed all to fitting to add a dedicated page for such. Just about everything on the page is copied from my Linkedin page, but goes into better detail of what I did at each position, sans my retail work (there just isn't much to expound on the job title).
