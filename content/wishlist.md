@@ -4,6 +4,7 @@ draft=true
 +++
 
 ### CDs
+- [Celeste Soundtrack CD](https://www.fangamer.com/collections/celeste/products/celeste-cd-soundtrack)
 - [Dawn FM CD](https://discogs.com/master/2452996?format=CD)
 - [Mechanical Bull CD](https://discogs.com/master/599554?format=CD)
 - [VA-11 HALL-A Soundtrack CD](https://fangamer.com/collections/va-11-hall-a/products/va-11-hall-a-complete-sound-collection)
