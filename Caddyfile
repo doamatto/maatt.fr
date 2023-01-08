@@ -95,10 +95,14 @@ http://lite.maatt.fr {
   }
 }
 
+lite.beta.maatt.fr {
+  redir http://lite.maatt.fr{uri}
+}
 maatt.eu,
 www.maatt.fr,
-www.maatt.eu {
+www.maatt.eu,
+beta.maatt.fr,
+beta.maatt.eu {
   encode zstd gzip
   redir https://beta.maatt.fr{uri}
 }
-
