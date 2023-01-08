@@ -2,6 +2,9 @@
   # Old page URLs
   redir /assets/line_invite.jpg https://line.me/R/ti/p/doamatto 301
 
+  # Legacy pages (start redirect Feb 2023)
+  # redir /art /about # stop redir after Aug 2023
+
   # Legacy pages
   redir /legal/environmental /legal/
   redir /legal/environmental/ /legal/
