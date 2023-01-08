@@ -39,7 +39,7 @@
   header Referrer-Policy "no-referrer"
   header Strict-Transport-Security "max-age=31536000;includeSubDomains;preload"
   header Vary "Origin, Accept-Encoding"
-  header Server "maatt DOT fr"
+  header -Server
   header Content-Security-Policy "default-src 'none'; style-src 'self'; img-src 'self' data:; https://fm.doamatto.xyz; form-action 'none'; base-uri 'self'; frame-ancestors 'none'; upgrade-insecure-requests; block-all-mixed-content"
 }
 
@@ -63,6 +63,35 @@ beta.maatt.fr {
   root * /srv/apps/caddy/sites/beta.maatt.fr/public
 	encode zstd gzip
 	file_server {
+    precompressed br
+  }
+}
+http://lite.beta.maatt.fr {
+  # 404 redirects
+  handle_errors {
+    rewrite * /404.html
+    encode zstd gzip
+    file_server {
+      precompressed br
+    }
+  }
+
+  # Cache control
+  header Cache-Control "max-age=3600"
+  header /static/* Cache-Control "max-age=31536000"
+
+  # Security
+  header Permissions-Policy "interest-cohort=(), browsing-topics=(), join-ad-interest-group=(), run-ad-auction=()"
+  header X-Content-Type-Options "nosniff"
+  header X-Frame-Options "DENY"
+  header Referrer-Policy "no-referrer"
+  header Strict-Transport-Security "max-age=31536000;includeSubDomains;preload"
+  header Vary "Origin, Accept-Encoding"
+  header -Server
+
+  root * /srv/apps/caddy/sites/lite.beta.maatt.fr/public
+  encode zstd gzip
+  file_server {
     precompressed br
   }
 }
