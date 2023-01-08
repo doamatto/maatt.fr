@@ -9,7 +9,7 @@ Hi, I'm Matt: high-school senior, web and software developer, artist, <abbr titl
 
 I'm soon to be an incoming freshman at \[insert university here\] (fingers crossed that this will say [UC San Diego](https://ucsd.edu)). I run [The Farer Group](https://farer.group) and develop open-source software with an emphasis on accessibility.
 
-When I'm not programming or studying, I'm [doodling](/sketchbook) or [taking pictures](/photobook), watching Formula One, or [writing about something techy.](/blog)
+When I'm not programming or studying, I'm [doodling](/sketchbook/) or [taking pictures](/photobook/), watching Formula One, or [writing about something techy.](/blog/)
 
 ---
 
@@ -22,4 +22,4 @@ I started programming in 2015-ish and have had a blast. I knew pretty early on t
 Python and Ruby were languages that I picked up pretty quickly and fueled my passion to dig deeper. I've since narrowed my focus to Golang and Node.js: one is exciting and nice, and the other is a glorified Python replacement. I hope to learn Rust and Objective-C in the future. Anything I develop that's public is likely on [GitHub](https://github.com/doamatto) or [Farer's Git server.](https://git.farer.group)
 
 ## Photography and art
-I've always enjoyed doodling, but in 2021 I decided to take a deep dive into refining the craft and having fun with it more often. I usually use a Staedtler set or my rOtring mechanical pencil for sketches, and *love* using POSCA and Sakura pens. Photography has taken a backseat approach comparatively. Anything I draw that's public is on [DeviantArt](https://deviantart.com/doa-matt-o) or [my sketchbook](/sketchbook), with my photos being in [my photobook.](/photobook)
+I've always enjoyed doodling, but in 2021 I decided to take a deep dive into refining the craft and having fun with it more often. I usually use a Staedtler set or my rOtring mechanical pencil for sketches, and *love* using POSCA and Sakura pens. Photography has taken a backseat approach comparatively. Anything I draw that's public is on [DeviantArt](https://deviantart.com/doa-matt-o) or [my sketchbook](/sketchbook/), with my photos being in [my photobook.](/photobook/)

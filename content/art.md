@@ -5,7 +5,7 @@ aliases= ["/arts", "/visual-arts", "/va"]
 updated= "2022-12-17"
 +++
 
-**Heads up!** This page has been replaced with the [`/about`](/about) page that has nearly the same information. This page will start redirecting at the start of Feb 2023 and will seemingly vanish after Aug 2023.
+**Heads up!** This page has been replaced with the [`/about`](/about/) page that has nearly the same information. This page will start redirecting at the start of Feb 2023 and will seemingly vanish after Aug 2023.
 
 ---
 
@@ -14,9 +14,9 @@ I spend a fair amount of my free time enjoying "the finer things" like drawing a
 ## Digital and traditional art
 I keep my portfolio with [DeviantArt](https://www.deviantart.com/doa-matt-o) under the close-enough-pseudonym of `doa-matt-o`. It contains some works that I make from time to time, as well as a good chunk of my sketchbook.
 
-You can view a mirror [here.](/sketchbook)
+You can view a mirror [here.](/sketchbook/)
 
 ## Photography
 I used to store my photos with Flickr, Unsplash (until they said my pictures were "too blurry" because some had a shallow DOF), and then Behance. 
 
-I now store whatever photos I want [here.](/photobook)
+I now store whatever photos I want [here.](/photobook/)
