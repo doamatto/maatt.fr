@@ -95,7 +95,7 @@ http://lite.maatt.fr {
   }
 }
 
-maatt.eu
+maatt.eu,
 www.maatt.fr,
 www.maatt.eu {
   encode zstd gzip
