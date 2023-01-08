@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block head %}
+  {% set title = "Page not found" %}
+  {% set description = "404 — Page not found" %}
+{% endblock head %}
+
+{% block content %}
+<section>
+  <h2>The page you're looking for doesn't exist.</h2>
+</section>
+<section>
+  <p>
+    Alternatively, you can:
+    <ul>
+      <li>scream and panic as if this was the end of the world,</li>
+      <li>ignore it and go about your day as if nothing was the problem,</li>
+      <li>post about it on Y Combinator; or:</li>
+      <li><a href="{{config.base_url}}/contact">let me know about this.</a></li>
+    </ul>
+  </p>
+</section>
+{% endblock content %}

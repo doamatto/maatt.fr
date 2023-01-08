@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block head %}
+  {% set title = page.title %}
+  {% set description = page.description %}
+{% endblock head %}
+
+{% block content %}
+  <article>
+    {{ page.content | safe }}
+  </article>
+{% endblock content %}

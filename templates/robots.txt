@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /betelgeuse/
+Disallow: /nbt/
+Disallow: /sundiego/
+Disallow: /cv/
+Disallow: /exhaustivecv/
+Disallow: /bucket/
+Disallow: /wishlist/
+Disallow: /processed_images/
+
+Sitemap: {{ get_url(path="sitemap.xml") }}

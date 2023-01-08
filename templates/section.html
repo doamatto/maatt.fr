@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block head %}
+  {% set title = section.title %}
+  {% set description = section.description %}
+{% endblock head %}
+
+{% block content %}
+  <article>
+    {{ section.content | safe }}
+  </article>
+{% endblock content %}

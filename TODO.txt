@@ -1,0 +1,4 @@
+- Explore homepage
+  - Seems almost identical to before. Not a bad thing, but I want to find a better way.
+- Auto-update or add warning if file gets changed but `updated` doesn't.
+- Find out what's left (because I have not documented that)

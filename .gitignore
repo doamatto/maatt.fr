@@ -1,7 +1,4 @@
-# Compiled site assets
-resources/
 public/
-
-# Temporary files
+static/processed_images/
 .DS_Store
-.hugo_build.lock
+.scannerwork/

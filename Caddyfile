@@ -1,9 +1,8 @@
 (redirs) {
-	# Old page URLs
-	redir /assets/line_invite.jpg https://line.me/R/ti/p/doamatto 301
+  # Old page URLs
+  redir /assets/line_invite.jpg https://line.me/R/ti/p/doamatto 301
 
   # Legacy pages
-  #redir /contact /blog/upgrading-this-website
   redir /legal/environmental /legal/
   redir /legal/environmental/ /legal/
   redir /privacy /legal/
@@ -20,26 +19,6 @@
   redir /blog/srhs-graduation-22 /oldblog/srhs-graduation-22
   redir /blog/static-spotify-widgets /oldblog/static-spotify-widgets
 
-  # Project redirects; remove 31 dec, 2022
-  redir /projects/gitcord /blog/making-gitcord 301
-  redir /projects/gulp-eslint /blog/maintaining-a-gulp-plugin 301
-  redir /projects/nano /blog/my-first-jekyll-theme 301
-
-	# Github redirs; remove 31 dec, 2022
-  redir /projects/always-amazon-smiling https://github.com/doamatto/always-amazon-smiling 301
-  redir /projects/ella https://github.com/doamatto/ella-filters 301
-	redir /projects/5mloading https://github.com/doamatto/5mloading 301
-	redir /projects/fushimi https://github.com/doamatto/fushimi 301
-	redir /projects/google-apis-for-vlang https://github.com/doamatto/googleapis 301
-	redir /projects/inari https://github.com/doamatto/inari 301
-	redir /projects/maji https://github.com/doamatto/maji 301
-	redir /projects/saluto https://github.com/doamatto/saluto 301
-	redir /projects/southpine-wrappers https://github.com/playglitch 301
-	redir /projects/swift-bot https://github.com/doamatto/swiftbot-legacy 301
-	redir /projects/vote-to-mute https://github.com/doamatto/vote-to-mute 301
-	redir /projects/yamh https://github.com/doamatto/yamh 301
-	redir /icloud-shortcuts https://github.com/doamatto/icloud-shortcuts 301
-
   # 404 redirects
   handle_errors {
     rewrite * /404.html
@@ -49,22 +28,19 @@
     }
   }
 
-	# Caching
-	header Cache-Control "max-age=3600"
-	header /static/* Cache-Control "max-age=31536000"
+  # Caching
+  header Cache-Control "max-age=3600"
+  header /static/* Cache-Control "max-age=31536000"
 
-	# General headers
-	header Permissions-Policy "interest-cohort=(), browsing-topics=(), join-ad-interest-group=(), run-ad-auction=()"
-	header X-Content-Type-Options "nosniff"
-	header X-Frame-Options "DENY"
-	header Referrer-Policy "no-referrer"
-	header Strict-Transport-Security "max-age=31536000;includeSubDomains;preload"
-	header Vary "Origin"
-	header Expect-CT "max-age=86400, enforce"
-  header Server "maatt DOT fr"
-  header Cross-Origin-Opener-Policy "same-origin; report-to='mailto:security@doamatto.xyz'"
-  header Cross-Origin-Embedder-Policy "require-corp; report-to='mailto:security@doamatto.xyz'"
-	header Content-Security-Policy "default-src 'none'; style-src 'self'; img-src 'self' https://fm.doamatto.xyz; font-src 'none'; form-action 'none'; upgrade-insecure-requests; block-all-mixed-content; object-src 'none'; connect-src 'none'; base-uri 'self'; frame-ancestors 'none'"
+  # General headers
+  header Permissions-Policy "interest-cohort=(), browsing-topics=(), join-ad-interest-group=(), run-ad-auction=()"
+  header X-Content-Type-Options "nosniff"
+  header X-Frame-Options "DENY"
+  header Referrer-Policy "no-referrer"
+  header Strict-Transport-Security "max-age=31536000;includeSubDomains"
+  header Vary "Origin, Accept-Encoding"
+  header -Server
+  header Content-Security-Policy "default-src 'none'; style-src 'self'; img-src 'self' data:; https://fm.doamatto.xyz; form-action 'none'; base-uri 'self'; frame-ancestors 'none'; upgrade-insecure-requests; block-all-mixed-content"
 }
 
 # Set internal Farer ACME server
@@ -73,6 +49,9 @@
 #  encode zstd gzip
 #  root * /srv/apps/caddy/sites/matt.fa/public
 #  tls acme https://acme.nic.fa/directory
+#  handle /.well-known/hosting-provider {
+#    respond "https://nic.fa"
+#  }
 #}
 #www.matt.fa {
 #  tls acme https://acme.nic.fa/directory
@@ -81,17 +60,45 @@
 
 maatt.fr {
 	import redirs
-  root * /srv/apps/caddy/sites/maatt.fr/public
+  root * /srv/apps/caddy/sites/beta.maatt.fr/public
 	encode zstd gzip
 	file_server {
     precompressed br
   }
 }
+http://lite.maatt.fr {
+  # 404 redirects
+  handle_errors {
+    rewrite * /404.html
+    encode zstd gzip
+    file_server {
+      precompressed br
+    }
+  }
 
+  # Cache control
+  header Cache-Control "max-age=3600"
+  header /static/* Cache-Control "max-age=31536000"
+
+  # Security
+  header Permissions-Policy "interest-cohort=(), browsing-topics=(), join-ad-interest-group=(), run-ad-auction=()"
+  header X-Content-Type-Options "nosniff"
+  header X-Frame-Options "DENY"
+  header Referrer-Policy "no-referrer"
+  header Vary "Origin, Accept-Encoding"
+  header -Server
+
+  root * /srv/apps/caddy/sites/lite.beta.maatt.fr/public
+  encode zstd gzip
+  file_server {
+    precompressed br
+  }
+}
+
+maatt.eu
 www.maatt.fr,
-maatt.eu,
 www.maatt.eu {
   encode zstd gzip
-  redir https://maatt.fr{uri}
+  redir https://beta.maatt.fr{uri}
 }
 
