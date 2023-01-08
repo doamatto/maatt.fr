@@ -1,5 +1,9 @@
 # Personal Site [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=doamatto_personal-site&metric=alert_status)](https://sonarcloud.io/dashboard?id=doamatto_personal-site)
 
+This hosts both:
+  - [https://maatt.fr](https://maatt.fr); and:
+  - [http://lite.maatt.fr](http://lite.maatt.fr)— the smaller and very backward compatible version of the site.
+
 This utilises:
 - **Zola** for page compilation,
 - **1984** for hosting; and:
