@@ -1,4 +1,4 @@
-(beta_redirs) {
+(redirs) {
   # Old page URLs
   redir /assets/line_invite.jpg https://line.me/R/ti/p/doamatto 301
 
@@ -58,8 +58,8 @@
 #  redir https://matt.fa{uri} 
 #}
 
-beta.maatt.fr {
-	import beta_redirs
+maatt.fr {
+	import redirs
   root * /srv/apps/caddy/sites/beta.maatt.fr/public
 	encode zstd gzip
 	file_server {
@@ -95,7 +95,9 @@ http://lite.maatt.fr {
   }
 }
 
-beta.maatt.eu {
+maatt.eu
+www.maatt.fr,
+www.maatt.eu {
   encode zstd gzip
   redir https://beta.maatt.fr{uri}
 }

@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="alternate" type="application/atom+xml" title="Blog" href="/atom.xml">
     <link rel="alternate" type="application/atom+xml" title="Titbits" href="/z/atom.xml">
-    {% if config.base_url == "https://beta.maatt.fr" %}
-    <link href="{{config.base_url}}/style.css" rel="stylesheet">
-    {% elif config.base_url == "http://lite.beta.maatt.fr" %}
+    {% if config.base_url == "http://lite.maatt.fr" %}
     <link href="{{config.base_url}}/s.css" rel="stylesheet">
     {% else %}
     <link href="{{config.base_url}}/style.css" rel="stylesheet">    
@@ -27,7 +25,7 @@
     {% if page.updated %}
     <meta http-equiv="last-modified" content="{{ page.updated }}">
     {% endif %}
-    {% if config.base_url != "http://lite.beta.maatt.fr" %}
+    {% if config.base_url != "http://lite.maatt.fr" %}
       {# halloween<meta name="theme-color" content="#fe5000"> #}
       <meta name="theme-color" content="#909EFF">
       <meta name="author" content="Matt Ronchetto">
@@ -35,7 +33,7 @@
     {% endif %}
   </head>
   <body>
-    {% if config.base_url != "http://lite.beta.maatt.fr" %}
+    {% if config.base_url != "http://lite.maatt.fr" %}
     <a href="#content" id="top">Skip to content</a>
     {% endif %}
     <header>
@@ -43,7 +41,7 @@
         <nav>
           <ul>
             <li>
-              {% if config.base_url != "http://lite.beta.maatt.fr" %}
+              {% if config.base_url != "http://lite.maatt.fr" %}
               <a href="/" id="home" title="Link to homepage" aria-label="Link to homepage">
                 <svg viewBox="0 0 50 50" width="40" height="40" fill="none" role="img" aria-labelledby="home"><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" d="M26.185 14.1909C25.2848 12.603 23.6344 12.603 22.7342 14.1909L12.007 34.0388C11.9218 35.6032 12.6071 36.5 14.4825 36.5H34.4367C36.6121 36.5 37.0892 35.4582 36.9872 34.0388L26.185 14.1909ZM24.4596 15.7787L14.4825 34.0388H34.4367L24.4596 15.7787Z" fill="#000"/></svg>
               </a>
