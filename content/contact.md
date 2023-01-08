@@ -12,8 +12,8 @@ Some other places around the internet that I'm at are:
 - DeviantArt: [/doa-matt-o](https://www.deviantart.com/doa-matt-o)
 - GitHub: [@doamatto](https://github.com/doamatto)
 - Last.fm: [/user/doamatto](https://www.last.fm/user/doamatto)
-- Letterboxd: [/doamatto](https://letterboxd.com/doamatto)
-- Mastodon: [matt@farer.group](https://social.farer.group/@matt)
+- Letterboxd: [/doamatto](https://letterboxd.com/doamatto/)
+<!--- Mastodon: [matt@farer.group](https://social.farer.group/@matt)-->
 
 Some places I used to be were:
 - Instagram: @thetruedoormat

@@ -26,8 +26,6 @@ This journey and steady development to bring a neat dash to a game wasn't my onl
 
 If it wasn't obvious before, this would be incredibly hard to do because no car manufactuer is just going to give you the knowledge to how everything interfaces with the car's dashboard. It made me recall back to when [Daniel](https://cyckl.net) (a mate from school) had a similar idea with his Electrik dashboard concept.
 
-![Electrik dashboard cluster](/assets/posts/simpledash/electrik.svg)
-
 Daniel's plan was to take a petrol car and make it electric. A bit more involved than I wanted, but neat nevertheless. The only issues with me "borrowing" (I would ask, just like I have in the past with some of his designs) is that:
 1. this is a gauge cluster design (the bits and bops behind the steering wheel), not an in-car display desing (the bits and bops where your radio and dials for things like heating and cooling are); and,
 2. this is designed for electric cars and wouldn't be practical to convert for petrol cars.

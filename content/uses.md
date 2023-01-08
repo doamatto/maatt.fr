@@ -25,6 +25,6 @@ updated= "2022-12-31"
 ## Services
 - [1Password.](https://1password.com) Probably the best password manager to date ([FOSS alternative](https://bitwarden)).
 - [Fastmail.](https://www.fastmail.com/) Great email provider. Equally great: [Migadu](https://www.migadu.com/)
-- [Last.fm](https://last.fm) The best social media for music. Don't ever kill it off, CBS.
+- [Last.fm](https://www.last.fm/) The best social media for music. Don't ever kill it off, CBS.
 - [Mullvad.](https://mullvad.net/fr/) Privacy-focused VPN provider.
 - [Namecheap.](https://www.namecheap.com) Respectable domain registrar.
