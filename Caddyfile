@@ -37,7 +37,7 @@
   header X-Content-Type-Options "nosniff"
   header X-Frame-Options "DENY"
   header Referrer-Policy "no-referrer"
-  header Strict-Transport-Security "max-age=31536000;includeSubDomains;preload"
+  header Strict-Transport-Security "max-age=31536000;includeSubDomains"
   header Vary "Origin, Accept-Encoding"
   header -Server
   header Content-Security-Policy "default-src 'none'; style-src 'self'; img-src 'self' data:; https://fm.doamatto.xyz; form-action 'none'; base-uri 'self'; frame-ancestors 'none'; upgrade-insecure-requests; block-all-mixed-content"
