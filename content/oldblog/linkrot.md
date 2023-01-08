@@ -1,6 +1,5 @@
 +++
 title="The (Rotting, Dying) Internet"
-description="The Internet was dope. Now it's rotting."
 date=2022-03-07
 +++
 

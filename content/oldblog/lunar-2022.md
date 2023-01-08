@@ -1,6 +1,5 @@
 +++
 title="Year of the Tiger: A New Year, A Fresh Coat of Paint"
-description="A small update to the website as a whole for the new year."
 date=2022-02-15
 updated="2022-07-31"
 +++

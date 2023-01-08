@@ -1,7 +1,6 @@
 +++
 title = "I kinda, sorta forgot my love for the arts"
 date = "2021-06-22"
-description = "I've loved messing around with graphics and cinematography; but I fell out of touch with it."
 updated="2022-07-31"
 aliases=["/blog/forgot-my-love-for-the-arts"]
 +++

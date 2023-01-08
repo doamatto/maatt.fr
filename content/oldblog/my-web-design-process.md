@@ -1,7 +1,6 @@
 +++
 title = "How I Design and Build Websites"
 date = "2021-04-09"
-description = "I've gone through so many good and bad tools; here's the 411 of how I get it all done and dusted."
 +++
 
 Over time, I've been lucky to not only tweak my personal portfolio to however it suits my fancy but been able to work with several different [people](https://epic4809.github.io) and companies (each one of those words is a different site I've worked on). I've played with just about every framework under the sun too: Next.js, Jekyll, Hugo, Sapper, and Vue, to name a few. I've slowly developed a system as to how I make sites for both clients and personal projects that when I was working on the refresh of [Michael Holiday's website](https://www.michaelholidaybooks.com), I decided to whip out the clickiest keyboard ever and go ham. I also decided it's a good idea to name each section as a part of building a house. Which is honestly a good analogy.

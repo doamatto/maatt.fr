@@ -1,6 +1,5 @@
 +++
 title= "Technology I use"
-description= "Different technologies that Matt Ronchetto uses."
 aliases= ["/use","/stack"]
 updated= "2022-12-31"
 +++

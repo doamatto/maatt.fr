@@ -2,7 +2,6 @@
 title = "Static Spotify Widgets"
 slug = "static-spotify-widgets"
 date = "2020-12-17"
-description = "Static widgets are way better than several kilobytes to load a stupid tweet."
 tag = "Concepts"
 class = 'bg-concepts'
 +++

@@ -3,7 +3,6 @@ title = "SimpleDash"
 slug = "simpledash"
 date = "2021-01-16"
 updated = "2022-07-31"
-description = "Most car manufactuers have in-car displays that are bad. I want to change that."
 +++
 
 ## ⚠️ Heads up!
