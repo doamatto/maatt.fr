@@ -1,5 +1,5 @@
 +++
-title= "Linux Foundation forms with Meta, Microsoft, Amazon, and TomTom the Overture Maps Foundation"
+title= "Overture Maps Foundation forms with Microsoft, AWS, et al. as members"
 description= "The Linux Foundation, alongside Meta, Microsoft, AWS, and TomTom, have formed Overture Maps to develop interoperable and open cartographic tools. Overture plans to release its data set in the first half of 2023."
 date= 2022-12-19T02:26:00Z
 +++

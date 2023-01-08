@@ -1,5 +1,5 @@
 +++
-title= "French Ministry of Education has banned Office 365 and Google Workspace in public schools"
+title= "French Ministry of Education bans Office 365 and Google Workspace in public schools"
 description="The French Ministry of Education is saying no to Office 365 and Google Workspace for public schools. CNIL recommends that public school use software hosted in the E.U. and that do not share data with the U.S."
 date= 2022-11-22
 +++
