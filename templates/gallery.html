@@ -10,7 +10,7 @@
 
   <div class="grid">
     {% for pic in section.assets -%}
-    <a href="{{ get_url(path=pic) }}" target="_blank">
+    <a href="{{ get_url(path=pic) }}" rel="noopener" target="_blank">
       <picture>
         {% set thumbWebp = resize_image(path=pic, height=200, op="fit_height", format="webp") %}
         {% set thumbJpeg = resize_image(path=pic, height=200, op="fit_height", format="jpg") %}
