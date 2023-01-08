@@ -66,6 +66,9 @@ beta.maatt.fr {
     precompressed br
   }
 }
+https://lite.beta.maatt.fr {
+  redir http://lite.beta.maatt.fr{uri}
+}
 http://lite.beta.maatt.fr {
   # 404 redirects
   handle_errors {
