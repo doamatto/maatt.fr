@@ -1,23 +1,21 @@
 (redirs) {
-  # Old page URLs
-  redir /assets/line_invite.jpg https://line.me/R/ti/p/doamatto 301
-
   # Legacy pages (start redirect Feb 2023)
-  # redir /art /about # stop redir after Aug 2023
+  # redir /art /about 301 # stop redir after Aug 2023
 
-  # Legacy pages
-  redir /legal/environmental /legal/
-  redir /privacy /legal/
-  redir /imprint /legal/
+  # Legacy pages (redir for eternity)
+  redir /assets/line_invite.jpg https://line.me/R/ti/p/doamatto 301
+  redir /legal/environmental /legal/ 301
+  redir /privacy /legal/ 301
+  redir /imprint /legal/ 301
 
   # Old blog redirs
-  redir /blog/forgot-my-love-for-art /oldblog/forgot-my-love-for-art
-  redir /blog/linkrot /oldblog/linkrot
-  redir /blog/lunar-2022 /oldblog/lunar-2022
-  redir /blog/my-web-design-process /oldblog/my-web-design-process
-  redir /blog/simpledash /oldblog/simpledash
-  redir /blog/srhs-graduation-22 /oldblog/srhs-graduation-22
-  redir /blog/static-spotify-widgets /oldblog/static-spotify-widgets
+  redir /blog/forgot-my-love-for-art /oldblog/forgot-my-love-for-art 301
+  redir /blog/linkrot /oldblog/linkrot 301
+  redir /blog/lunar-2022 /oldblog/lunar-2022 301
+  redir /blog/my-web-design-process /oldblog/my-web-design-process 301
+  redir /blog/simpledash /oldblog/simpledash 301
+  redir /blog/srhs-graduation-22 /oldblog/srhs-graduation-22 301
+  redir /blog/static-spotify-widgets /oldblog/static-spotify-widgets 301
 
   # 404 redirects
   handle_errors {
