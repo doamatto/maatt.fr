@@ -10,7 +10,7 @@ Even if you've been sleeping under a rock, the globe has been getting a little t
 ## API wrappers— fun to write (hahaha)
 The answer to all of this is, in fact, not API wrappers. This is instead a band-aid solution to, as eluded to before, a bigger problem with more politics that I still don't want to get into for what I think you can assume are reasonable reasons. Regardless, these API wrappers allow people to be more informed, as well as build more tools to be more informed.
 
-This week, I've launched ~~two~~ one Go API wrappers: [`go-calipower`](https://github.com/doamatto/go-calipower) ~~and [`go-sdgeoutages`](https://github.com/doamatto/go-sdgeoutages)~~. CaliPower grabs data from the same source as the official Flex Alerts website, [the California ISO](https://caiso.com). There are no lamest terms for CAISO, as I haven't even dug into the surface of what they do in California. To the best and most logical assumption, however, they likely have a little something to do with power and a little something with making sure CalFire doesn't have to get involved.
+This week, I've launched ~~two~~ one Go API wrappers: [`go-calipower`](https://github.com/doamatto/go-calipower) ~~and `go-sdgeoutages`~~. CaliPower grabs data from the same source as the official Flex Alerts website, [the California ISO](https://caiso.com). There are no lamest terms for CAISO, as I haven't even dug into the surface of what they do in California. To the best and most logical assumption, however, they likely have a little something to do with power and a little something with making sure CalFire doesn't have to get involved.
 
 > **Edit:** A lot of proofreading and improvements to clarity.
 >
