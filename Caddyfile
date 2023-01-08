@@ -60,7 +60,7 @@
 
 maatt.fr {
 	import redirs
-  root * /srv/apps/caddy/sites/beta.maatt.fr/public
+  root * /srv/apps/caddy/sites/maatt.fr/public
 	encode zstd gzip
 	file_server {
     precompressed br
@@ -88,7 +88,7 @@ http://lite.maatt.fr {
   header Vary "Origin, Accept-Encoding"
   header -Server
 
-  root * /srv/apps/caddy/sites/lite.beta.maatt.fr/public
+  root * /srv/apps/caddy/sites/lite.maatt.fr/public
   encode zstd gzip
   file_server {
     precompressed br
