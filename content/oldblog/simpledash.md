@@ -6,7 +6,7 @@ updated = "2022-07-31"
 +++
 
 ## ⚠️ Heads up!
-This page is for a project that doesn't exist anymore or never existed in the first place. The best term for something like this is **vaporware.** In my eyes, however, it's better to keep these pages than to remove them, [creating linkrot.](/oldblog/linkrot)
+This page is for a project that doesn't exist anymore or never existed in the first place. The best term for something like this is **vaporware.** In my eyes, however, it's better to keep these pages than to remove them, [creating linkrot.](/oldblog/linkrot/)
 
 Images have also disappeared/been deleted by the magic of compression. I don't question it (neither should you), but do note some images are missing from this page because of such.
 
