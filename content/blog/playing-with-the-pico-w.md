@@ -6,7 +6,7 @@ date= 2022-12-17
 
 For whatever reason, Raspberry Pis are still sold out everywhere, bar the Pi Pico. The issue with the Pi Pico is simple: it requires you to use your brain. Unlike the normal Pi, where you have a lot of I/O, you get one USB port, some holes to add wires to, and, if you buy the W variant, a chip for wireless. 
 
-### My wireless dilemma
+## My wireless dilemma
 I've had a Canon scanner for a long time now and recently threw it in the garage since it is:
   - an eyesore,
   - so friggin huge;
@@ -16,7 +16,7 @@ The scanner is wireless with an Ethernet jack for wired connections. There aren'
 
 I needed to either: (a) extend the current network so that it's minimal effort to use the scanner, or (b) use a small device to run a mini LAN to do scans with, adding a tiny bit of complexion.
 
-### Writing for the Pico
+## Writing for the Pico
 There are a few conventional ways to add information to the Pico: MicroPython being used in a lot of examples, and what I decided to use. Their `network` package has a [useful "AP_IF" interface](https://docs.micropython.org/en/latest/library/network.WLAN.html), or Access Point, that has a surprising amount of settings for an IoT device. It's relatively simple to set up, [needing only four lines](https://github.com/doamatto/picolan/blob/main/sensor.py#L6-L15) (L7 through L13 can be on one line).
 
 After writing the code, I waited for my Picos to come in the mail. After, it sat on my desk for several weeks because I had something called life to do. Once Pico playtime had arrived, I realised that it isn't the most intuitive thing on Earth.
