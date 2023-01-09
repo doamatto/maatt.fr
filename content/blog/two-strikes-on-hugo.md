@@ -4,7 +4,7 @@ date= "2022-11-19"
 updated= "2022-12-13"
 +++
 
-For about 7 years (I'm getting old, and I don't like it.), I've had some kind of website. It started as a HTML file and a CSS file, and eventually went to Jekyll for a couple of years. I made a [theme that surprisingly received decent reception](https://rubygems.org/gems/nano-theme) and had a generally good experience with Jekyll. After a while though, the pains of setting up Bundler, installing Ruby, and the slowness of Jekyll in part to the Ruby VM.
+For about 7 years (I'm getting old, and I don't like it.), I've had some kind of website. It started as a HTML file and a CSS file, and eventually went to Jekyll for a couple of years. I made a [theme that surprisingly received decent reception](/blog/my-first-jekyll-theme/) and had a generally good experience with Jekyll. After a while though, the pains of setting up Bundler, installing Ruby, and the slowness of Jekyll in part to the Ruby VM.
 
 I eventually got rid of it for [Next.js](https://nextjs.org) near when it started to emerge in popularity but hated the number of dependencies that grew and the time it took for NPM to fetch them (I'm aware of Yarn and PNPM, but they seem like band-aid solutions, albeit solutions that do help). It also didn't help that each page was HUGE: metric crap tonnes of JavaScript files just to load a page with some text and an image. It was excessive. Given 2 or 3 years, I dropped it [Zola](https://getzola.org). With Zola, it finally clicked and I had basically no more issues with generating my site. It was native, was a single binary, and, most importantly, had a familiar templating library: [Tera](https://tera.netlify.app), which resembles the Liquid templating I enjoyed with Zola.
 
