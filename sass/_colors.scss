@@ -1,20 +1,26 @@
 $bg: #131415;
-$bg-l: #fff;
-//$bg-l: #f93822; // lunary; bright red c
+//$bg-l: #fff;
+$bg-l: #f93822; // lunary; bright red c
 
 $text: #fff;
 $text-l: #000;
 
-$accent: #e4deff;
+//$accent: #e4deff;
+$accent: #f93822; // lunary; bright red c
 //$accent: #ed2939; // fetenational
 //$accent: #fe5000; // halloween; orange 021 c
 $accent-l: #004dff;
 
 // Seasonal Mix-ins
-@mixin lunar { background: #fd0; }
+@mixin lunar {
+	padding: 2px;
+	border-radius: 4px;
+	margin: 0 -2px;
+	background: #fd0;
+}
 @mixin lunar-dark {
-	background: inherit;
-	color: inherit;
+	background: #fd0;
+	color: #000;
 }
 
 @mixin fetenational {

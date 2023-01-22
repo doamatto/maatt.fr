@@ -1,5 +1,11 @@
 @import "_colors.scss";
 
+::selection {
+  background: #fd0;
+  color: #000;
+  fill: #000;
+} // LNY; cmt 2023-02-20
+
 html,
 body {
   font: 1.075rem/1.6 "Helvetica", sans-serif;
@@ -9,12 +15,21 @@ body {
   color: $text-l;
   // @include fetenational; // FETENATIONAL
 }
+abbr {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+  cursor: help;
+}
 
 // Headers and text
 a {
   color: #000;
-  &:hover { text-decoration: none; }
-  // @include lunar; // LNY
+  &:hover {
+    text-decoration: none;
+    @include lunar; // LNY; cmt 2023-02-20
+  }
 }
 h1 {
   font-size: 1.8rem;
@@ -114,7 +129,7 @@ footer {
   }
   a {
     color: $accent;
-    //@include lunar-dark; // LNY
+    &:hover, &:focus { @include lunar-dark; } // LNY; cmt 2023-02-20
   }
   #home {
     svg path { fill: #fff; }
