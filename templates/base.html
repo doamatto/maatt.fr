@@ -5,48 +5,52 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="alternate" type="application/atom+xml" title="Blog" href="/atom.xml">
     <link rel="alternate" type="application/atom+xml" title="Titbits" href="/z/atom.xml">
-    {% if config.base_url == "http://lite.maatt.fr" %}
+  {% if config.base_url == "http://lite.maatt.fr" -%}
     <link href="{{config.base_url}}/s.css" rel="stylesheet">
-    {% else %}
+  {%- else -%}
     <link href="{{config.base_url}}/style.css" rel="stylesheet">    
-    {% endif %}
-
+  {%- endif %}
     <link rel="icon" href="data:,">
-    {% block head %}{% set title = page.title %}{% set description = page.description %}{% endblock head %}
+
+    {%- block head -%}
+      {%- set title = page.title -%}
+      {%- set description = page.description -%}
+    {%- endblock head %}
     <title>{{ title ~ " — doamatto" }}</title>
-    {% if description != "" %}
+  {% if description != "" -%}
+    <!-- Fix description showing when not supposed to -->
     <meta name="description" content="{{description}}">
-    {% endif %}
-    {% if page.date %}
+  {%- endif -%}
+  {%- if page.date -%}
       <meta property="article:published_time" content="{{ page.date }}">
-    {% elif section.date %}
+  {%- elif section.date -%}
       <meta property="article:published_time" content="{{ section.date }}">
-    {% endif %}
-    {% if page.updated %}
+  {%- endif -%}
+  {%- if page.updated -%}
     <meta http-equiv="last-modified" content="{{ page.updated }}">
-    {% endif %}
+  {%- endif %}
     {% if config.base_url != "http://lite.maatt.fr" %}
-      {# halloween<meta name="theme-color" content="#fe5000"> #}
-      <meta name="theme-color" content="#909EFF">
-      <meta name="author" content="Matt Ronchetto">
-      <link rel="pgpkey authn" href="/pgp.asc">
-    {% endif %}
+  {#- halloween<meta name="theme-color" content="#fe5000"> -#}
+    <meta name="theme-color" content="#909EFF">
+    <meta name="author" content="Matt Ronchetto">
+    <link rel="pgpkey authn" href="/pgp.asc">
+  {% endif -%}
   </head>
   <body>
-    {% if config.base_url != "http://lite.maatt.fr" %}
+    {%- if config.base_url != "http://lite.maatt.fr" %}
     <a href="#content" id="top">Skip to content</a>
-    {% endif %}
+    {% endif -%}
     <header>
       <nav>
         <ul>
           <li>
-            {% if config.base_url != "http://lite.maatt.fr" %}
+            {%- if config.base_url != "http://lite.maatt.fr" %}
             <a href="/" id="home" title="Link to homepage" aria-label="Link to homepage">
               <svg viewBox="0 0 50 50" width="40" height="40" fill="none" role="img" aria-labelledby="home"><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" d="M26.185 14.1909C25.2848 12.603 23.6344 12.603 22.7342 14.1909L12.007 34.0388C11.9218 35.6032 12.6071 36.5 14.4825 36.5H34.4367C36.6121 36.5 37.0892 35.4582 36.9872 34.0388L26.185 14.1909ZM24.4596 15.7787L14.4825 34.0388H34.4367L24.4596 15.7787Z" fill="#000"/></svg>
             </a>
-            {% else %}
+            {%- else %}
             <a href="/">Matthew Ronchetto</a>
-            {% endif %}
+            {%- endif %}
           </li>
           <li><a href="/about/">About</a></li>
           <li><a href="/blog/">Blog</a></li>
@@ -55,7 +59,7 @@
       </nav>
       <section>
         <h1>{{title}}</h1>
-        {% if page.date %}
+        {%- if page.date %}
           {% set date = page.date | date(format="%+") %}
           <p>
             <time datetime="{{ date }}">{{ page.date | date(format="%A, %-d %B %Y") }}</time>.<br>
@@ -64,10 +68,10 @@
               <i>Updated: <time datetime="{{ updated }}">{{ page.updated | date(format="%A, %-d %B %Y") }}</time>.</i>
             {% endif %}
           </p>
-        {% elif page.updated %}
+        {% elif page.updated -%}
           {% set updated = page.updated | date(format="%+") %}
           <p><i>Updated: <time datetime="{{ updated }}">{{ page.updated | date(format="%A, %-d %B %Y") }}</time>.</i></p>
-        {% endif %}
+        {%- endif %}
       </section>
     </header>
     <main id="content">{% block content %}{% endblock content %}</main>

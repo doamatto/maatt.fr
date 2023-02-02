@@ -6,18 +6,18 @@
     <id>https://maatt.fr/atom.xml</id>
     <generator>Zola</generator>
     <updated>{{ last_updated | date(format="%+") }}</updated>
-    {% if section %}
+    {%- if section %}
       {% set url = section.permalink | escape_xml | safe %}
-    {% else %}
+    {% else -%}
       {% set url = config.base_url | escape_xml | safe %}
-    {% endif %}
+    {%- endif %}
     <link href="{{url}}"/>
-    {% if feed_url is containing("z") %}
-      {% set blog = get_section(path="z/_index.md") %}
-    {% else %}
+    {%- if feed_url is containing("z") %}
+      {%- set blog = get_section(path="z/_index.md") -%}
+    {%- else %}
       {% set blog = get_section(path="blog/_index.md") %}
-    {% endif %}
-    {% set posts = blog.pages %}
+    {%- endif %}
+    {%- set posts = blog.pages -%}
     {%- for post in posts | sort(attribute="date") | reverse %}
     <entry xml:lang="en">
         <title>{{ post.title }}</title>
