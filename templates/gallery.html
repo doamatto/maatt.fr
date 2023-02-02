@@ -12,8 +12,8 @@
     {% for pic in section.assets -%}
     <a href="{{ get_url(path=pic) }}" rel="noopener" target="_blank">
       <picture>
-        {% set thumbWebp = resize_image(path=pic, height=200, op="fit_height", format="webp") %}
-        {% set thumbJpeg = resize_image(path=pic, height=200, op="fit_height", format="jpg") %}
+        {% set thumbWebp = resize_image(path=pic, height=100, op="fit_height", format="webp") %}
+        {% set thumbJpeg = resize_image(path=pic, height=100, op="fit_height", format="jpg") %}
         <source srcset="{{ thumbWebp.url }}" type="image/webp" />
         <img src="{{ thumbJpeg.url }}" loading="lazy" />
       </picture>

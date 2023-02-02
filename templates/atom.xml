@@ -15,18 +15,18 @@
     {%- if feed_url is containing("z") %}
       {%- set blog = get_section(path="z/_index.md") -%}
     {%- else %}
-      {% set blog = get_section(path="blog/_index.md") %}
+      {%- set blog = get_section(path="blog/_index.md") -%}
     {%- endif %}
     {%- set posts = blog.pages -%}
     {%- for post in posts | sort(attribute="date") | reverse %}
     <entry xml:lang="en">
-        <title>{{ post.title }}</title>
-        <author><name>Matthew Ronchetto</name></author>
-        <link href="{{ post.permalink | escape_xml | safe }}"/>
-        <id>{{post.permalink | escape_xml | safe }}</id>
-        <published>{{ post.date | date(format="%+") }}</published>
-        <updated>{% if post.updated %}{{ post.updated | date(format="%+")}}{% else %}{{ post.date | date(format="%+") }}{% endif %}</updated>
-        <content type="html">{% if post.summary %}{{ post.summary }}{% else %}{{ post.content }}{% endif %}</content>
+      <title>{{ post.title }}</title>
+      <author><name>Matthew Ronchetto</name></author>
+      <link href="{{ post.permalink | escape_xml | safe }}"/>
+      <id>{{post.permalink | escape_xml | safe }}</id>
+      <published>{{ post.date | date(format="%+") }}</published>
+      <updated>{% if post.updated %}{{ post.updated | date(format="%+")}}{% else %}{{ post.date | date(format="%+") }}{% endif %}</updated>
+      <content type="html">{% if post.summary %}{{ post.summary }}{% else %}{{ post.content }}{% endif %}</content>
     </entry>
     {%- endfor %}
 </feed>
