@@ -5,14 +5,12 @@ draft=true
 
 ### Audio
 - [Focal Kanta No 2](https://focal.com/fr/home-audio/enceintes-haute-fidelite/kanta/kanta-no2) (in French)
-- [Schiit Magnius](https://schiit.com/products/magnius)
-- [Schiit Modius (Silver)](https://schiit.com/products/modius)
+- [Schiit Magnius](https://schiit.com/products/magnius) + [Schiit Modius (Silver)](https://schiit.com/products/modius)
 - [Sonos One SL](https://sonos.com/shop/one-sl)
 - [Sonos Port](https://sonos.com/shop/port)
 - [Sony WH-1000XM4 headphones (black)](https://electronics.sony.com/audio/headphones/headband/p/wh1000xm4-b)
 - [Yamaha CD-S303](https://bhphotovideo.com/c/product/1664680-REG)
-- [Pair of Yamaha HS7](https://bhphotovideo.com/c/product/964751-REG)
-  - [2x isolation pads](https://bhphotovideo.com/c/product/888709-REG)
+- [Pair of Yamaha HS7](https://bhphotovideo.com/c/product/964751-REG) + [2x isolation pads](https://bhphotovideo.com/c/product/888709-REG)
 
 ### CDs
 - [Celeste Soundtrack CD](https://fangamer.com/collections/celeste/products/celeste-cd-soundtrack)
@@ -67,17 +65,21 @@ draft=true
 
 ### Literature
 - [The Art of Sound: A Visual History for Audiophiles](https://bookshop.org/book/9780500519288) (`9780500519288`)
+- [This Book is a Planetarium](https://bookshop.org/book/9781452136219) (`9781452136219`)
 - [The Book of Goose](https://bookshop.org/book/9781250872418) (`9781250872418`)
 - [Herman Miller: A Way of Living](https://bookshop.org/book/9780714875217) (`9780714875217`)
+- [The Ideal City](https://bookshop.org/book/9783899558623) (`9783899558623`)
 - [The iOS App Icon Book](https://flarup.shop/products/the-ios-app-icon-book) ([alternative link](https://kickstarter.com/projects/flarup/the-ios-app-icon-book))
 - [Life is Strange Vol. 6 (Paperback)](https://bookshop.org/book/9781787734753) (`9781787734757`)
+- [The Solo Adventurer's Ultimate Toolbox bundle](https://www.dmsguild.com/product/392406/The-Solo-Adventurers-Ultimate-Toolbox-pdf-only-BUNDLE)
 - [Strangers to Ourselves](https://bookshop.org/book/9781250872913) (`9781250872913`)
-- [The Ideal City](https://bookshop.org/book/9783899558623) (`9783899558623`)
-- [This Book is a Planetarium](https://bookshop.org/book/9781452136219) (`9781452136219`)
 - [The Trainspotter's Notebook](https://bookshop.org/book/9780857504722) (`9780857504722`)
 
 ### Technology
 - [Apple AirTag (4-pack)](https://apple.com/shop/buy-airtag/airtag)
+- [Insta360 X3](https://store.insta360.com/product/x3)
+  - [Lens guards](https://store.insta360.com/product/x3_sticky_lens_guards)
+  - [Handle](https://store.insta360.com/product/bullet_time_handle)
 - [Nitrokey HSM 2](https://shop.nitrokey.com/shop/product/nkhs2-nitrokey-hsm-2-7)
 - [Raspberry Pi PoE HAT](https://raspberrypi.com/products/poe-hat/)
 - [Satechi USB-C charger](https://satechi.net/products/165w-usb-c-4-port-pd-gan-charger?variant=39787940937816) ([alternative link](https://amazon.com/gp/product/B09PMDZWZ6))
@@ -110,6 +112,7 @@ draft=true
 ### Store credit
 - [Apple credits](https://apple.com/fr/shop/buy-giftcard/giftcard) (in French)
 - [Backblaze credits](https://secure.backblaze.com/gift.htm)
+- [Brilliant credits (Lifetime)](https://brilliant.org/give-premium/)
 - [Darn Tough Vermont credits](https://darntough.com/collections/gift-cards)
 - [Headspace credits](https://headspace.com/buy/gift)
 - [Qobuz credits (streaming)](https://qobuz.com/fr-fr/offer-qobuz) (in French)
