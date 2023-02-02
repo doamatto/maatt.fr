@@ -16,9 +16,7 @@ body {
   // @include fetenational; // FETENATIONAL
 }
 abbr {
-  text-decoration: underline;
-  text-decoration-style: dotted;
-  text-decoration-thickness: 2px;
+  text-decoration: underline dotted 2px;
   text-underline-offset: 2px;
   cursor: help;
 }
@@ -103,10 +101,15 @@ footer {
 }
 .grid {
   display: grid;
-  grid: none / repeat(auto-fit, minmax(250px, 1fr));
+  grid: none / repeat(auto-fit, minmax(150px, 1fr));
   a {
     display: flex;
     justify-content: center;
+    &:hover, &:focus {
+      background: none;
+      padding: revert;
+      margin: revert;
+    } // LNY; cmt 2023-02-20 
   }
 }
 
