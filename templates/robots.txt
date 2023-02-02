@@ -7,6 +7,8 @@ Disallow: /cv/
 Disallow: /exhaustivecv/
 Disallow: /bucket/
 Disallow: /wishlist/
+Disallow: /sketchbook/
+Disallow: /photobook/
 Disallow: /processed_images/
 
 Sitemap: {{ get_url(path="sitemap.xml") }}
