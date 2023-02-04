@@ -36,7 +36,7 @@ get-haskell-win:
 	scoop bucket add main
 	scoop install stack
 get-hakyll:
-	stack install hakyll
+	stack install ghc hakyll
 
 serve:
 	zola serve --drafts -O -p 10000 &
