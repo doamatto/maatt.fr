@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8" />
+   		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	    <link rel="alternate" type="application/atom+xml" title="Blog" href="/atom.xml">
+	    <link rel="alternate" type="application/atom+xml" title="Titbits" href="/z/atom.xml">
+	    <link rel="/style.css" rel="stylesheet">
+	    <link rel="icon" href="data:,">
+	    <link rel="pgpkey authn" href="/pgp.asc">
+	    <meta name="author" content="Matt Ronchetto">
+	    <title>$title$ — Matt Ronchetto</title>
+    </head>
+    <body>
+    	<a href="#content" id="top">Skip to content</a>
+    	<header>
+    		<nav>
+    			<ul>
+    				<li><a href="/">Matthew Ronchetto</a></li>
+			        <li><a href="/about/">About</a></li>
+			        <li><a href="/blog/">Blog</a></li>
+			        <li><a href="/work/">Works</a></li>
+			    </ul>
+			</nav>
+			<section>
+				<h1>$title$</h1>
+				$partial("templates/layout/header.html")$
+			</section>
+		</header>
+		<main id="content"></main>
+		$partial("templates/layout/footer.html")$
+
+    </body>
+</html>
