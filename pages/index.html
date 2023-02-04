@@ -1,0 +1,47 @@
+---
+title: "Matt Ronchetto"
+---
+
+<h2>
+  <abbr title="Happy Spring Festival / Lunar New Year">恭喜发财</abbr>
+</h2>
+<p>
+  Hi, I'm Matt: high-school senior, web and software developer, artist, <abbr title="English and French">bilingual</abbr> <abbr title="French-American">dual national</abbr>, among other things.
+</p>
+
+<section>
+  <h2>Past posts</h2>
+  {%- set blogdata = get_section(path="blog/_index.md") -%}
+  {#{%- set zdata = get_section(path="z/_index.md") -%}
+  {%- set posts = blogdata.pages | concat(with=zdata.pages) -%}-#}
+  {%- set posts = blogdata.pages %}
+  <ul>
+    {%- for post in posts | sort(attribute="date") | reverse | slice(end=5) %}
+    <li>
+      <a href="{{post.permalink}}">{{post.title}}</a>
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
+
+<section>
+  <h2>Past works</h2>
+  {%- set worksdata = load_data(path="content/work/data.json") %}
+  <ul>
+    {%- for item in worksdata %}
+    <li>
+      <a href="{{item.url}}">{{item.name}}</a>— {{item.desc}}
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>
+    You can reach out to me for whatever; be it for a gig, questions about past work, or just to chat. I can hold a conversation in French or English but will try to translate for other languages.
+  </p>
+  <p>
+    You can email me at <a href="mailto:heyy@maatt.fr">heyy [at] maatt.fr</a> (<a href="/key/">public key</a>).
+  </p>
+</section>
