@@ -1,4 +1,4 @@
 public/
-static/processed_images/
+stack.lock
 .DS_Store
 .scannerwork/
