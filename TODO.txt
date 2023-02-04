@@ -1,1 +1,10 @@
-- Auto-update or add warning if file gets changed but `updated` doesn't.
+- Add shortcut for posts
+	- Populate date in ISO
+	- Start frontmatter
+- Migrate to Hakyll entirely:TM:
+- Add JSONFeed (/feed.json)
+- Add Atom feed (/atom.xml)
+- Add RSS feed (/rss.xml)
+- Add image pipeline
+	- Generate thumbs for templates/gallery.html
+	- Generate metadata for templates/gallery.html (alt text)
