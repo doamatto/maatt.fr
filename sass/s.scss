@@ -3,7 +3,7 @@ a, a:visited { color: #06c; }
 a:hover, a:focus { text-decoration: none; }
 header, main, footer {
 	margin: 0 auto;
-	max-width: 90%;
+	max-width: 600px;
 }
 @media (min-width: 800px) { header, main, footer { max-width: 60%; } }
 nav > ul {
