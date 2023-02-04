@@ -1,0 +1,6 @@
+resolver: lts-20.9
+system-ghc: true
+packages:
+  - .
+extra-deps:
+  - hakyll-4.13.0.1
