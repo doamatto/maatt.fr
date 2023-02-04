@@ -1,4 +1,4 @@
-public/
+_site/
 stack.lock
 .DS_Store
 .scannerwork/
