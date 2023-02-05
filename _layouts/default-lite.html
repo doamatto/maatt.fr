@@ -3,13 +3,12 @@
 	<head>
 		<meta charset="utf-8" />
    		<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	    <link rel="alternate" type="application/atom+xml" title="Blog" href="/atom.xml">
-	    <link rel="alternate" type="application/atom+xml" title="Titbits" href="/z/atom.xml">
+	    <link rel="alternate" type="application/atom+xml" href="/atom.xml">
 	    <link rel="/style.css" rel="stylesheet">
 	    <link rel="icon" href="data:,">
 	    <link rel="pgpkey authn" href="/pgp.asc">
 	    <meta name="author" content="Matt Ronchetto">
-	    <title>$title$ — Matt Ronchetto</title>
+	    <title>{{ page.title }} — Matt Ronchetto</title>
     </head>
     <body>
     	<a href="#content" id="top">Skip to content</a>
@@ -24,11 +23,10 @@
 			</nav>
 			<section>
 				<h1>$title$</h1>
-				$partial("templates/layout/header.html")$
+				{% include header.html %}
 			</section>
 		</header>
-		<main id="content">$body$</main>
-		$partial("templates/layout/footer.html")$
-
+		<main id="content">{{ content }}</main>
+		{% include footer.html %}
     </body>
 </html>
