@@ -16,6 +16,12 @@ strict_front_matter: true
 markdown_ext: 'md'
 encoding: 'utf-8'
 
+collections:
+  root:
+    relative_directory: '_pages/'
+    output: true
+    permalink: /:path.html
+
 # build
 show_drafts: false
 profile: true
