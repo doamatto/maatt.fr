@@ -98,5 +98,5 @@ www.maatt.eu,
 beta.maatt.fr,
 beta.maatt.eu {
   encode zstd gzip
-  redir https://beta.maatt.fr{uri}
+  redir https://maatt.fr{uri}
 }
