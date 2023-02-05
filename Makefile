@@ -16,6 +16,8 @@ prepare-build:
 	mkdir -p public/
 build-scss:
 	sass _sass/style.scss:style.css _sass/:public/ -c -s compressed
+build-site-lite:
+	JEKYLL_ENV="litemode" bundle exec jekyll build --config _config.yml,_liteconfig.yml
 build-site:
 	bundle exec jekyll build
 
