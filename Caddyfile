@@ -7,6 +7,10 @@
   redir /legal/environmental /legal/ 301
   redir /privacy /legal/ 301
   redir /imprint /legal/ 301
+  redir /use /uses 301
+  redir /stack /uses 301
+  redir /blog/apple-mar2022 /blog/apple-march-22
+  redir /blog/apple-oct2021 /blog/apple-october-21
 
   # 404 redirects
   handle_errors {
