@@ -1,19 +1,23 @@
 OS= mac # mac, win, or apk (Alpine Linux)
 
+SASS_VERSION=1.55.0
+CHRUBY_VERSION=0.3.9
+RUBY_VERSION=3.1.3
+RUBYINSTALL_VERSION=0.9.0
+BUNDLER_VERSION=2.4.6
+JEKYLL_VERSION=4.3.2
+
 .PHONY: build-new
-all: build-site build-scss
-build-new: build-site-new build-scss
-fetch-deps: get-sass-$(OS) get-zola-$(OS)
-fetch-deps-new: get-sass-$(OS) get-haskell-$(OS) get-hakyll
+build: build-site build-scss
+fetch-deps: get-sass-$(OS) get-chruby-$(OS) get-ruby cleanup get-jekyll
+cleanup: cleanup-repo
 
 prepare-build:
 	mkdir -p public/
 build-scss:
-	sass sass/style.scss:style.css sass/:public/ -c -s compressed
+	sass _sass/style.scss:style.css _sass/:public/ -c -s compressed
 build-site:
-	zola build
-build-site-new:
-	stack exec site build
+	bundle exec jekyll build
 
 # Dependencies for `make fetch-deps`
 get-sass-win:
@@ -23,25 +27,39 @@ get-sass-mac:
 	brew install sass/sass/sass
 get-sass-apk:
 	apk add dart-sass=1.55.0-r2 --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing/
-get-zola-win:
+get-chruby-mac:
+	brew install chruby ruby-install xz
+	echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" > "$()HOME)/.zshrc"
+get-chruby-apk: 
+	curl -o chruby.tgz "https://github.com/postmodern/chruby/archive/v$(CHRUBY_VERSION).tar.gz"
+	curl -o rubyinstall.tgz "https://github.com/postmodern/ruby-install/archive/v$(RUBYINSTALL_VERSION).tar.gz"
+	tar -xzvf chruby.tgz
+	tar -xzvf rubyinstall.tgz
+	cd chruby/
+	sudo make install
+	cd ../rubyinstall/
+	sudo make install
+get-chruby-win:
 	scoop bucket add main
-	scoop install zola@v0.16.1
-get-zola-mac:
-	brew install zola
-get-zola-apk:
-	apk add zola=0.16.1-r0
-get-haskell-mac get-haskell-apk:
-	curl -sSL https://get.haskellstack.org/ | sh -s - -f
-get-haskell-win:
-	scoop bucket add main
-	scoop install stack
-get-hakyll:
-	stack install ghc hakyll
+	scoop install ruby@v$(RUBY_VERSION)-1
+get-ruby:
+	if [ $(OS) != "win" ]; then 
+		ruby-install ruby $(RUBY_VERSION)
+	fi
+get-jekyll:
+	gem install bundler
+	bundle install
+cleanup:
+	# Remove chruby installer
+	rm chruby.tgz
+	rm -r chruby/
+	# Remove rubyinstall installer
+	rm rubyinstall.tgz
+	rm -r rubyinstall/
 
 serve:
-	zola serve --drafts -O -p 10000 &
-	sass sass/style.scss:style.css sass/:public/ -wc
+	bundle exec jekyll serve -owtD &
+	sass _sass/style.scss:style.css _sass/:public/ -wc
 	# Speed isn't important— use the native toolkit.
-serve-new:
-	stack exec site watch &
-	sass sass/style.scss:style.css sass/:public/ -wc
+cleanup-repo:
+	rm -r _site/
