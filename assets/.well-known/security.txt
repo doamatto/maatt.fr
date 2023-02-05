@@ -1,0 +1,11 @@
+Woah! You found a problem? That's crazy.
+
+Jokes aside, that's, obviously, a problem.
+
+Write to me at security [at] doamatto.xyz. Encrypt it using my PGP key below and sign it with yours.
+
+My PGP key is at https://maatt.fr/key, as well as https://maatt.fr/pgp.asc
+
+--- --- ---
+
+curl -sL https://maatt.fr/pgp.asc | gpg --import

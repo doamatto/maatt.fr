@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Disallow: /betelgeuse/
+Disallow: /nbt/
+Disallow: /sundiego/
+Disallow: /cv/
+Disallow: /exhaustivecv/
+Disallow: /bucket/
+Disallow: /wishlist/
+Disallow: /sketchbook/
+Disallow: /photobook/
+Disallow: /processed_images/
+
+Sitemap: https://maatt.fr/sitemap.xml
