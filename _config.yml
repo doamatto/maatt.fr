@@ -11,7 +11,6 @@ exclude:
 
 ignore_theme_config: true
 encoding: 'utf-8'
-safe: true
 strict_front_matter: true
 markdown_ext: 'md'
 encoding: 'utf-8'
