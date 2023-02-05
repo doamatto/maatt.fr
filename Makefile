@@ -29,7 +29,7 @@ get-sass-apk:
 	apk add dart-sass=1.55.0-r2 --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing/
 get-chruby-mac:
 	brew install chruby ruby-install xz
-	echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" > "$()HOME)/.zshrc"
+	echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" > "$(HOME)/.zshrc"
 get-chruby-apk: 
 	curl -o chruby.tgz "https://github.com/postmodern/chruby/archive/v$(CHRUBY_VERSION).tar.gz"
 	curl -o rubyinstall.tgz "https://github.com/postmodern/ruby-install/archive/v$(RUBYINSTALL_VERSION).tar.gz"
@@ -39,6 +39,7 @@ get-chruby-apk:
 	sudo make install
 	cd ../rubyinstall/
 	sudo make install
+	echo "source " > "$(HOME)/.zprofile" # TODO: Source chruby in sh
 get-chruby-win:
 	scoop bucket add main
 	scoop install ruby@v$(RUBY_VERSION)-1
