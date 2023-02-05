@@ -1,7 +1,6 @@
 - Add shortcut for posts
 	- Populate date in ISO
 	- Start frontmatter
-- Add JSONFeed (/feed.json)
 - Add image pipeline
 	- Generate thumbs for templates/gallery.html
 	- Generate metadata for templates/gallery.html (alt text)
