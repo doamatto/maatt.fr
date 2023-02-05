@@ -1,4 +1,4 @@
 _site/
-stack.lock
 .DS_Store
 .scannerwork/
+Gemfile.lock
