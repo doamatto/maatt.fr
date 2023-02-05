@@ -1,0 +1,28 @@
+---
+layout: null
+---
+{
+	"version": "https://jsonfeed.org/version/1",
+	"title": "{{ site.title }}",
+	"home_page_url": "{{ site.url }}{{ site.baseurl }}",
+	"feed_url": "{{ '/feed.json' | relative_url }}",
+	"description": "{{ site.description }}",
+	"expired": false,
+	"author": "Matthew Ronchtto <heyy@maatt.fr>",
+	"items": [
+		{% for post in site.posts limit: 12 %}
+		{
+            "id": "{{ post.url | absolute_url | sha1 }}",
+			"title": "{{ post.title | jsonify }}",
+            "summary": "{{ post.description | jsonify }}",
+            "content_text": "{{ post.content | strip_html | strip_newlines | jsonify }}",
+            "content_html": "{{ post.content | strip_newlines | jsonify }}",
+			"url": "{{ post.url | absolute_url }}",
+			"date_published": "{{ post.date | date_to_xmlschema }}",
+			{% if post.updated %}
+			"date_modified": "{{ post.updated | date_to_xmlschema }}",
+			{% endif %}
+		}
+		{% endfor %}
+	]
+}

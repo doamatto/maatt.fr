@@ -1,0 +1,23 @@
+---
+title: "Contact"
+description: "There are a few ways you can reach out to me; be it for a gig, questions about my past works, or if you just want to chat."
+updated: "2022-12-17"
+---
+
+You can reach out to me for whatever; be it for a gig, questions about past work, or just to chat. I can hold a conversation in French or English but will try to translate for other languages. CV is available in both French and English on request.
+
+You can email me at [hey \[at\] maatt.fr](mailto:hey@maatt.fr) ([public key](/key/)).
+
+Some other places around the internet that I'm at are:
+- DeviantArt: [/doa-matt-o](https://www.deviantart.com/doa-matt-o)
+- GitHub: [@doamatto](https://github.com/doamatto)
+- Last.fm: [/user/doamatto](https://www.last.fm/user/doamatto)
+- Letterboxd: [/doamatto](https://letterboxd.com/doamatto/)
+<!--- Mastodon: [matt@farer.group](https://social.farer.group/@matt)-->
+
+Some places I used to be were:
+- Instagram: @thetruedoormat
+- Reddit: /u/doamatto
+- Sourcehut: /~doamatto
+- Twitch: /doamatto
+- Twitter: @doamatto

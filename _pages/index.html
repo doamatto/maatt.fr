@@ -1,0 +1,44 @@
+---
+title: "Matt Ronchetto"
+---
+
+<h2>
+  <abbr title="Happy Spring Festival / Lunar New Year">恭喜发财</abbr>
+</h2>
+<p>
+  Hi, I'm Matt: high-school senior, web and software developer, artist, <abbr title="English and French">bilingual</abbr> <abbr title="French-American">dual national</abbr>, among other things.
+</p>
+
+<section>
+  <h2>Past posts</h2>
+  <ul>
+    {% for post in site.posts limit: 5 %}
+    <li><a href="{{ post.url | absolute_url }}">{{post.title}}</a></li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section>
+  <h2>Past works</h2>
+  <ul>
+    <li>
+      <a href="https://farer.group">The Farer Group</a>— Research project into the Internet and creating a member-exclusive intranet.
+    </li>
+    <li>
+      <a href="https://polytechnic.systems">Polytechnic Systems</a>— Hardware engineering company/group/thing. 
+    </li>
+    <li>
+      <a href="https://github.com/lambda-sys">Lambda Systems</a>— Research project for hardware and software enginerring. 
+    </li>
+  </ul>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>
+    You can reach out to me for whatever; be it for a gig, questions about past work, or just to chat. I can hold a conversation in French or English but will try to translate for other languages.
+  </p>
+  <p>
+    You can email me at <a href="mailto:heyy@maatt.fr">heyy [at] maatt.fr</a> (<a href="/key/">public key</a>).
+  </p>
+</section>
