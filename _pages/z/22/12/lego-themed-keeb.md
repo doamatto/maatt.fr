@@ -1,7 +1,7 @@
-+++
-title= "A Lego-themed DIY mechanical keyboard"
-date= 2022-12-11T04:51:00Z
-+++
+---
+title: "A Lego-themed DIY mechanical keyboard"
+date: 2022-12-11T04:51:00Z
+---
 
 Store URL: [https://kbdcraft.store/products/adam](https://kbdcraft.store/products/adam)
 

@@ -1,7 +1,7 @@
-+++
-title= "Nintendo now has a Year in Review"
-date= 2022-12-22T04:38:00Z
-+++
+---
+title: "Nintendo now has a Year in Review"
+date: 2022-12-22T04:38:00Z
+---
 
 URL: [https://nintendo-switch-2022.nintendo.com/fr-fr](https://nintendo-switch-2022.nintendo.com/fr-fr/)
 

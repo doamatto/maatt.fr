@@ -1,7 +1,7 @@
-+++
-title= "Apple adds end-to-end encryption to more iCloud services"
-date= 2022-12-07T04:51:00Z
-+++
+---
+title: "Apple adds end-to-end encryption to more iCloud services"
+date: 2022-12-07T04:51:00Z
+---
 
 Press release: [Apple](https://www.apple.com/newsroom/2022/12/apple-advances-user-security-with-powerful-new-data-protections/)
 

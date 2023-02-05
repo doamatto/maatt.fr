@@ -1,8 +1,8 @@
-+++
-title= "Broadcom bought VMware; EU investigation underway"
-description= "Broadcom is acquiring VMware, prompting investigation by the EU with fears of less comeptition with server hardware."
-date= 2022-12-22T02:18:00Z
-+++
+---
+title: "Broadcom bought VMware; EU investigation underway"
+description: "Broadcom is acquiring VMware, prompting investigation by the EU with fears of less comeptition with server hardware."
+date: 2022-12-22T02:18:00Z
+---
 
 Press release [from VMWare](https://news.vmware.com/company/vmware-stockholders-approve-proposed-acquisition-by-broadcom)
 Article: [Antoine Messina @ SiecleDigital](https://siecledigital.fr/2022/12/21/rachat-de-vmware-par-broadcom-la-commission-europeenne-ouvre-une-enquete/) (in French / en Français)
