@@ -2,9 +2,6 @@
 title: "Matt Ronchetto"
 ---
 
-<h2>
-  <abbr title="Happy Spring Festival / Lunar New Year">恭喜发财</abbr>
-</h2>
 <p>
   Hi, I'm Matt: high-school senior, web and software developer, artist, <abbr title="English and French">bilingual</abbr> <abbr title="French-American">dual national</abbr>, among other things.
 </p>
@@ -12,7 +9,8 @@ title: "Matt Ronchetto"
 <section>
   <h2>Past posts</h2>
   <ul>
-    {% for post in site.posts limit: 5 %}
+    {% set section = velo.get_sec("blog") %}
+    {% for post in section | reverse | truncate(5) %}
     <li><a href="{{ post.url | absolute_url }}">{{post.title}}</a></li>
     {% endfor %}
   </ul>
@@ -28,7 +26,7 @@ title: "Matt Ronchetto"
       <a href="https://polytechnic.systems">Polytechnic Systems</a>— Hardware engineering company/group/thing. 
     </li>
     <li>
-      <a href="https://github.com/lambda-sys">Lambda Systems</a>— Research project for hardware and software enginerring. 
+      <a href="https://github.com/doamatto/velo">Velo</a>— A dead-simple static site generator that's as easy as riding a bike.
     </li>
   </ul>
 </section>

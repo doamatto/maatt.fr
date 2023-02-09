@@ -6,6 +6,4 @@ Write to me at security [at] doamatto.xyz. Encrypt it using my PGP key below and
 
 My PGP key is at https://maatt.fr/key, as well as https://maatt.fr/pgp.asc
 
---- --- ---
-
 curl -sL https://maatt.fr/pgp.asc | gpg --import

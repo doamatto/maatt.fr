@@ -6,6 +6,9 @@ date: "2022-07-31"
 - **[The Farer Group—](https://farer.group)** Research project into the Internet and creating a member- and resident- exclusive intranet.
 - **[PrivacySpy—](https://privacyspy.org)** Crowdsourced privacy policy ratings. Made a **lot** of additions and a [web crawler](https://github.com/doamatto/ps-crawl).
 - **[Polytechnic Systems—](https://polytechnic.systems)** Hardware engineering company/group/thing; née Project Cronus.
+- **[Velo—](https://github.com/doamatto/velo)** A dead-simple static site generator that's as easy as riding a bike. 
+- **[go-nunjucks—](https://github.com/doamatto/go-nunjucks)** A port of Nunjucks (which is a "port" of Jinja2) to Golang
+- **[macpkg—](https://github.com/doamatto/macpkg)** A package manager loosely based on XBPS for Mac (with compatibility for Brew and Ports)
 - **[Nano for Jekyll–](/blog/my-first-jekyll-theme/)** Deprecated Jekyll template that just works. ~20'000 downloads.
 - **[go-calipower—](https://github.com/doamatto/go-calipower)** Get available power capacity, estimates, and reserves from [California ISO.](http://www.caiso.com/Pages/default.aspx)
 - **[5M Loading–](https://github.com/doamatto/5m_loading)** Another FiveM loading screen. Net ~8000 views and 700+ downloads.

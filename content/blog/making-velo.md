@@ -1,7 +1,8 @@
 ---
-title: "Back to Jekyll once more— the seemingly only sane SSG"
-description: "Most of the time, I was fighting to get what I wanted to work with Zola. At least now I can enjoy working on my site."
-date: 2023-02-04
+title: "Making Velo— the only (probably) sane site generator"
+description: "Most of the time, I was fighting to get what I wanted to work with a site generator. At least now I can enjoy working on my site."
+date: 2023-03-01
+draft: true
 ---
 
 It has been 4 years, if my memory serves right, since I've used Jekyll. It was what this site (or more aptly, [doamatto.xyz](https://doamatto.xyz)) used to create a website that fit my needs.

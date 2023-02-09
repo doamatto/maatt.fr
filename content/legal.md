@@ -1,6 +1,6 @@
 ---
 title: "Legal"
-updated: "2022-12-13"
+updated: "2023-02-08"
 ---
 
 ### Liability for Links
@@ -18,7 +18,8 @@ Matthew Ronchetto<br/>
 Centre UBIDOCA, 19963<br/>
 74370 Annecy<br/>
 France<br/>
-[dpo \[at\] doamatto.xyz](mailto:dpo@doamatto.xyz) | +1 858-333-4262
+[dpo \[at\] doamatto.xyz](mailto:dpo@doamatto.xyz)<br/>
+Phone number available upon request.
 
 [You can view the edit history on GitHub.](https://github.com/doamatto/maatt.fr/blob/main/content/legal.md) Feel free to check back however often you please.
 
