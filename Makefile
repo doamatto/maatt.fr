@@ -4,7 +4,7 @@ VELO_VERSION=0.1.0
 
 .PHONY: build
 build: build-site build-scss
-fetch-deps: get-sass-$(OS) cleanup get-velo
+fetch-deps: get-sass-$(OS) get-velo cleanup
 
 prepare-build:
 	mkdir -p public/
