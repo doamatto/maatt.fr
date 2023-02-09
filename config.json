@@ -1,0 +1,18 @@
+{
+  "base_url": "https://maatt.fr",
+  "permalink": "pretty",
+  "exclude": [
+    ".gitattributes",
+    ".gitignore",
+    "Caddyfile",
+    "LICENSE",
+    "Makefile",
+    "TODO.txt",
+    ".github/"
+  ],
+
+  "nunjucks": {
+    "error_mode": "strict",
+  },
+  "port": 10000
+}
