@@ -1,8 +1,8 @@
-+++
-title="HTTPS on Plex— What a Rollercoaster"
-description="After about 3 hours, I setup a custom HTTPS on Plex purely so I don't have to look at that stupid red padlock."
-date="2022-03-19T15:24:00-08:00"
-+++
+---
+title: "HTTPS on Plex— What a Rollercoaster"
+description: "After about 3 hours, I setup a custom HTTPS on Plex purely so I don't have to look at that stupid red padlock."
+date: "2022-03-19T15:24:00-08:00"
+---
 
 A pretty big part of my life is music and, although I know it's one of the worst ways to stream it, I use Plex to access my music on the go, as well as a few movies and musicals I have on the same server. For awhile, I just used Plex's relay servers and remote access while I was on campus or away from my house. But, whenever something like `plex.direct` was blocked, I was SOL. I deployed Tailscale on my home network not long ago and have used it to mitigate this problem, but whenever I use my laptop, I get rudely reminded of how I'm using an insecure connection.
 

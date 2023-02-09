@@ -11,4 +11,4 @@ Disallow: /sketchbook/
 Disallow: /photobook/
 Disallow: /processed_images/
 
-Sitemap: {{ get_url(path="sitemap.xml") }}
+Sitemap: https://maatt.fr/sitemap.xml

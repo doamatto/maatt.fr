@@ -1,7 +1,7 @@
-+++
-title= "Personalised ads from Meta are illegal in the EU"
-date= 2022-12-09T04:51:00Z
-+++
+---
+title: "Personalised ads from Meta are illegal in the EU"
+date: 2022-12-09T04:51:00Z
+---
 
 Article: [noyb](https://noyb.eu/en/noyb-win-personalized-ads-facebook-instagram-and-whatsapp-declared-illegal)
 

@@ -1,7 +1,7 @@
-+++
-title= "Crazy fast email responses are amazing."
-date= "2022-10-20"
-+++
+---
+title: "Crazy fast email responses are amazing."
+date: "2022-10-20"
+---
 
 I've been recently researching about Northern Ireland and the Belfast Agreement. Naturally, I've sent out probably 17 gazillion emails to governments, professors, individuals, and everything in between. One pattern has been that they've all responded crazy fast.
 

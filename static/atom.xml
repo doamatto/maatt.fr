@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>{{ site.title }}</title>
+    <subtitle>{{ site.description }}</subtitle>
+    <link href="{{ '/atom.xml' | relative_url }}" rel="self"/>
+    <id>{{ site.url }}{{ site.baseurl }}</id>
+    <link href="{{ site.url }}"/>
+    <generator>Jekyll</generator>
+    <author><name>Matthew Ronchetto</name></author>
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    {% for post in site.posts %}
+    <entry xml:lang="en">
+      <title>{{ post.title | xml_escape }}</title>
+      <link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"/>
+      <id>{{ site.url }}{{ post.id }}</id>
+      <published>{{ post.date | date(format="%+") }}</published>
+      <updated>{{ post.date | date_to_xmlschema }}</updated>
+      <content type="html">{{ post.content | xml_escape }}</content>
+    </entry>
+    {% endfor %}
+</feed>

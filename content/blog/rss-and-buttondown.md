@@ -1,9 +1,9 @@
-+++
-title= "Making RSS and Buttondown best friends forever"
-description= "Using software written in a couple of hours, you too can wed RSS and Buttondown for an eternal marriage. Or until one gives out."
-date= "2022-04-02T07:03:12-08:00"
-updated= "2022-07-31"
-+++
+---
+title: "Making RSS and Buttondown best friends forever"
+description: "Using software written in a couple of hours, you too can wed RSS and Buttondown for an eternal marriage. Or until one gives out."
+date: "2022-04-02T07:03:12-08:00"
+updated: "2022-07-31"
+---
 
 As most people know, this site has an [Atom/RSS feed.](/atom.xml) As most people probably don't know, this site *used* to have a mailing list alongside it. I knew that asking people to use feed readers as their sole method of trying to find out what's new on this site would be like a person without limbs trying to do yoga: hard, to say the least.
 

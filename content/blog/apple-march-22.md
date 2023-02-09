@@ -1,10 +1,9 @@
-+++
-title = "Apple's March Event: Mac Studio and Co."
-date = "2022-03-08T11:02:00Z"
-updated = "2022-03-12T06:39:10Z"
-description = "Last iteration of M1 + new Mac and display + other minor things."
-aliases=["/blog/apple-mar2022"]
-+++
+---
+title: "Apple's March Event: Mac Studio and Co."
+date: "2022-03-08T11:02:00Z"
+updated: "2022-03-12T06:39:10Z"
+description: "Last iteration of M1 + new Mac and display + other minor things."
+---
 
 Going into the "Peek performance" event, I didn't really know what to expect to come. Maybe some updates on digital IDs, maybe a new Mac with Apple Silicon. After they finished waffling about Apple TV+, Apple unveiled some hardware updates that were pretty mediocre, new content to Apple TV+ that should improve its competitiveness with other streaming platforms, and a new Mac with new Apple Silicon. Overall: a cool event.
 

@@ -10,4 +10,5 @@ Rishi Veerepalli for helping with a past version of the About page — https://w
 
 /* SITE */
 Standards: HTML5, CSS3
-Software: Zola
+Software: Hakyll
+Past software: Zola, Hugo, Jekyll

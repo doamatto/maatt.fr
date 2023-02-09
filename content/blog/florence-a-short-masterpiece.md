@@ -1,9 +1,9 @@
-+++
-title= "Florence: A short love story masterpiece"
-description= "A short, breathtaking story, complemented amazingly with gorgeous music compositions."
-date= "2022-04-23"
-updated= "2022-07-31"
-+++
+---
+title: "Florence: A short love story masterpiece"
+description: "A short, breathtaking story, complemented amazingly with gorgeous music compositions."
+date: "2022-04-23"
+updated: "2022-07-31"
+---
 
 <picture>
 	<source srcset="https://fm.doamatto.xyz/florence/Screenshot%202022-04-22%20at%2021.50.46.wp2">

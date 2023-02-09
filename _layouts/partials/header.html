@@ -1,0 +1,11 @@
+$if(date)$
+	<p>
+		<time datetime="$date$">$date$</time>.<br>
+		$if(updated)$
+			<i>Updated: <time datetime="$updated$">$updated$</time>.</i>
+		$endif$
+	</p>
+$endif$
+$if(updated)$
+	<p><i>Updated: <time datetime="$updated$">$updated$</time>.</i></p>
+$endif$

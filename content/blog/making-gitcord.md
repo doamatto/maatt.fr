@@ -1,9 +1,9 @@
-+++
-title = "Making Gitcord"
-description = "A bot that allows users to search repositories via GitHub's API"
-date = "2021-01-23"
-updated= "2022-08-31"
-+++
+---
+title: "Making Gitcord"
+description: "A bot that allows users to search repositories via GitHub's API"
+date: "2021-01-23"
+updated: 2022-08-31"
+---
 
 I recently was sent an invite to a GitHub organisation and a Discord group known as «DevingOnDiscord». From my understanding, it's essentially a group of lads who use Discord to turn a profit with their software. Frankly, I've never really cared about making a profit from my service, but I decided to help out with some of the projects. One of those being Gitcord.
 

@@ -1,7 +1,7 @@
-+++
-title= "DuckDuckGo for Mac now has Bitwarden support"
-date= 2022-12-11T04:44:00Z
-+++
+---
+title: "DuckDuckGo for Mac now has Bitwarden support"
+date: 2022-12-11T04:44:00Z
+---
 
 URL: [https://twitter.com/i/status/1600173319780814848](https://twitter.com/i/status/1600173319780814848)
 

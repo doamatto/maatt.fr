@@ -1,0 +1,16 @@
+{
+	"aliases": [
+		"https://farer.group/@matt"
+		"https://farer.group/users/matt"
+	],
+	"links": [{
+		"href": "https://farer.group/@matt",
+		"rel": "http://webfinger.net/rel/profile-page",
+		"type": "text/html",
+	}, {
+		"href": "https://farer.group/users/matt",
+		"rel": "self",
+		"type": "application/activity+json",		
+	}],
+	"subject": "acct:matt@farer.group"
+}

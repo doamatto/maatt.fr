@@ -1,9 +1,9 @@
-+++
-title= "Moving from AWS to 1984 Hosting"
-description= "This was a rollercoaster of a journey just to make my site absurdly purple."
-date= "2022-04-02T00:59:56-08:00"
-updated= "2022-07-31"
-+++
+---
+title: "Moving from AWS to 1984 Hosting"
+description: "This was a rollercoaster of a journey just to make my site absurdly purple."
+date: "2022-04-02T00:59:56-08:00"
+updated: "2022-07-31"
+---
 
 Recently, I decided to mess with my site again. This was a terrible idea for two reasons, both not being that I shouldn't mess with it as often as I do.
 

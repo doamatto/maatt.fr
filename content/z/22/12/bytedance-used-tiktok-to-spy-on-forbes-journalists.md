@@ -1,8 +1,8 @@
-+++
-title= "ByteDance used TikTok to monitor Forbes' journalists"
-description= "Forbes reported in October that ByteDance and TikTok were surveilling 'specific' American citizens. They later found out Forbes' journalists were included."
-date= 2022-12-22
-+++
+---
+title: "ByteDance used TikTok to monitor Forbes' journalists"
+description: "Forbes reported in October that ByteDance and TikTok were surveilling 'specific' American citizens. They later found out Forbes' journalists were included."
+date: 2022-12-22
+---
 
 Article: [Emily Baker-White @ Forbes](https://www.forbes.com/sites/emilybaker-white/2022/12/22/tiktok-tracks-forbes-journalists-bytedance/)
 

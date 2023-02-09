@@ -1,8 +1,8 @@
-+++
-title= "LastPass was breached: included backups of user vaults, customer data"
-description= "Last month, LastPass announced that it had a data breach that had 'certain elements' of customer info was leaked. Today, that's been updated to include customer data and backups of unencrypted and encrypted user vault data."
-date= 2022-12-22T05:44:00Z
-+++
+---
+title: "LastPass was breached: included backups of user vaults, customer data"
+description: "Last month, LastPass announced that it had a data breach that had 'certain elements' of customer info was leaked. Today, that's been updated to include customer data and backups of unencrypted and encrypted user vault data."
+date: 2022-12-22T05:44:00Z
+---
 
 Article: [Mitchell Clark @ The Verge](https://www.theverge.com/2022/12/22/23523322/lastpass-data-breach-cloud-encrypted-password-vault-hackers)
 

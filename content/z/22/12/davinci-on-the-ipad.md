@@ -1,7 +1,7 @@
-+++
-title= "DaVinci Resolve is now on the iPad"
-date= 2022-12-22T00:44:00Z
-+++
+---
+title: "DaVinci Resolve is now on the iPad"
+date: 2022-12-22T00:44:00Z
+---
 
 App Store: [DaVinci Resolve for iPad](https://apps.apple.com/us/app/davinci-resolve-for-ipad/id1581363826) (free, with 94,99 $US in-app purchase)
 

@@ -1,8 +1,7 @@
-+++
-title= "Technology I use"
-aliases= ["/use","/stack"]
-updated= "2022-12-31"
-+++
+---
+title: "Technology I use"
+updated: "2022-12-31"
+---
 
 ## Hardware
 - **Mac Mini M1 16GB.** Power-efficient, and gets the job done.

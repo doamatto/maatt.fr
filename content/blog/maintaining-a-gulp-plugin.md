@@ -1,9 +1,9 @@
-+++
-title = "Maintaining a Gulp Plugin: ESLint"
-description = "Why struggle with someone else's package when you can struggle with your own!"
-date = "2021-11-18"
-updated = "2022-08-31"
-+++
+---
+title: "Maintaining a Gulp Plugin: ESLint"
+description: "Why struggle with someone else's package when you can struggle with your own!"
+date: "2021-11-18"
+updated: "2022-08-31"
+---
 
 As much as I hate to admit it, I was a rather large fan of and user of JavaScript. To help make sure my spaghetti code isn't complete.. well.. spaghetti, I use a tool called [ESLint](https://eslint.org) to ensure silly mistakes like unclosed brackets and malformed indentations don't happen. I also use [Gulp](https://gulpjs.com) to run ESLint and a few other tools for me. In other words, it makes life easy. The most popular ESLint plugin for Gulp (at the time of writing) was from Adametry, but was both abandoned and outdated. So, I've decided, in true open-source fashion, to fork the repository and give it the love it needs.
 

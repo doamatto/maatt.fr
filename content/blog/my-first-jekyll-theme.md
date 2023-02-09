@@ -1,9 +1,9 @@
-+++
-title = "Nano— My First Jekyll Theme"
-description = "A Jekyll-based website template that just works. My « entry » into development"
-date = "2021-09-27"
-updated= "2022-08-31"
-+++
+---
+title: "Nano— My First Jekyll Theme"
+description: "A Jekyll-based website template that just works. My « entry » into development"
+date: "2021-09-27"
+updated: "2022-08-31"
+---
 
 Truth be told, if you don't have a website these days, you're behind. I've never been a particular fan of website drag-and-drop sites because of their cookie cutter designs and bloated code. When I bought my domain name, it was only fitting that I'd develop the best experience for both:
 - end-users to see what I've been up to; and:

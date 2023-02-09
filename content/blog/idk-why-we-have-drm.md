@@ -1,9 +1,9 @@
-+++
-title = "I don't know why we still have DRM."
-date = "2021-07-09"
-description = "DRM ultimately harms consumers who try to use what they buy."
-updated= "2022-07-31"
-+++
+---
+title: "I don't know why we still have DRM."
+date: "2021-07-09"
+description: "DRM ultimately harms consumers who try to use what they buy."
+updated: "2022-07-31"
+---
 
 In the early 2000s, we had a boom in what we could do as consumers with tech. It wasn't just for programmers or people who needed fancier calculators, but it could be something viable to use. It could give you games for your kids, be a place to watch a few shorts off Go.com (back in its glory days; not for selling Disneyland tickets), or a way to not only listen to your music but buy new songs to put on media players. Around that time, there was one notion: you buy it, you own it. You buy a CD, you own that CD and can rip it to have those songs in a digital format. You buy a movie on DVD, you own that DVD and can rip it to have a backup of that movie for things like Plex and Kodi (when they came around, of course).
 

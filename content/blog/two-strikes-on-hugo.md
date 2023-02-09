@@ -1,8 +1,8 @@
-+++
-title= "My woes with Hugo, the SSG"
-date= "2022-11-19"
-updated= "2022-12-13"
-+++
+---
+title: "My woes with Hugo, the SSG"
+date: "2022-11-19"
+updated: "2022-12-13"
+---
 
 For about 7 years (I'm getting old, and I don't like it.), I've had some kind of website. It started as a HTML file and a CSS file, and eventually went to Jekyll for a couple of years. I made a [theme that surprisingly received decent reception](/blog/my-first-jekyll-theme/) and had a generally good experience with Jekyll. After a while though, the pains of setting up Bundler, installing Ruby, and the slowness of Jekyll in part to the Ruby VM.
 

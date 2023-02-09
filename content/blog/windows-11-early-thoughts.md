@@ -1,10 +1,10 @@
-+++
-title = "Windows 11: So good, yet so bad."
-slug = "windows-11-early-thoughts"
-date = "2021-06-25"
-updated= 2022-12-27
-description = "Windows 11 just got announced; it's got a lot going for it, yet it's also so terrible."
-+++
+---
+title: "Windows 11: So good, yet so bad."
+slug: "windows-11-early-thoughts"
+date: "2021-06-25"
+updated: "2022-12-27"
+description: "Windows 11 just got announced; it's got a lot going for it, yet it's also so terrible."
+---
 
 When I heard about the leaks of a new Windows, I actually thought of it as a joke at first. It brought back the glass design and it replaced the old icons from Windows 7 with what I probably would have found on DeviantArt as a free icon pack. But, yesterday, Microsoft announced Windows 11 to the world, and I'm both a fan and not.
 

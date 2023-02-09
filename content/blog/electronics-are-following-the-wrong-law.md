@@ -1,9 +1,9 @@
-+++
-title = "Electronics are following the wrong law"
-date = "2021-08-11"
-description = "Software is lagging behind hardware, and it's showing."
-updated= 2022-12-27
-+++
+---
+title: "Electronics are following the wrong law"
+date: "2021-08-11"
+description: "Software is lagging behind hardware, and it's showing."
+updated: 2022-12-27
+---
 
 Rewind to 1965. Gordon Moore, a co-founder and former CEO of Intel, said that every year the amount of transistors per integrated circuit would double. He'd later decide to make it every two years, which has since been known as Moore's Law. Since then, technology has come quite a ways, with well over 5 billion transistors on most any microchip.
 

@@ -1,10 +1,9 @@
-+++
-title="Apple's October Event: A Huge Day for the Mac"
-description="New AirPods and M1 chips. Refreshed Macbook Pro."
-date="2021-10-18"
-updated="2022-07-31"
-aliases=["/blog/apple-oct2021"]
-+++
+---
+title: "Apple's October Event: A Huge Day for the Mac"
+description: "New AirPods and M1 chips. Refreshed Macbook Pro."
+date: "2021-10-18"
+updated: "2022-07-31"
+---
 
 In a very upbeat intro, the numbers counted down only helping build the excitement with what was to come: Apple's October event. My hopes were high for some new Macbooks and perhaps a new iMac. With the intro of sampling the blueberry G3. I was on the edge of my seat praying that we would get to see some of the classic Mac features return like MagSafe and more. The upbeat intro got me, and I imagine several others, ready for an event to remember. 
 

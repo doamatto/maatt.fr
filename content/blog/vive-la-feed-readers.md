@@ -1,10 +1,10 @@
-+++
-title = "Vive La Feed Readers"
-slug = "vive-la-feed-readers"
-date = "2021-06-15"
-description = "Screw social media feeds with ads: RSS or Bust."
-updated= "2022-12-28"
-+++
+---
+title: "Vive La Feed Readers"
+slug: "vive-la-feed-readers"
+date: "2021-06-15"
+description: "Screw social media feeds with ads: RSS or Bust."
+updated: "2022-12-28"
+---
 
 A little while ago, Chromium (the team and code behind Google Chrome) [announced an upcoming experiment](https://blog.chromium.org/2021/05/an-experiment-in-helping-users-and-web.html) involving deeper integration into RSS feeds from sites. They plan to add a basic RSS reader that lets you see updates from the New Tab page.
 

@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<HTML LANG="EN">
+	<HEAD>
+		<META CHARSET="utf-8" />
+   		<META NAME="viewport" content="width=device-width,initial-scale=1.0">
+	    <link REL="alternate" TYPE="application/atom+xml" HREF="/atom.xml">
+	    {% if velo.env != "litemode" %}
+	    <link REL="/style.css" REL="stylesheet">
+	    {% else %}
+	    <LINK REL="/A.css" REL="STYLESHEET">
+	    {% endif %}
+	    <link REL="icon" HREF="data:,">
+	    <link REL="pgpkey authn" HREF="/pgp.asc">
+	    <META NAME="author" CONTENT="Matt Ronchetto">
+	    <title>{{ page.title }} — Matt Ronchetto</title>
+	    {% if velo.env != "litemode" %}
+	    <META NAME="theme-color" CONTENT="#909EFF">
+	    {% if page.description != "" %}
+    	<META NAME="description" CONTENT="{{ page.description }}">
+	    {% endif %}
+	    {% if page.date %}
+  		<META PROPERTY="article:published_time" CONTENT="{{ page.date }}">
+      	{% endif %}
+      	{% if page.updated %}
+		<META HTTP-EQUIV="last-modified" CONTENT="{{ page.updated }}">
+    	{% endif %}
+    	{% endif %}
+    </HEAD>
+    <BODY>
+    	<A HREF="#content" ID="top">Skip to content</A>
+    	<HEADER>
+    		<NAV>
+    			<UL>
+    				<LI>
+    					{% if velo.env == "litemode" %}
+    					<A HREF="/">Matthew Ronchetto</A>
+			            {% else %}
+			            <A HREF="/" id="home" TITLE="Link to homepage" aria-label="Link to homepage">
+			              <svg viewBox="0 0 50 50" width="40" height="40" fill="none" role="img" aria-labelledby="home"><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" d="M26.185 14.1909C25.2848 12.603 23.6344 12.603 22.7342 14.1909L12.007 34.0388C11.9218 35.6032 12.6071 36.5 14.4825 36.5H34.4367C36.6121 36.5 37.0892 35.4582 36.9872 34.0388L26.185 14.1909ZM24.4596 15.7787L14.4825 34.0388H34.4367L24.4596 15.7787Z" fill="#000"/></svg>
+			            </A>
+			            {% endif %}
+			        </LI>
+			        <LI><A HREF="/about/">About</A></LI>
+			        <LI><A HREF="/blog/">Blog</A></LI>
+			        <LI><A HREF="/work/">Works</A></LI>
+			    </UL>
+			</NAV>
+			<SECTION>
+				<H1>$title$</H1>
+				{% include "partials/header.html" %}
+			</SECTIOn>
+		</HEADER>
+		<MAIN ID="content">{{ content }}</main>
+		{% include "partials/footer.html" %}
+    </BODY>
+</HTML>

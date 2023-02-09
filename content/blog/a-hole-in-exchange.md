@@ -1,9 +1,9 @@
-+++
-title = "A hole in Exchange: a bug yet to be fixed by IT"
-date= "2021-05-06"
-updated= "2021-05-20"
-description = "tl;dr: We really need to update our mail servers."
-+++
+---
+title: "A hole in Exchange: a bug yet to be fixed by IT"
+date: "2021-05-06"
+updated: "2021-05-20"
+description: "tl;dr: We really need to update our mail servers."
+---
 
 As a student, it's not uncommon to write to my teachers. The topic always being different; be it turning in late work, asking questions about the course, or, which is always a fun one, the teacher emailing *me* for some off the books tech advice. Whatever the case may be, there's two (technically one) inboxes that I get these queries to: my school provided Google Workspace account, or my personal Google Workspace account. This is actually a pretty important detail, that I'll explain a bit later.
 

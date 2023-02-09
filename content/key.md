@@ -1,6 +1,6 @@
-+++
-title="Public key"
-+++
+---
+title: "Public key"
+---
 
 You can [download my PGP key here](/pgp.asc).
 

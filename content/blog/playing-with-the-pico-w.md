@@ -1,8 +1,8 @@
-+++
-title= "Playing with the Pico W"
-description= "For whatever reason, Raspberry Pis are still sold out everywhere, bar the Pi Pico. The Pico W was fun to experiment with the Pico and make this tiny little AP."
-date= 2022-12-17
-+++
+---
+title: "Playing with the Pico W"
+description: "For whatever reason, Raspberry Pis are still sold out everywhere, bar the Pi Pico. The Pico W was fun to experiment with the Pico and make this tiny little AP."
+date: "2022-12-17"
+---
 
 For whatever reason, Raspberry Pis are still sold out everywhere, bar the Pi Pico. The issue with the Pi Pico is simple: it requires you to use your brain. Unlike the normal Pi, where you have a lot of I/O, you get one USB port, some holes to add wires to, and, if you buy the W variant, a chip for wireless. 
 

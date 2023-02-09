@@ -1,1 +1,3 @@
-- Auto-update or add warning if file gets changed but `updated` doesn't.
+- Add shortcut for posts
+	- Populate date in ISO
+	- Start frontmatter

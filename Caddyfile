@@ -1,23 +1,20 @@
 (redirs) {
   # Legacy pages (start redirect Feb 2023)
-  # redir /art /about 301 # stop redir after Aug 2023
+  redir /art /about 301 # stop redir after Aug 2023
 
   # Legacy pages (redir for eternity)
   redir /assets/line_invite.jpg https://line.me/R/ti/p/doamatto 301
   redir /legal/environmental /legal/ 301
   redir /privacy /legal/ 301
   redir /imprint /legal/ 301
+  redir /use /uses 301
+  redir /stack /uses 301
+  redir /blog/apple-mar2022 /blog/apple-march-22
+  redir /blog/apple-oct2021 /blog/apple-october-21
+}
 
-  # Old blog redirs
-  redir /blog/forgot-my-love-for-art /oldblog/forgot-my-love-for-art 301
-  redir /blog/linkrot /oldblog/linkrot 301
-  redir /blog/lunar-2022 /oldblog/lunar-2022 301
-  redir /blog/my-web-design-process /oldblog/my-web-design-process 301
-  redir /blog/simpledash /oldblog/simpledash 301
-  redir /blog/srhs-graduation-22 /oldblog/srhs-graduation-22 301
-  redir /blog/static-spotify-widgets /oldblog/static-spotify-widgets 301
-
-  # 404 redirects
+# 404 redirects
+(handle_404) {
   handle_errors {
     rewrite * /404.html
     encode zstd gzip
@@ -25,20 +22,23 @@
       precompressed br
     }
   }
+}
 
-  # Caching
+# Base headers
+(base_heads) {
+  # Cache control
   header Cache-Control "max-age=3600"
   header /static/* Cache-Control "max-age=31536000"
 
-  # General headers
+  # Security
+  header Content-Security-Policy "default-src 'none'; style-src 'self'; img-src 'self' data: https://fm.doamatto.xyz; form-action 'none'; base-uri 'self'; frame-ancestors 'none'; upgrade-insecure-requests; block-all-mixed-content"
   header Permissions-Policy "interest-cohort=(), browsing-topics=(), join-ad-interest-group=(), run-ad-auction=()"
+  header Strict-Transport-Security "max-age=31536000;preload"
   header X-Content-Type-Options "nosniff"
   header X-Frame-Options "DENY"
   header Referrer-Policy "no-referrer"
-  header Strict-Transport-Security "max-age=31536000;preload"
   header Vary "Origin, Accept-Encoding"
   header -Server
-  header Content-Security-Policy "default-src 'none'; style-src 'self'; img-src 'self' data: https://fm.doamatto.xyz; form-action 'none'; base-uri 'self'; frame-ancestors 'none'; upgrade-insecure-requests; block-all-mixed-content"
 }
 
 # Set internal Farer ACME server
@@ -58,41 +58,29 @@
 
 maatt.fr {
 	import redirs
-  root * /srv/apps/caddy/sites/maatt.fr/public
+  import handle_404
+  import base_heads
+
+  root * /srv/maatt.fr/live
 	encode zstd gzip
 	file_server {
     precompressed br
   }
 }
+https://lite.maatt.fr,
 http://lite.maatt.fr {
-  # 404 redirects
-  handle_errors {
-    rewrite * /404.html
-    encode zstd gzip
-    file_server {
-      precompressed br
-    }
-  }
+  import redirs
+  import handle_404
+  import base_heads
 
-  # Cache control
-  header Cache-Control "max-age=3600"
-  header /static/* Cache-Control "max-age=31536000"
-
-  # Security
-  header Permissions-Policy "interest-cohort=(), browsing-topics=(), join-ad-interest-group=(), run-ad-auction=()"
-  header X-Content-Type-Options "nosniff"
-  header X-Frame-Options "DENY"
-  header Referrer-Policy "no-referrer"
-  header Vary "Origin, Accept-Encoding"
-  header -Server
-
-  root * /srv/apps/caddy/sites/lite.maatt.fr/public
+  root * /srv/lite.maatt.fr/live/
   encode zstd gzip
   file_server {
     precompressed br
   }
 }
 
+# Alt TLD and beta redirects
 lite.beta.maatt.fr {
   redir http://lite.maatt.fr{uri}
 }
@@ -102,5 +90,5 @@ www.maatt.eu,
 beta.maatt.fr,
 beta.maatt.eu {
   encode zstd gzip
-  redir https://beta.maatt.fr{uri}
+  redir https://maatt.fr{uri}
 }

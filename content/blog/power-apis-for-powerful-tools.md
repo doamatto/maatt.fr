@@ -1,9 +1,9 @@
-+++
-title= "Gathering power data to enable others"
-description= "Making wrappers for public energy data to help others make cool things."
-date= "2022-09-06T04:25:00Z"
-updated= 2022-12-27
-+++
+---
+title: "Gathering power data to enable others"
+description: "Making wrappers for public energy data to help others make cool things."
+date: "2022-09-06T04:25:00Z"
+updated: "2022-12-27"
+---
 
 Even if you've been sleeping under a rock, the globe has been getting a little toasty, as of late. With the politics and reasoning of why that may be put aside, many have felt record-breaking temperatures and felt generally piss-poor (or at least those of us who can't afford A/C). In California, we've been getting what are known as [Flex Alerts](https://flexalert.org) through most of our heatwave so far. In lamest terms, a flex alert tells you to use as little energy as possible to prevent power outages and other grid issues. Ironically, as I write this, we are using 43 153 MW of our estimated capacity of 48 433 MW; a.k.a too much for comfort.
 
